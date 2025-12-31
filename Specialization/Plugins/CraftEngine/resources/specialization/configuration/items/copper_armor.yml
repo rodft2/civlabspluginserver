@@ -1,0 +1,111 @@
+templates:
+  specialization:armor/copper:
+    material: chainmail_${part}
+    data:
+      item-name: <!i><#FF8C00><l10n:item.copper_${part}>
+      tooltip-style: minecraft:copper
+    settings:
+      tags:
+        - specialization:copper_tools
+        - minecraft:trimmable_armor
+      equipment:
+        asset-id: specialization:copper
+        $$>=1.21.2:
+          slot: ${slot}
+    model:
+      template: default:model/armor_trim
+      arguments:
+        texture: minecraft:item/custom/copper_${part}
+items:
+  specialization:copper_helmet:
+    template:
+      - specialization:armor/copper
+    arguments:
+      part: helmet
+      slot: head
+      material: copper
+  specialization:copper_chestplate:
+    template:
+      - specialization:armor/copper
+    arguments:
+      part: chestplate
+      slot: chest
+      material: copper
+  specialization:copper_leggings:
+    template:
+      - specialization:armor/copper
+    arguments:
+      part: leggings
+      slot: legs
+      material: copper
+  specialization:copper_boots:
+    template:
+      - specialization:armor/copper
+    arguments:
+      part: boots
+      slot: feet
+      material: copper
+equipments:
+  $$>=1.21.2:
+    specialization:copper:
+      type: component
+      humanoid: minecraft:copper
+      humanoid-leggings: minecraft:copper
+  $$<1.21.2:
+    specialization:copper:
+      type: trim
+      humanoid: minecraft:entity/equipment/humanoid/copper
+      humanoid-leggings: minecraft:entity/equipment/humanoid_leggings/copper
+recipes:
+  specialization:copper_helmet:
+    type: shaped
+    category: equipment
+    pattern:
+      - AAA
+      - A A
+    ingredients:
+      A: minecraft:copper_ingot
+    result:
+      id: specialization:copper_helmet
+      count: 1
+  specialization:copper_chestplate:
+    type: shaped
+    category: equipment
+    pattern:
+      - A A
+      - AAA
+      - AAA
+    ingredients:
+      A: minecraft:copper_ingot
+    result:
+      id: specialization:copper_chestplate
+      count: 1
+  specialization:copper_leggings:
+    type: shaped
+    category: equipment
+    pattern:
+      - AAA
+      - A A
+      - A A
+    ingredients:
+      A: minecraft:copper_ingot
+    result:
+      id: specialization:copper_leggings
+      count: 1
+  specialization:copper_boots:
+    type: shaped
+    category: equipment
+    pattern:
+      - A A
+      - A A
+    ingredients:
+      A: minecraft:copper_ingot
+    result:
+      id: specialization:copper_boots
+      count: 1
+translations:
+  en:
+    item.copper_helmet: Copper Helmet
+    item.copper_chestplate: Copper Chestplate
+    item.copper_leggings: Copper Leggings
+    item.copper_boots: Copper Boots
