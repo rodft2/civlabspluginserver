@@ -37,3 +37,8 @@ Specialization/Plugins/ProtocolLib/config.yml
 /Specialization/Plugins/CarefulCommands
 Specialization/Plugins/MinecraftCivilizationsCore/48ef795a-b727-44b7-be84-1203ef587570.json
 Specialization/Plugins/Specialization/XpMonitorAlertThresholds.properties
+Specialization/Plugins/CraftEngine/commands.yml
+Specialization/Plugins/Specialization/first_names.txt
+Specialization/Plugins/Specialization/last_names.txt
+Specialization/Plugins/VivecraftPaperExtentions/config-instructions.yml
+Specialization/Plugins/VivecraftPaperExtentions/config.yml
