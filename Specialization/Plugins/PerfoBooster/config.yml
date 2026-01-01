@@ -1,0 +1,620 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+#                           PerfoBooster Configuration
+# ═══════════════════════════════════════════════════════════════════════════════
+# This plugin optimizes your server performance through various tweaks and enhancements.
+# 
+# 🔗 Need help? Join our Discord: https://discord.gg/yUghaxRSZs
+# 📱 Contact the author directly: https://www.instagram.com/aadi.or.whtt
+#
+# ⚠️  IMPORTANT: After making changes, restart your server for them to take effect.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Global debug mode for all features
+# WARNING: This will spam your console with debug messages!
+# Only enable this if you're troubleshooting issues
+debug: false
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                            ENTITY MANAGEMENT                                │
+# │ Controls how entities behave and spawn to reduce server lag                 │
+# └─────────────────────────────────────────────────────────────────────────────┘
+entityManagement:
+  
+  # Automatically removes unwanted entities to reduce lag
+  aggressiveDespawning:
+    enabled: true
+    
+    # How the plugin decides which entities to remove:
+    # • REMOVE: Only removes the entities you list below (recommended for beginners)
+    # • KEEP: Removes ALL entities EXCEPT the ones you list below (advanced users)
+    despawnMode: REMOVE
+    
+    # Which entities to target (depends on despawnMode above):
+    # If despawnMode is REMOVE: Only these entities will be removed
+    # If despawnMode is KEEP: All entities EXCEPT these will be removed
+    # Note: ITEM entities (dropped items) are never removed regardless of this setting
+    entityTypes:
+      # Those annoying cave bats
+      - BAT
+      # Small purple mites from endermen
+      - ENDERMITE
+      # XP orbs (be careful - players might lose XP!)
+      - EXPERIENCE_ORB
+      # Thrown snowballs
+      - SNOWBALL
+      # Sand/gravel that's falling
+      - FALLING_BLOCK
+    
+    # Protects named entities (pets, custom mobs, etc.)
+    # If true: Entities with custom names will NEVER be despawned
+    ignoreNamedEntities: true
+    
+    # How far from players before entities can be removed (in blocks)
+    # Higher = safer for players, Lower = more aggressive cleanup
+    despawnRange: 64
+    
+    # How often to scan for entities to remove (in seconds)
+    # Lower = more frequent cleanup, Higher = less server impact
+    checkInterval: 10
+  
+  # Prevents farms from creating too many entities and lagging the server
+  farmRateLimiting:
+    enabled: true
+    
+    # Maximum animal babies that can be born per chunk per minute
+    # Prevents massive breeding farms from lagging the server
+    breedLimit: 5
+    
+    # Maximum mobs a single spawner can create per minute
+    # Prevents spawner farms from overwhelming the server
+    spawnerLimit: 8
+  
+  # Disables AI for certain entities to improve performance
+  disableMobAI:
+    enabled: true
+    
+    # These entities will have their AI completely disabled:
+    # • No pathfinding (they won't move around)
+    # • No targeting (they won't attack or flee)
+    # • No special behaviors
+    # Perfect for decorative mobs or entities that don't need to be smart
+    entityTypes:
+      # Cave bats (they just fly randomly anyway)
+      - BAT
+      # Fish in water
+      - COD
+      # Fish in water
+      - SALMON
+      # Colorful fish
+      - TROPICAL_FISH
+      # Spiky fish
+      - PUFFERFISH
+      # Water squids
+      - SQUID
+      # Glowing squids
+      - GLOW_SQUID
+    
+    # How often to check if entities need their AI disabled (in seconds)
+    # Some plugins might re-enable AI, so we check periodically
+    checkInterval: 60
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                            CHUNK MANAGEMENT                                 │
+# │ Controls how chunks are loaded and unloaded to save memory                  │
+# └─────────────────────────────────────────────────────────────────────────────┘
+chunkManagement:
+  
+  # Automatically unloads chunks when no players are nearby
+  unloadInactiveChunks:
+    enabled: true
+    
+    # How far from the simulation distance to start unloading chunks
+    # 1.5 means chunks will unload at 1.5x the simulation distance
+    # Higher = keeps more chunks loaded, Lower = more aggressive unloading
+    unloadDistanceFactor: 1.5
+    
+    # How often to check for chunks that can be unloaded (in seconds)
+    checkInterval: 30
+  
+  # Controls which plugins can load chunks (advanced feature)
+  chunkLoadControl:
+    # Disabled by default - only enable if you know what you're doing
+    enabled: false
+    
+    # Plugins that are allowed to load chunks during normal operation
+    # PerfoBooster is always allowed, add others only if necessary
+    # WARNING: Blocking essential plugins can break your server!
+    # Example plugins that might need chunk loading:
+    allowedPlugins: []
+    # For large builds/operations
+    #  - "WorldEdit"
+    # For map rendering
+    #  - "Dynmap"
+    # For land protection
+    #  - "GriefPrevention"
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                         REDSTONE OPTIMIZATION                               │
+# │ Prevents redstone lag and limits excessive redstone usage                   │
+# └─────────────────────────────────────────────────────────────────────────────┘
+redstoneOptimization:
+  
+  # Prevents players from spamming redstone interactions
+  playerAntiSpam:
+    enabled: true
+    
+    # Maximum times a player can interact with redstone per second
+    # Prevents button/lever spam that can lag the server
+    maxInteractions: 15
+    
+    # How often to reset the interaction counter (in ticks)
+    # 20 ticks = 1 second (don't change unless you know what you're doing)
+    resetPeriod: 20
+    
+    # How to notify players when they're interacting too fast:
+    # true = Show message above hotbar (less intrusive)
+    # false = Send chat message (more noticeable)
+    useActionBar: true
+    
+    # Components excluded from this specific feature
+    # These components will be ignored by player anti-spam only
+    excludedComponents: []
+    
+    # Messages are now configured in the global messages section at the bottom of this file
+  
+  # Limits the density of redstone components in an area
+  redstoneLimiter:
+    enabled: true
+    
+    # Maximum redstone components allowed within the check radius
+    # Prevents massive redstone contraptions that can lag the server
+    maxComponents: 100
+    
+    # How far to check around a redstone component (in blocks)
+    # Larger radius = more area checked, smaller = more localized
+    checkRadius: 16
+    
+    # How to notify players when redstone limit is exceeded:
+    # true = Show message above hotbar (less intrusive)
+    # false = Send chat message (more noticeable)
+    useActionBar: true
+    
+    # What players can still do when redstone limit is exceeded:
+    allowedInteractions:
+      # Always allow breaking redstone (so players can fix the issue)
+      - BREAK
+      # Uncomment to allow activating buttons/levers/etc.
+      # - RIGHT_CLICK
+      # Available options: BREAK, RIGHT_CLICK, ALL
+    
+    # Components excluded from this specific feature
+    # These components will be ignored by redstone limiter only
+    excludedComponents: []
+    
+    # Messages are now configured in the global messages section at the bottom of this file
+  
+  # Emergency redstone shutdown when server TPS is too low
+  deactivateRedstone:
+    # ⚠️  WARNING: This feature may break some redstone contraptions!
+    # Only enable if you're experiencing severe redstone-related lag
+    enabled: false
+    
+    # When server TPS drops below this, all redstone will be disabled
+    # TPS of 20 = perfect, 15 = noticeable lag, 10 = severe lag
+    deactivationTpsThreshold: 15.0
+    
+    # When server TPS rises above this, redstone will be re-enabled
+    # Should be higher than deactivationTpsThreshold to prevent flickering
+    activationTpsThreshold: 18.0
+    
+    # Prevents rapid on/off switching that could cause more lag
+    circuitBreaker:
+      enabled: true
+      # Wait this long (in milliseconds) before allowing redstone back on
+      # 30000 = 30 seconds
+      delayMs: 30000
+    
+
+    
+    # Hide all redstone deactivation messages from console
+    # true = no messages, false = show important messages
+    silent: false
+    
+    # Components excluded from this specific feature
+    # These components will continue to work even when redstone is deactivated
+    excludedComponents: []
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                      PLAYER NETWORK OPTIMIZATION                            │
+# │ Adjusts view distance and simulation based on server performance            │
+# └─────────────────────────────────────────────────────────────────────────────┘
+playerNetworkOptimization:
+  
+  # Automatically adjusts how far players can see based on server performance
+  viewDistanceScaling:
+    enabled: true
+    
+    # View distance when server is running perfectly (TPS = 20)
+    defaultViewDistance: 10
+    
+    # Automatic view distance adjustment based on server TPS:
+    # When TPS drops, view distance is reduced to improve performance
+    # Format: TPS_value: view_distance
+    tpsThresholds:
+      # Perfect performance = maximum view distance
+      20: 12
+      # Slight lag = normal view distance
+      18: 10
+      # Noticeable lag = reduced view distance
+      15: 8
+      # Significant lag = low view distance
+      12: 6
+      # Severe lag = very low view distance
+      9: 4
+      # Critical lag = minimum view distance
+      0: 2
+    
+    # How to apply view distance changes:
+    # • WORLD: Changes view distance for entire worlds (recommended)
+    #   - Pros: No visual glitches, consistent experience
+    #   - Cons: Less precise optimization
+    # • PLAYER: Changes view distance per individual player (advanced)
+    #   - Pros: More optimized, better performance
+    #   - Cons: May cause visual glitches and inconsistent experience
+    adjustMode: WORLD
+  
+  # Reduces simulation distance for idle (AFK) players
+  idleSimulationDistance:
+    enabled: true
+    
+    # How long before a player is considered AFK (in seconds)
+    # AFK players don't need full simulation around them
+    idleThresholdSeconds: 30
+    
+    # Simulation distance for AFK players (lower = better performance)
+    # 1 = minimal simulation, higher = more simulation
+    idleSimulationDistance: 1
+    
+    # Simulation distance for active players
+    defaultSimulationDistance: 10
+    
+
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                         WORLD TICK MANAGEMENT                               │
+# │ Manages chunks that are causing lag from too many tile entities             │
+# └─────────────────────────────────────────────────────────────────────────────┘
+worldTickManagement:
+  
+  # Automatically unloads chunks that are causing excessive lag
+  unloadLaggyChunks:
+    enabled: true
+    
+    # Minimum distance from players before a laggy chunk can be unloaded
+    # Higher = safer (won't unload chunks near players)
+    # Lower = more aggressive (may unload chunks players are using)
+    playerProximityThreshold: 128
+    
+    # How often to scan for laggy chunks (in seconds)
+    # Lower = more frequent checks, Higher = less server impact
+    checkInterval: 60
+    
+    # Maximum tile entity updates per chunk before it's considered "laggy"
+    # Tile entities include: chests, furnaces, hoppers, spawners, etc.
+    # Higher = more tolerant of activity, Lower = more strict
+    maxTileEntityUpdates: 500
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                       MEMORY PERFORMANCE TWEAKS                             │
+# │ Manages server memory usage and garbage collection                          │
+# └─────────────────────────────────────────────────────────────────────────────┘
+memoryPerformanceTweaks:
+  
+  # Automatically runs garbage collection when memory gets low
+  garbageCollection:
+    enabled: true
+    
+    # Only run garbage collection when memory usage exceeds this percentage
+    # 82.5% means GC runs when memory is 82.5% full
+    # Higher = less frequent GC but risk of out-of-memory
+    # Lower = more frequent GC but better memory management
+    thresholdPercentage: 82.5
+    
+    # How often to check memory usage (in seconds)
+    checkIntervalSeconds: 10
+    
+    # Hide garbage collection messages from console
+    # true = no messages, false = show when GC runs
+    silent: false
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                          BLOCK OPTIMIZATION                                 │
+# │ Optimizes specific block behaviors to reduce lag                            │
+# └─────────────────────────────────────────────────────────────────────────────┘
+blockOptimization:
+  
+  # Optimizes hopper performance (hoppers are major lag sources!)
+  hopperTweaks:
+    enabled: true
+    
+    # Smart system that reduces hopper checks based on their state
+    smartThrottling:
+      enabled: true
+    
+    # Limits the number of hoppers per chunk to prevent lag
+    chunkLimiting:
+      # Enable chunk-based hopper limiting
+      enabled: false
+      # Maximum hoppers allowed per chunk
+      maxHoppersPerChunk: 16
+    
+    # Optimizes hoppers that have nothing to transfer
+    emptyHopperOptimization: true
+    # How long to wait before checking empty hoppers again (milliseconds)
+    emptyHopperCheckDelay: 100
+    
+    # Optimizes hoppers that can't transfer because destination is full
+    fullHopperOptimization: true
+    # How long to wait before checking full hoppers again (milliseconds)
+    fullHopperCheckDelay: 80
+    
+    # How often to run hopper optimization checks (in ticks)
+    # 20 ticks = 1 second, 40 ticks = 2 seconds
+    checkIntervalTicks: 40
+    
+    # How long before a hopper is considered "inactive" (milliseconds)
+    # Inactive hoppers are checked less frequently
+    # 30000 = 30 seconds
+    inactiveThresholdMs: 30000
+    
+
+  
+  # Adjusts mob spawner behavior for better performance
+  adjustSpawner:
+    enabled: true
+    
+    # Minimum time between spawn attempts (in ticks)
+    # Higher = slower spawning, Lower = faster spawning
+    # 20 ticks = 1 second, 200 ticks = 10 seconds
+    minSpawnDelay: 200
+    
+    # Maximum time between spawn attempts (in ticks)
+    maxSpawnDelay: 800
+    
+    # Multiplier for spawn rate under optimal conditions
+    # 1.0 = normal rate, 0.5 = half rate, 2.0 = double rate
+    spawnRateMultiplier: 1.0
+    
+    # Conditions required for spawner to work
+    spawnConditions:
+      # Minimum light level (0 = dark, 15 = bright)
+      minLightLevel: 0
+      # Maximum light level
+      maxLightLevel: 7
+      # Must have player nearby to spawn
+      requirePlayerInRange: true
+  
+  # Makes leaves decay instantly when trees are cut down
+  instantLeafDecay:
+    enabled: true
+    
+    # Maximum distance from wood before leaves decay (Minecraft default: 7)
+    # Higher = leaves further from logs will decay
+    maxDistance: 7
+    
+    # Maximum distance decay can spread from the original block
+    # Prevents infinite decay chains that could lag the server
+    maxGridDistance: 35
+    
+    # Trigger instant decay when logs are broken by players
+    breakOnLogBreak: true
+    
+    # Trigger instant decay when leaves naturally start to decay
+    breakOnNaturalDecay: true
+    
+    # Respect "persistent" leaves (leaves that won't decay naturally)
+    # true = don't decay persistent leaves, false = decay all leaves
+    respectPersistentLeaves: true
+    
+    # Whether leaves should drop items (saplings, apples, etc.) when broken
+    # true = normal drops, false = just remove blocks (better performance)
+    dropItems: true
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                         EXPLOSION OPTIMIZATION                              │
+# │ Controls explosion behavior to prevent lag and griefing                     │
+# └─────────────────────────────────────────────────────────────────────────────┘
+explosionOptimization:
+  # Limits the maximum yield/radius of explosions to prevent excessive damage
+  maxExplosionYield:
+    enabled: false
+    
+    # General maximum explosion yield for all explosions
+    # Higher = more destructive explosions, Lower = less damage
+    # Minecraft default TNT yield is 4.0
+    maxYield: 4.0
+    
+    # Entity-specific explosion yield limits:
+    # These override the general maxYield for specific entity types
+    # TNT explosions (most common)
+    maxTntYield: 4.0
+    # Creeper explosions (slightly less destructive)
+    maxCreeperYield: 3.0
+    # Ghast fireballs (much less destructive)
+    maxFireballYield: 1.0
+    # Wither skull explosions
+    maxWitherSkullYield: 1.0
+    # End crystal explosions (naturally powerful)
+    maxEnderCrystalYield: 6.0
+    
+
+    
+    # Explosion entities excluded from this specific feature
+    # These explosion entities will not have their yield limited
+    excludedExplosions: []
+  
+  # Prevents chain reactions where explosions trigger other nearby explosions
+  antiChainExplosions:
+    enabled: true
+    
+    # Which types of chain explosions to prevent:
+    # Stop TNT from triggering other TNT
+    preventTntChains: true
+    # Allow creepers to trigger other explosions
+    preventCreeperChains: false
+    # Stop end crystals from chaining
+    preventCrystalChains: true
+    
+    # Prevent explosions from igniting TNT blocks
+    # true = explosions won't light TNT blocks, false = normal behavior
+    preventBlockIgnition: true
+    
+    # How far to check for potential chain explosions (in blocks)
+    # Larger radius = more protection, smaller = more localized
+    chainRadius: 8.0
+    
+    # Maximum number of explosions allowed in a chain before blocking
+    # Higher = allows longer chains, lower = more restrictive
+    maxChainLength: 3
+    
+    # How long to prevent chains after an explosion (in milliseconds)
+    # 1000 = 1 second, 5000 = 5 seconds
+    chainCooldownMs: 1000
+    
+
+    
+    # Explosion entities excluded from this specific feature
+    # These explosion entities will not be affected by chain prevention
+    excludedExplosions: []
+  
+  # Completely disables explosions based on server performance or configuration
+  deactivateExplosions:
+    # ⚠️  WARNING: This feature will completely disable explosions!
+    # Only enable if you're experiencing severe explosion-related lag
+    enabled: true
+    
+    # Automatically disable explosions when server TPS drops below this value
+    # TPS of 20 = perfect, 15 = noticeable lag, 10 = severe lag
+    tpsThreshold: 15.0
+    
+    # Enable TPS-based automatic deactivation
+    deactivateOnLowTps: true
+    
+    # Which types of explosions to disable:
+    # TNT explosions
+    deactivateTnt: true
+    # Creeper explosions (keep for gameplay)
+    deactivateCreepers: false
+    # End crystal explosions
+    deactivateCrystals: true
+    # Ghast fireball explosions
+    deactivateFireballs: true
+    # Wither skull explosions
+    deactivateWitherSkulls: true
+    # Block-based explosions (beds in nether, etc.)
+    deactivateBlockExplosions: true
+    
+    # Partial explosion effects when explosions are deactivated:
+    # Still damage entities but no block damage
+    allowExplosionDamage: false
+    # Keep explosion sounds for immersion
+    allowExplosionSound: true
+    
+    # How often to check TPS for automatic deactivation (in ticks)
+    # 100 ticks = 5 seconds, 200 ticks = 10 seconds
+    checkIntervalTicks: 100
+    
+
+    
+    # Explosion entities excluded from this specific feature
+    # These explosion entities will never be deactivated
+    excludedExplosions: []
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                            UPDATE CHECKER                                   │
+# │ Automatically checks for and downloads plugin updates                       │
+# └─────────────────────────────────────────────────────────────────────────────┘
+updateChecker:
+  enabled: true
+  
+  # Skip unstable releases when checking for updates
+  # Skip alpha (very early) releases
+  ignoreAlpha: true
+  # Skip beta (testing) releases
+  ignoreBeta: true
+  
+  # How often to check for updates (in hours)
+  # 6 = check every 6 hours, 24 = check once per day
+  checkIntervalHours: 6
+  
+  # Update notifications
+  alert:
+    # Show update notification when admins join the server
+    onAdminJoin: true
+  
+  # Automatic update installation
+  autoUpdate:
+    # ⚠️  WARNING: Auto-update will RESTART your server after downloading!
+    # Make sure you have proper server restart scripts in place
+    # Only enable this if you're comfortable with automatic restarts
+    enabled: true
+    
+    # Name of the jar file to download (leave empty to use current name)
+    # Only change this if you know what you're doing
+    jarName: ""
+    
+    # How often to check for auto-updates (in hours)
+    # This is separate from the regular update check above
+    # 1 = check every hour for auto-updates
+    updateCheckInterval: 1
+
+# ┌─────────────────────────────────────────────────────────────────────────────┐
+# │                              MESSAGES                                       │
+# │ Centralized message configuration with MiniMessage support                  │
+# │                                                                             │
+# │ 💡 TIP: To disable any message, set it to "" (empty) or "-" (dash only)     │
+# │ Example: blocked: "-"  or  blocked: ""                                      │
+# └─────────────────────────────────────────────────────────────────────────────┘
+messages:
+  
+  # Command permission messages for non-op players
+  commands:
+    # General permission denied message
+    no_permission: "<red>You don't have permission to use this command!"
+    # Specific command permission messages
+    reload_no_permission: "<red>You don't have permission to reload the configuration!"
+    status_no_permission: "<red>You don't have permission to view the plugin status!"
+    gc_no_permission: "<red>You don't have permission to run garbage collection!"
+    load_no_permission: "<red>You don't have permission to view server load information!"
+    sysinfo_no_permission: "<red>You don't have permission to view system information!"
+    update_no_permission: "<red>You don't have permission to check for updates!"
+    admin_no_permission: "<red>You don't have permission to perform admin actions!"
+    # Help message for non-op players
+    help_non_op: "<yellow>PerfoBooster is running and optimizing your server experience!<newline><gray>Contact an administrator if you need assistance."
+  
+  # Redstone optimization messages
+  redstone:
+    # Player anti-spam messages
+    # Available placeholders: {player}, {seconds}, {remaining_seconds}
+    anti_spam:
+      # Message when player is temporarily blocked
+      blocked: "<red>You are temporarily blocked from using redstone! <yellow>{remaining_seconds}</yellow> seconds remaining."
+      # Message when player gets blacklisted for spam
+      blacklisted: "<red>You have been temporarily blocked from using redstone for <yellow>{seconds}</yellow> seconds due to spam!"
+      # Message when player can use redstone again
+      unblocked: "<green>You can now use redstone again!"
+    
+    # Redstone limiter messages
+    # Available placeholders: {player}, {max_components}, {radius}, {current_count}
+    limiter:
+      # Message when player cannot place redstone component
+      cannot_place: "<red>Cannot place redstone component: area limit exceeded! <yellow>({current_count}/{max_components})</yellow>"
+      # Message when player cannot interact with redstone
+      cannot_interact: "<red>Cannot interact with redstone: area limit exceeded! <yellow>({current_count}/{max_components})</yellow>"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+#                                END OF CONFIG
+# ═══════════════════════════════════════════════════════════════════════════════
+# Remember to restart your server after making changes!
+# Need help? Join our Discord: https://discord.gg/yUghaxRSZs
+# ═══════════════════════════════════════════════════════════════════════════════
