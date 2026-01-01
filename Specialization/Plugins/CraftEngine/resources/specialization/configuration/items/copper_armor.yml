@@ -82,9 +82,10 @@ recipes:
     pattern:
       - A A
       - AAA
-      - AAA
+      - BAB
     ingredients:
       A: minecraft:copper_ingot
+      B: minecraft:copper_block
     result:
       id: specialization:copper_chestplate
       count: 1
@@ -92,11 +93,12 @@ recipes:
     type: shaped
     category: equipment
     pattern:
-      - AAA
+      - ABA
       - A A
       - A A
     ingredients:
       A: minecraft:copper_ingot
+      B: minecraft:copper_block
     result:
       id: specialization:copper_leggings
       count: 1
