@@ -1,10 +1,5 @@
 {
   "BLACKSMITH_NOVICE": [
-    "minecraft:stone_pickaxe",
-    "minecraft:stone_axe",
-    "minecraft:stone_sword",
-    "minecraft:stone_hoe",
-    "minecraft:stone_shovel",
     "minecraft:wooden_pickaxe",
     "minecraft:wooden_axe",
     "minecraft:wooden_sword",
@@ -13,6 +8,11 @@
     "minecraft:arrow"
   ],
   "BLACKSMITH_APPRENTICE": [
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_axe",
+    "minecraft:stone_sword",
+    "minecraft:stone_hoe",
+    "minecraft:stone_shovel",
     "minecraft:leather_helmet",
     "minecraft:leather_chestplate",
     "minecraft:leather_leggings",
@@ -20,6 +20,10 @@
     "minecraft:leather_cap",
     "minecraft:leather_tunic",
     "minecraft:leather_pants",
+    "specialization:copper_chestplate",
+    "specialization:copper_leggings",
+    "specialization:copper_boots",
+    "specialization:copper_helmet",
     "minecraft:blast_furnace",
     "minecraft:copper_block",
     "minecraft:copper_ore",
