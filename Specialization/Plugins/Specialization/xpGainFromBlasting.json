@@ -1,0 +1,22 @@
+{
+    "BLACKSMITH" : {
+      "COAL": 2,
+      "COPPER_INGOT": 3,
+      "DIAMOND": 10,
+      "EMERALD": 10,
+      "GOLD_INGOT": 5,
+      "GOLD_NUGGET": 3,
+      "IRON_INGOT": 5,
+      "IRON_NUGGET": 3,
+      "LAPIS_LAZULI": 10,
+      "NETHERITE_SCRAP": 50,
+      "QUARTZ": 20,
+      "REDSTONE": 10
+    },
+    "BUILDER" : {},
+    "FARMER" : {},
+    "GUARDSMAN" : {},
+    "HEALER" : {},
+    "LIBRARIAN" : {},
+    "MINER" : {}
+}

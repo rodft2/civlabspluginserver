@@ -1,0 +1,6 @@
+{
+    "ANNOUNCEMENT_FORMAT" : "<aqua>[Announcement]<gray> %s",
+    "ANNOUNCEMENT_PREFIX" : "#",
+    "CHAT_RADIUS" : 32.0,
+    "DEFAULT_FORMAT" : "%s > %s"
+}

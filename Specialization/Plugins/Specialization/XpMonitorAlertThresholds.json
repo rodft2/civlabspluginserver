@@ -1,0 +1,30 @@
+{
+    "BLACKSMITH" : {
+        "cooldown-seconds" : 30,
+        "threshold" : 600.0
+    },
+    "BUILDER" : {
+        "cooldown-seconds" : 30,
+        "threshold" : 600.0
+    },
+    "FARMER" : {
+        "cooldown-seconds" : 30,
+        "threshold" : 600.0
+    },
+    "GUARDSMAN" : {
+        "cooldown-seconds" : 30,
+        "threshold" : 550.0
+    },
+    "HEALER" : {
+        "cooldown-seconds" : 30,
+        "threshold" : 600.0
+    },
+    "LIBRARIAN" : {
+        "cooldown-seconds" : 30,
+        "threshold" : 550.0
+    },
+    "MINER" : {
+        "cooldown-seconds" : 30,
+        "threshold" : 600.0
+    }
+}
