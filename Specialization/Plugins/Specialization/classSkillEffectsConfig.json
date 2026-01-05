@@ -1,39 +1,15 @@
 {
     "BLACKSMITH_APPRENTICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "BLACKSMITH_EXPERT" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "BLACKSMITH_GRANDMASTER" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "BLACKSMITH_JOURNEYMAN" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "BLACKSMITH_MASTER" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "BLACKSMITH_NOVICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "BUILDER_APPRENTICE" : [
         {
@@ -42,213 +18,117 @@
         }
     ],
     "BUILDER_EXPERT" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "BUILDER_GRANDMASTER" : [
         {
-            "amplifier" : 0,
+            "amplifier" : 3,
             "effect" : "minecraft:haste"
         }
     ],
     "BUILDER_JOURNEYMAN" : [
         {
-            "amplifier" : 0,
+            "amplifier" : 1,
             "effect" : "minecraft:haste"
         }
     ],
     "BUILDER_MASTER" : [
         {
-            "amplifier" : 0,
+            "amplifier" : 2,
             "effect" : "minecraft:haste"
         }
     ],
     "BUILDER_NOVICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "FARMER_APPRENTICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "FARMER_EXPERT" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "FARMER_GRANDMASTER" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "FARMER_JOURNEYMAN" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "FARMER_MASTER" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "FARMER_NOVICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "GUARDSMAN_APPRENTICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "GUARDSMAN_EXPERT" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "GUARDSMAN_GRANDMASTER" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "GUARDSMAN_JOURNEYMAN" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "GUARDSMAN_MASTER" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "GUARDSMAN_NOVICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "HEALER_APPRENTICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "HEALER_EXPERT" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "HEALER_GRANDMASTER" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "HEALER_JOURNEYMAN" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "HEALER_MASTER" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "HEALER_NOVICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "LIBRARIAN_APPRENTICE" : [
         {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
+            "amplifier" : 1,
+            "effect" : "minecraft:speed"
         }
     ],
     "LIBRARIAN_EXPERT" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "LIBRARIAN_GRANDMASTER" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "LIBRARIAN_JOURNEYMAN" : [
         {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
+            "amplifier" : 2,
+            "effect" : "minecraft:speed"
         }
     ],
     "LIBRARIAN_MASTER" : [
         {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
+            "amplifier" : 3,
+            "effect" : "minecraft:speed"
         }
     ],
     "LIBRARIAN_NOVICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ],
     "MINER_APPRENTICE" : [
         {
-            "amplifier" : 0,
+            "amplifier" : 1,
             "effect" : "minecraft:haste"
         }
     ],
     "MINER_EXPERT" : [
         {
-            "amplifier" : 0,
+            "amplifier" : 3,
             "effect" : "minecraft:haste"
         }
     ],
     "MINER_GRANDMASTER" : [
         {
-            "amplifier" : 0,
+            "amplifier" : 5,
             "effect" : "minecraft:haste"
         }
     ],
     "MINER_JOURNEYMAN" : [
         {
-            "amplifier" : 0,
+            "amplifier" : 2,
             "effect" : "minecraft:haste"
         }
     ],
     "MINER_MASTER" : [
         {
-            "amplifier" : 0,
+            "amplifier" : 4,
             "effect" : "minecraft:haste"
         }
     ],
     "MINER_NOVICE" : [
-        {
-            "amplifier" : 0,
-            "effect" : "minecraft:haste"
-        }
     ]
 }
