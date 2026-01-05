@@ -1,0 +1,125 @@
+templates:
+  specialization:armor/emerald:
+    material: iron_${part}
+    data:
+      item-name: <!i><l10n:item.emerald_${part}>
+      components:  
+            minecraft:max_damage: ${maxdamage}
+      attribute-modifiers:
+        - type: "minecraft:generic.armor"
+          amount: ${armor}
+          operation: "add_value"
+          slot: ${slot}
+    settings:
+      tags:
+        - specialization:emerald_tools
+        - minecraft:trimmable_armor
+      equipment:
+        asset-id: specialization:emerald
+        $$>=1.21.2:
+          slot: ${slot}
+    model:
+      template: default:model/armor_trim
+      arguments:
+        texture: minecraft:item/custom/emerald_${part}
+items:
+  specialization:emerald_helmet:
+    template:
+      - specialization:armor/emerald
+    arguments:
+      part: helmet
+      slot: head
+      material: emerald
+      armor: 2.5
+      maxdamage: 264
+  specialization:emerald_chestplate:
+    template:
+      - specialization:armor/emerald
+    arguments:
+      part: chestplate
+      slot: chest
+      material: emerald
+      armor: 7
+      maxdamage: 384
+  specialization:emerald_leggings:
+    template:
+      - specialization:armor/emerald
+    arguments:
+      part: leggings
+      slot: legs
+      material: emerald
+      armor: 5.5
+      maxdamage: 360
+  specialization:emerald_boots:
+    template:
+      - specialization:armor/emerald
+    arguments:
+      part: boots
+      slot: feet
+      material: emerald
+      armor: 2
+      maxdamage: 312
+equipments:
+  $$>=1.21.2:
+    specialization:emerald:
+      type: component
+      humanoid: minecraft:emerald
+      humanoid-leggings: minecraft:emerald
+  $$<1.21.2:
+    specialization:emerald:
+      type: trim
+      humanoid: minecraft:entity/equipment/humanoid/emerald
+      humanoid-leggings: minecraft:entity/equipment/humanoid_leggings/emerald
+recipes:
+  specialization:emerald_helmet:
+    type: shaped
+    category: equipment
+    pattern:
+      - AAA
+      - A A
+    ingredients:
+      A: minecraft:emerald
+    result:
+      id: specialization:emerald_helmet
+      count: 1
+  specialization:emerald_chestplate:
+    type: shaped
+    category: equipment
+    pattern:
+      - A A
+      - AAA
+      - AAA
+    ingredients:
+      A: minecraft:emerald
+    result:
+      id: specialization:emerald_chestplate
+      count: 1
+  specialization:emerald_leggings:
+    type: shaped
+    category: equipment
+    pattern:
+      - AAA
+      - A A
+      - A A
+    ingredients:
+      A: minecraft:emerald
+    result:
+      id: specialization:emerald_leggings
+      count: 1
+  specialization:emerald_boots:
+    type: shaped
+    category: equipment
+    pattern:
+      - A A
+      - A A
+    ingredients:
+      A: minecraft:emerald
+    result:
+      id: specialization:emerald_boots
+      count: 1
+translations:
+  en:
+    item.emerald_helmet: Emerald Helmet
+    item.emerald_chestplate: Emerald Chestplate
+    item.emerald_leggings: Emerald Leggings
+    item.emerald_boots: Emerald Boots

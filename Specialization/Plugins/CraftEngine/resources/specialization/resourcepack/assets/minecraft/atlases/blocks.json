@@ -1,0 +1,44 @@
+{  
+  "sources": [  
+    {  
+      "type": "single",  
+      "resource": "specialization:item/custom/emerald_helmet"  
+    },  
+    {  
+      "type": "single",  
+      "resource": "specialization:item/custom/emerald_chestplate"  
+    },  
+    {  
+      "type": "single",  
+      "resource": "specialization:item/custom/emerald_leggings"  
+    },  
+    {  
+      "type": "single",  
+      "resource": "specialization:item/custom/emerald_boots"  
+    },  
+    {  
+      "type": "single",  
+      "resource": "specialization:item/custom/copper_helmet"  
+    },  
+    {  
+      "type": "single",  
+      "resource": "specialization:item/custom/copper_chestplate"  
+    },  
+    {  
+      "type": "single",  
+      "resource": "specialization:item/custom/copper_leggings"  
+    },  
+    {  
+      "type": "single",  
+      "resource": "specialization:item/custom/copper_boots"  
+    },  
+    {  
+      "type": "single",  
+      "resource": "specialization:item/custom/fried_egg"  
+    },
+        {  
+      "type": "single",
+      "resource": "specialization:item/custom/ice_cream_cone"
+    }
+  ]  
+}

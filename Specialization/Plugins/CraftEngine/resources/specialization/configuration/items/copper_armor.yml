@@ -2,12 +2,13 @@ templates:
   specialization:armor/copper:
     material: chainmail_${part}
     data:
-      item-name: <!i><#FF8C00><l10n:item.copper_${part}>
+      item-name: <!i><white><l10n:item.copper_${part}>
       attribute-modifiers:
         - type: "minecraft:generic.armor"
           amount: ${armor}
           operation: "add_value"
           slot: ${slot}
+          max-damage: ${max-damage}
     settings:
       tags:
         - specialization:copper_tools
@@ -29,6 +30,7 @@ items:
       slot: head
       material: copper
       armor: 2
+      max-damage: 121
   specialization:copper_chestplate:
     template:
       - specialization:armor/copper
@@ -37,6 +39,7 @@ items:
       slot: chest
       material: copper
       armor: 3
+      max-damage: 176
   specialization:copper_leggings:
     template:
       - specialization:armor/copper
@@ -45,6 +48,7 @@ items:
       slot: legs
       material: copper
       armor: 3
+      max-damage: 165
   specialization:copper_boots:
     template:
       - specialization:armor/copper
@@ -53,6 +57,7 @@ items:
       slot: feet
       material: copper
       armor: 1
+      max-damage: 143
 equipments:
   $$>=1.21.2:
     specialization:copper:

@@ -1,0 +1,33 @@
+items:
+  specialization:ice_cream_cone:
+    material: beetroot
+    data:
+      item-name: "<!i><white>Ice Cream Cone"
+      components:
+        minecraft:food:
+          nutrition: 2
+          saturation: 0.6
+          can_always_eat: false
+    model:
+      type: minecraft:model
+      path: minecraft:item/custom/ice_cream_cone
+      generation:
+        parent: minecraft:item/generated
+        textures:
+          layer0: minecraft:item/custom/ice_cream_cone
+    settings:
+      can-place: false
+
+recipes:
+  specialization:ice_cream_cone:
+    type: shaped
+    category: misc
+    pattern:
+      - SEW
+    ingredients:
+      S: minecraft:sugar
+      E: minecraft:egg
+      W: minecraft:wheat
+    result:
+      id: specialization:ice_cream_cone
+      count: 3
