@@ -1,5 +1,5 @@
 items:  
-  specialization:ice_cream:  
+  specialization:ice_cream_on_a_cone:  
     material: beetroot  
     data:  
       item-name: <!i><white><l10n:item.ice_cream_on_a_cone>
