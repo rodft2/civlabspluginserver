@@ -1,16 +1,14 @@
 items:  
-  specialization:lead_shot:  
-    material: arrow  
-    data:  
-      item-name: <!i>Lead Shot  
-    texture: minecraft:item/custom/lead_shot  
-  
-  specialization:musket:  
-    material: crossbow  
-    settings:  
+  specialization:musket:
+    material: wooden_sword
+    behaviors:
+      - type: specialization:musket_behavior
+        ammo: specialization:lead_shot
+        reload-time: 3
+    settings:
       projectile:  
         item: specialization:lead_shot  
-        display-transform: NONE  
+        display-transform: NONE
         billboard: FIXED  
         scale: [0.8, 0.8, 0.8]  
         translation: [0.0, 0.0, 0.0]  
@@ -20,22 +18,21 @@ items:
       item-name: <!i>Musket  
     models:  
       type: minecraft:model  
-      path: minecraft:item/custom/musket  
-    textures:  
-      - minecraft:item/custom/musket  
-      - minecraft:item/custom/musket_pulling_0  
-      - minecraft:item/custom/musket_pulling_1  
-      - minecraft:item/custom/musket_pulling_2  
-      - minecraft:item/custom/musket_arrow  
-      - minecraft:item/custom/musket_firework  
-    events:  
-      right_click:  
-        - type: set_cooldown  
-          id: specialization:musket  
-          time: 100
-        - type: play_sound  
-          sound: minecraft:entity.illusioner.cast_spell  
-          volume: 1.0  
-          pitch: 0.8  
-        - type: damage_item  
-          amount: 1
+      path: minecraft:item/custom/musket
+recipes:
+  specialization:musket:
+    type: shaped
+    pattern:
+      - 'F I'
+      - 'AIR'
+      - 'WL '
+    ingredients:
+      F: minecraft:flint_and_steel
+      I: minecraft:iron_block
+      R: minecraft:lightning_rod
+      L: minecraft:lever
+      W: "#minecraft:logs"
+      A: minecraft:tripwire
+    result:
+      id: specialization:musket
+      count: 1
