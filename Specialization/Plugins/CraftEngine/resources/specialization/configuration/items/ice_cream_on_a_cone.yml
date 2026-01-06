@@ -27,7 +27,7 @@ recipes:
       - IS
     ingredients:
       I: specialization:ice_cream_cone
-      S: minecraft:ice_cream
+      S: specialization:ice_cream
     result:  
       id: specialization:ice_cream_on_a_cone
       count: 1
