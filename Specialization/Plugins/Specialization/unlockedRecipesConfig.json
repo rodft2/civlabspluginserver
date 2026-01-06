@@ -50,7 +50,8 @@
     "minecraft:lantern",
     "minecraft:iron_door",
     "minecraft:iron_trapdoor",
-    "minecraft:turtle_helmet"
+    "minecraft:turtle_helmet",
+    "specialization:lead_shot"
   ],
   "BLACKSMITH_EXPERT": [
     "minecraft:gold_pickaxe",
@@ -80,7 +81,8 @@
     "specialization:emerald_chestplate",
     "specialization:emerald_leggings",
     "specialization:emerald_boots",
-    "specialization:emerald_helmet"
+    "specialization:emerald_helmet",
+    "specialization:musket"
   ],
   "BLACKSMITH_GRANDMASTER": [
     "minecraft:netherite_pickaxe",
