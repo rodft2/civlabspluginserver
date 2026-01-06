@@ -24,7 +24,7 @@ recipes:
     type: shaped
     pattern:
       - 'F I'
-      - 'AIR'
+      - 'TIR'
       - 'WL '
     ingredients:
       F: minecraft:flint_and_steel
@@ -32,7 +32,7 @@ recipes:
       R: minecraft:lightning_rod
       L: minecraft:lever
       W: "#minecraft:logs"
-      A: minecraft:tripwire
+      T: minecraft:tripwire_hook
     result:
       id: specialization:musket
       count: 1
