@@ -76,7 +76,11 @@
     "minecraft:diamond_helmet",
     "minecraft:diamond_chestplate",
     "minecraft:diamond_leggings",
-    "minecraft:diamond_boots"
+    "minecraft:diamond_boots",
+    "specialization:emerald_chestplate",
+    "specialization:emerald_leggings",
+    "specialization:emerald_boots",
+    "specialization:emerald_helmet"
   ],
   "BLACKSMITH_GRANDMASTER": [
     "minecraft:netherite_pickaxe",
