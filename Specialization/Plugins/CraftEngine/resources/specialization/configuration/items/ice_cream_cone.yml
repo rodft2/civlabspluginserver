@@ -2,7 +2,7 @@ items:
   specialization:ice_cream_cone:
     material: beetroot
     data:
-      item-name: "<!i><white>Ice Cream Cone"
+      item-name: <!i><white><l10n:item.ice_cream_cone>
       components:
         minecraft:food:
           nutrition: 2
@@ -31,3 +31,6 @@ recipes:
     result:
       id: specialization:ice_cream_cone
       count: 3
+translations:
+  en:
+    item.ice_cream_cone: Ice Cream Cone

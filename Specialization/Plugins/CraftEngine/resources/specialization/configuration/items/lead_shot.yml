@@ -2,7 +2,7 @@ items:
   specialization:lead_shot:  
     material: arrow  
     data:  
-      item-name: <!i>Lead Shot  
+      item-name: <!i><white><l10n:item.specialization.lead_shot>  
     texture: minecraft:item/custom/lead_shot  
   
 recipes:  
@@ -17,3 +17,6 @@ recipes:
     result:  
       id: specialization:lead_shot  
       count: 2
+translations:
+  en:
+    item.specialization.lead_shot: "Lead Shot"

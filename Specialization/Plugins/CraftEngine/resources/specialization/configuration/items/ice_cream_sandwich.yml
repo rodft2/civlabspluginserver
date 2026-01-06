@@ -1,0 +1,37 @@
+items:  
+  specialization:ice_cream_sandwich:  
+    material: beetroot 
+    data:  
+      item-name: <!i><white><l10n:item.ice_cream_sandwich>
+      components:  
+        minecraft:food:  
+          nutrition: 3
+          saturation: 0.6  
+          can_always_eat: false  
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/ice_cream_sandwich
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/ice_cream_sandwich 
+    settings:  
+      can-place: false  
+  
+recipes:  
+  specialization:ice_cream_sandwich:  
+    type: shaped
+    category: misc
+    pattern:  
+      - BBB
+      - III
+      - BBB
+    ingredients:
+      I: specialization:ice_cream
+      B: minecraft:bread
+    result:  
+      id: specialization:ice_cream_sandwich
+      count: 3
+translations:
+  en:
+    item.ice_cream_sandwich: Ice Cream Sandwich

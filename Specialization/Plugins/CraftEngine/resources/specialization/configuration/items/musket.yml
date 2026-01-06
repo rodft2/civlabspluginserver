@@ -2,7 +2,7 @@ items:
   specialization:lead_shot:  
     material: arrow  
     data:  
-      item-name: <!i>Lead Shot  
+      item-name: <!i><white><l10n:item.musket>
     texture: minecraft:item/custom/lead_shot  
   
   specialization:musket:  
@@ -39,3 +39,6 @@ items:
           pitch: 0.8  
         - type: damage_item  
           amount: 1
+translations:
+  en:
+    item.musket: Musket

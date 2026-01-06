@@ -2,7 +2,7 @@ items:
   specialization:fried_egg:  
     material: beetroot  
     data:  
-      item-name: "<!i>Fried Egg"  
+      item-name: <!i><white><l10n:item.fried_egg>
       components:  
         minecraft:food:  
           nutrition: 4  
@@ -68,3 +68,6 @@ recipes:
     result:  
       id: specialization:fried_egg  
       count: 1
+translations:
+  en:
+    item.fried_egg: Fried Egg

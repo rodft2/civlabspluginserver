@@ -2,10 +2,10 @@ items:
   specialization:ice_cream:  
     material: beetroot  
     data:  
-      item-name: "<!i><white>Ice Cream"  
+      item-name: <!i><white><l10n:item.ice_cream>
       components:  
         minecraft:food:  
-          nutrition: 4
+          nutrition: 2
           saturation: 0.6  
           can_always_eat: false  
     model:  
@@ -23,11 +23,14 @@ recipes:
     type: shaped
     category: misc
     pattern:  
-      - SS
-      - IS
+      - MSZ
     ingredients:
-      I: specialization:ice_cream_cone
+      M: minecraft:milk_bucket
       S: minecraft:snowball
+      Z: minecraft:sugar
     result:  
       id: specialization:ice_cream
       count: 1
+translations:
+  en:
+    item.ice_cream: Ice Cream
