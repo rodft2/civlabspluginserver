@@ -1,0 +1,12 @@
+sounds:  
+  specialization:rifle_shot: 
+    replace: false
+    sounds: 
+      - name: "minecraft:rifle_shot"
+        volume: 1.0
+        pitch: 1.0
+  specialization:rifle_reload: 
+    sounds:
+      - name: "minecraft:rifle_reload"
+        volume: 1.0
+        pitch: 1.0

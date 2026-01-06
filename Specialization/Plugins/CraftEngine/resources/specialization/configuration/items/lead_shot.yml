@@ -1,9 +1,10 @@
 items:  
   specialization:lead_shot:  
-    material: arrow  
+    material: firework_star
     data:  
-      item-name: <!i><white><l10n:item.specialization.lead_shot>  
-    texture: minecraft:item/custom/lead_shot  
+      item-name: <!i><white><l10n:item.lead_shot>
+      max-stack-size: 16
+    texture: minecraft:item/custom/lead_shot
   
 recipes:  
   specialization:lead_shot:  
@@ -15,8 +16,8 @@ recipes:
       B: minecraft:gunpowder  
       C: minecraft:iron_nugget  
     result:  
-      id: specialization:lead_shot  
+      id: specialization:lead_shot
       count: 2
 translations:
   en:
-    item.specialization.lead_shot: "Lead Shot"
+    item.lead_shot: Lead Shot
