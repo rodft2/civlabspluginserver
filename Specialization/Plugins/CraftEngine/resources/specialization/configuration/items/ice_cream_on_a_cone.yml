@@ -19,7 +19,7 @@ items:
       can-place: false  
   
 recipes:  
-  specialization:ice_cream:  
+  specialization:ice_cream_on_a_cone:  
     type: shaped
     category: misc
     pattern:  
