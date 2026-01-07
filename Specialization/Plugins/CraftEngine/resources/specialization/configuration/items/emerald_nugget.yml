@@ -1,0 +1,29 @@
+items:  
+  specialization:emerald_nugget:  
+    material: iron_nugget
+    data:  
+      item-name: <!i><white><l10n:item.emerald_nugget>
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/emerald_nugget  
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/emerald_nugget  
+    settings:  
+      can-place: false  
+  
+recipes:  
+  specialization:emerald_nugget:  
+    type: shapeless
+    category: misc
+    pattern:  
+      - E
+    ingredients:
+      E: minecraft:emerald
+    result:  
+      id: specialization:emerald_nugget
+      count: 9
+translations:
+  en:
+    item.emerald_nugget: Emerald Nugget

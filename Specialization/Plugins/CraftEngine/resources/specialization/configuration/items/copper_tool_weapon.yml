@@ -1,0 +1,140 @@
+items:
+  specialization:copper_pickaxe:
+    material: stone_pickaxe
+    settings:
+      tags:
+        - specialization:copper_tools
+    data:
+      item-name: <!i><white><l10n:item.copper_pickaxe>
+      max-damage: 190
+      attribute-modifiers:
+        - type: "minecraft:player.mining.efficiency"
+          amount: 5
+    operation: "add_value"
+    texture: minecraft:item/custom/copper_pickaxe
+  specialization:copper_axe:
+    material: stone_axe
+    settings:
+      tags:
+        - specialization:copper_tools
+    data:
+      item-name: <!i><white><l10n:item.copper_axe>
+      max-damage: 190
+      attribute-modifiers:
+        - type: "minecraft:player.mining.efficiency"
+          amount: 5
+    texture: minecraft:item/custom/copper_axe
+  specialization:copper_hoe:
+    material: stone_hoe
+    settings:
+      tags:
+        - specialization:copper_tools
+    data:
+      item-name: <!i><white><l10n:item.copper_hoe>
+      max-damage: 190
+      attribute-modifiers:
+        - type: "minecraft:player.mining.efficiency"
+          amount: 5
+    texture: minecraft:item/custom/copper_hoe
+  specialization:copper_shovel:
+    material: stone_shovel
+    settings:
+      tags:
+        - specialization:copper_tools
+    data:
+      item-name: <!i><white><l10n:item.copper_shovel>
+      max-damage: 190
+      attribute-modifiers:
+        - type: "minecraft:player.mining.efficiency"
+          amount: 5
+    texture: minecraft:item/custom/copper_shovel
+  specialization:copper_sword:
+    material: stone_sword
+    settings:
+      tags:
+        - specialization:copper_tools
+    data:
+      item-name: <!i><white><l10n:item.copper_sword>
+      max-damage: 190
+      attribute-modifiers:
+        - type: "minecraft:player.mining.efficiency"
+          amount: 5
+    texture: minecraft:item/custom/copper_sword
+recipes:
+  specialization:copper_shovel:
+    type: shaped
+    category: equipment
+    pattern:
+      - B
+      - S
+      - S
+    ingredients:
+      B: minecraft:copper_block
+      C: minecraft:copper_ingot
+      S: minecraft:stick
+    result:
+      id: specialization:copper_shovel
+      count: 1
+  specialization:copper_axe:
+    type: shaped
+    category: equipment
+    pattern:
+      - 'CB'
+      - 'CS'
+      - ' S'
+    ingredients:
+      B: minecraft:copper_block
+      C: minecraft:copper_ingot
+      S: minecraft:stick
+    result:
+      id: specialization:copper_axe
+      count: 1
+  specialization:copper_sword:
+    type: shaped
+    category: equipment
+    pattern:
+      - C
+      - B
+      - S
+    ingredients:
+      B: minecraft:copper_block
+      C: minecraft:copper_ingot
+      S: minecraft:stick
+    result:
+      id: specialization:copper_sword
+      count: 1
+  specialization:copper_hoe:
+    type: shaped
+    category: equipment
+    pattern:
+      - 'CB'
+      - ' S'
+      - ' S'
+    ingredients:
+      B: minecraft:copper_block
+      C: minecraft:copper_ingot
+      S: minecraft:stick
+    result:
+      id: specialization:copper_hoe
+      count: 1
+  specialization:copper_pickaxe:
+    type: shaped
+    category: equipment
+    pattern:
+      - 'CBC'
+      - ' S '
+      - ' S '
+    ingredients:
+      B: minecraft:copper_block
+      C: minecraft:copper_ingot
+      S: minecraft:stick
+    result:
+      id: specialization:copper_pickaxe
+      count: 1
+translations:
+  en:
+    item.copper_pickaxe: Copper Pickaxe
+    item.copper_axe: Copper Axe
+    item.copper_hoe: Copper Hoe
+    item.copper_shovel: Copper Shovel
+    item.copper_sword: Copper Sword 

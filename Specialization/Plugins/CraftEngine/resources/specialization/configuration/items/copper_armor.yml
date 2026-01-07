@@ -74,10 +74,11 @@ recipes:
     type: shaped
     category: equipment
     pattern:
-      - AAA
-      - A A
+      - BCB
+      - C C
     ingredients:
-      A: minecraft:copper_ingot
+      C: minecraft:copper_ingot
+      B: minecraft:copper_block
     result:
       id: specialization:copper_helmet
       count: 1
@@ -85,11 +86,11 @@ recipes:
     type: shaped
     category: equipment
     pattern:
-      - A A
-      - AAA
-      - BAB
+      - C C
+      - BCB
+      - CBC
     ingredients:
-      A: minecraft:copper_ingot
+      C: minecraft:copper_ingot
       B: minecraft:copper_block
     result:
       id: specialization:copper_chestplate
@@ -98,11 +99,11 @@ recipes:
     type: shaped
     category: equipment
     pattern:
-      - ABA
-      - A A
-      - A A
+      - CBC
+      - B B
+      - B B
     ingredients:
-      A: minecraft:copper_ingot
+      C: minecraft:copper_ingot
       B: minecraft:copper_block
     result:
       id: specialization:copper_leggings
@@ -111,10 +112,11 @@ recipes:
     type: shaped
     category: equipment
     pattern:
-      - A A
-      - A A
+      - B B
+      - C C
     ingredients:
-      A: minecraft:copper_ingot
+      C: minecraft:copper_ingot
+      B: minecraft:copper_block
     result:
       id: specialization:copper_boots
       count: 1

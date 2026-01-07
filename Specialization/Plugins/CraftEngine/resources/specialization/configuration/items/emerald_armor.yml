@@ -75,10 +75,11 @@ recipes:
     type: shaped
     category: equipment
     pattern:
-      - AAA
-      - A A
+      - EIE
+      - I I
     ingredients:
-      A: minecraft:emerald
+      E: minecraft:emerald
+      I: specialization:emerald_nugget
     result:
       id: specialization:emerald_helmet
       count: 1
@@ -86,11 +87,12 @@ recipes:
     type: shaped
     category: equipment
     pattern:
-      - A A
-      - AAA
-      - AAA
+      - I I
+      - EIE
+      - IEI
     ingredients:
-      A: minecraft:emerald
+      E: minecraft:emerald
+      I: specialization:emerald_nugget
     result:
       id: specialization:emerald_chestplate
       count: 1
@@ -98,11 +100,12 @@ recipes:
     type: shaped
     category: equipment
     pattern:
-      - AAA
-      - A A
-      - A A
+      - EIE
+      - I I
+      - I I
     ingredients:
-      A: minecraft:emerald
+      E: minecraft:emerald
+      I: specialization:emerald_nugget
     result:
       id: specialization:emerald_leggings
       count: 1
@@ -110,10 +113,11 @@ recipes:
     type: shaped
     category: equipment
     pattern:
-      - A A
-      - A A
+      - E E
+      - I I
     ingredients:
-      A: minecraft:emerald
+      E: minecraft:emerald
+      I: specialization:emerald_nugget
     result:
       id: specialization:emerald_boots
       count: 1

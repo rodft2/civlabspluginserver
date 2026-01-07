@@ -10,7 +10,8 @@
         "COOKED_PORKCHOP" : 3,
         "COOKED_RABBIT" : 3,
         "COOKED_SALMON" : 3,
-        "DRIED_KELP" : 3
+        "DRIED_KELP" : 3,
+        "SPECIALIZATION_FRIED_EGG" : 3,
     },
     "GUARDSMAN" : {},
     "HEALER" : {},

@@ -1,0 +1,150 @@
+items:
+  specialization:emerald_pickaxe:
+    material: iron_pickaxe
+    settings:
+      tags:
+        - specialization:emerald_tools
+    data:
+      item-name: <!i><white><l10n:item.emerald_pickaxe>
+      max-damage: 767
+      attribute-modifiers:
+        - type: "minecraft:player.mining.efficiency"
+          amount: 7
+        - type: "minecraft:generic.attack.damage"
+          amount: 4.5
+    operation: "add_value"
+    texture: minecraft:item/custom/emerald_pickaxe
+  specialization:emerald_axe:
+    material: iron_axe
+    settings:
+      tags:
+        - specialization:emerald_tools
+    data:
+      item-name: <!i><white><l10n:item.emerald_axe>
+      max-damage: 767
+      attribute-modifiers:
+        - type: "minecraft:player.mining.efficiency"
+          amount: 7
+        - type: "minecraft:generic.attack.damage"
+          amount: 4.5
+        - type: "minecraft:generic.attack.speed"
+          amount: 0.95
+    texture: minecraft:item/custom/emerald_axe
+  specialization:emerald_hoe:
+    material: iron_hoe
+    settings:
+      tags:
+        - specialization:emerald_tools
+    data:
+      item-name: <!i><white><l10n:item.emerald_hoe>
+      max-damage: 767
+      attribute-modifiers:
+        - type: "minecraft:player.mining.efficiency"
+          amount: 7
+        - type: "minecraft:generic.attack.speed"
+          amount: 3.5
+    texture: minecraft:item/custom/emerald_hoe
+  specialization:emerald_shovel:
+    material: iron_shovel
+    settings:
+      tags:
+        - specialization:emerald_tools
+    data:
+      item-name: <!i><white><l10n:item.emerald_shovel>
+      max-damage: 767
+      attribute-modifiers:
+        - type: "minecraft:player.mining.efficiency"
+          amount: 7
+        - type: "minecraft:generic.attack.damage"
+          amount: 5
+    texture: minecraft:item/custom/emerald_shovel
+  specialization:emerald_sword:
+    material: iron_sword
+    settings:
+      tags:
+        - specialization:emerald_tools
+    data:
+      item-name: <!i><white><l10n:item.emerald_sword>
+      max-damage: 767
+      attribute-modifiers:
+        - type: "minecraft:generic.attack.damage"
+          amount: 6.5
+    texture: minecraft:item/custom/emerald_sword
+recipes:
+  specialization:emerald_shovel:
+    type: shaped
+    category: equipment
+    pattern:
+      - B
+      - S
+      - S
+    ingredients:
+      B: minecraft:emerald
+      C: specialization:emerald_nugget
+      S: minecraft:stick
+    result:
+      id: specialization:emerald_shovel
+      count: 1
+  specialization:emerald_axe:
+    type: shaped
+    category: equipment
+    pattern:
+      - 'CB'
+      - 'CS'
+      - ' S'
+    ingredients:
+      B: minecraft:emerald
+      C: specialization:emerald_nugget
+      S: minecraft:stick
+    result:
+      id: specialization:emerald_axe
+      count: 1
+  specialization:emerald_sword:
+    type: shaped
+    category: equipment
+    pattern:
+      - C
+      - B
+      - S
+    ingredients:
+      B: minecraft:emerald
+      C: specialization:emerald_nugget
+      S: minecraft:stick
+    result:
+      id: specialization:emerald_sword
+      count: 1
+  specialization:emerald_hoe:
+    type: shaped
+    category: equipment
+    pattern:
+      - 'CB'
+      - ' S'
+      - ' S'
+    ingredients:
+      B: minecraft:emerald
+      C: specialization:emerald_nugget
+      S: minecraft:stick
+    result:
+      id: specialization:emerald_hoe
+      count: 1
+  specialization:emerald_pickaxe:
+    type: shaped
+    category: equipment
+    pattern:
+      - 'CBC'
+      - ' S '
+      - ' S '
+    ingredients:
+      B: minecraft:emerald
+      C: specialization:emerald_nugget
+      S: minecraft:stick
+    result:
+      id: specialization:emerald_pickaxe
+      count: 1
+translations:
+  en:
+    item.emerald_pickaxe: Emerald Pickaxe
+    item.emerald_axe: Emerald Axe
+    item.emerald_hoe: Emerald Hoe
+    item.emerald_shovel: Emerald Shovel
+    item.emerald_sword: Emerald Sword 

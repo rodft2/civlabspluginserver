@@ -1381,7 +1381,11 @@
         "GOLDEN_CARROT": 16.0,
         "MUSHROOM_STEW": 8.0,
         "PUMPKIN_PIE": 8.0,
-        "SUGAR": 0.0
+        "SUGAR": 0.0,
+        "SPECIALIZATION_ICE_CREAM": 2.0,
+        "SPECIALIZATION_ICE_CREAM_CONE": 2.0,
+        "SPECIALIZATION_ICE_CREAM_ON_A_CONE": 8.0,
+        "SPECIALIZATION_ICE_CREAM_SANDWICH": 6.0
     },
     "GUARDSMAN" : {},
     "HEALER": {

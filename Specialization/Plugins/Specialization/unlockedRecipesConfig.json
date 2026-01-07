@@ -24,6 +24,11 @@
     "specialization:copper_leggings",
     "specialization:copper_boots",
     "specialization:copper_helmet",
+    "specialization:copper_sword",
+    "specialization:copper_pickaxe",
+    "specialization:copper_axe",
+    "specialization:copper_hoe",
+    "specialization:copper_shovel",
     "minecraft:blast_furnace",
     "minecraft:copper_block",
     "minecraft:copper_ore",
@@ -83,6 +88,11 @@
     "specialization:emerald_leggings",
     "specialization:emerald_boots",
     "specialization:emerald_helmet",
+    "specialization:emerald_sword",
+    "specialization:emerald_pickaxe",
+    "specialization:emerald_axe",
+    "specialization:emerald_hoe",
+    "specialization:emerald_shovel",
     "specialization:musket"
   ],
   "BLACKSMITH_GRANDMASTER": [
@@ -309,7 +319,11 @@
   ],
   "FARMER_APPRENTICE": [
     "minecraft:bread",
-    "minecraft:cookie"
+    "minecraft:cookie",
+    "specialization:fried_egg",
+    "specialization:ice_cream",
+    "specialization:ice_cream_cone",
+    "specialization:ice_cream_on_a_cone"
   ],
   "FARMER_JOURNEYMAN": [
     "minecraft:pumpkin_pie",
@@ -317,7 +331,8 @@
     "minecraft:beetroot_soup",
     "minecraft:mushroom_stew",
     "minecraft:sweet_berries",
-    "minecraft:lead"
+    "minecraft:lead",
+    "specialization:ice_cream_sandwich"
   ],
   "FARMER_EXPERT": [
     "minecraft:lead"
