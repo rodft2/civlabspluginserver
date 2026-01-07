@@ -80,7 +80,6 @@ recipes:
       - S
     ingredients:
       B: minecraft:emerald
-      C: specialization:emerald_nugget
       S: minecraft:stick
     result:
       id: specialization:emerald_shovel
