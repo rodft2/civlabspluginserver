@@ -6,6 +6,7 @@ items:
         ammo: specialization:lead_shot
         reload-time: 3
     settings:
+      enchantable: false
       projectile:  
         item: specialization:lead_shot  
         display-transform: NONE
@@ -16,9 +17,24 @@ items:
         range: 64.0  
     data:  
       item-name: <!i><white><l10n:item.musket>
+      max-damage: 500
+      attribute-modifiers:
+        - type: "minecraft:generic.attack_damage"
+          amount: -2
+          operation: "add_value"
+        - type: "minecraft:entity_interaction_range"
+          amount: -3
+          operation: "add_value"
+      hide-tooltip:
+        - "attributes"
     models:  
       type: minecraft:model  
       path: minecraft:item/custom/musket
+    events:
+      - on: right_click
+        conditions:
+        functions:
+          - type: use
 recipes:
   specialization:musket:
     type: shaped
