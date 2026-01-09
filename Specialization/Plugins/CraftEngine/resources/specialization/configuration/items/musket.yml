@@ -1,23 +1,19 @@
 items:  
   specialization:musket:
-    material: wooden_sword
+    material: wooden_axe
     behaviors:
       - type: specialization:musket_behavior
         ammo: specialization:lead_shot
         reload-time: 3
+        cooldown-time: 60
     settings:
       enchantable: false
-      projectile:  
-        item: specialization:lead_shot  
-        display-transform: NONE
-        billboard: FIXED  
-        scale: [0.8, 0.8, 0.8]  
-        translation: [0.0, 0.0, 0.0]  
-        rotation: [0.0, 0.0, 0.0, 1.0]  
-        range: 64.0  
-    data:  
+    data:
+      lore:
+        - "<!i>Requires lead bullets to function"
+        - "<!i>Deals 4.0 hearts at most"
       item-name: <!i><white><l10n:item.musket>
-      max-damage: 500
+      max-damage: 50000
       attribute-modifiers:
         - type: "minecraft:generic.attack_damage"
           amount: -2
@@ -26,15 +22,10 @@ items:
           amount: -3
           operation: "add_value"
       hide-tooltip:
-        - "attributes"
+        - "attribute_modifiers"
     models:  
       type: minecraft:model  
       path: minecraft:item/custom/musket
-    events:
-      - on: right_click
-        conditions:
-        functions:
-          - type: use
 recipes:
   specialization:musket:
     type: shaped

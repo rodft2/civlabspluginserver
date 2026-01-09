@@ -1,65 +1,58 @@
+templates:
+  specialization:tool/copper:
+    material: stone_${part}
+    data:
+      item-name: <!i><white><l10n:item.copper_${part}>
+      attribute-modifiers:
+        - type: "minecraft:mining_efficiency"
+          operation: "add_value"
+          amount: ${mining_efficiency}
+          max-damage: ${max-damage}
+    settings:
+      tags:
+        - specialization:copper_tools
+    texture: minecraft:item/custom/copper_${part}
 items:
   specialization:copper_pickaxe:
-    material: stone_pickaxe
-    settings:
-      tags:
-        - specialization:copper_tools
-    data:
-      item-name: <!i><white><l10n:item.copper_pickaxe>
+    template:
+      - specialization:tool/copper
+    arguments:
+      part: pickaxe
+      mining_efficiency: 5
       max-damage: 190
-      attribute-modifiers:
-        - type: "minecraft:player.mining.efficiency"
-          amount: 5
-    operation: "add_value"
-    texture: minecraft:item/custom/copper_pickaxe
+
   specialization:copper_axe:
-    material: stone_axe
-    settings:
-      tags:
-        - specialization:copper_tools
-    data:
-      item-name: <!i><white><l10n:item.copper_axe>
+    template:
+      - specialization:tool/copper
+    arguments:
+      part: axe
+      mining_efficiency: 5
       max-damage: 190
-      attribute-modifiers:
-        - type: "minecraft:player.mining.efficiency"
-          amount: 5
-    texture: minecraft:item/custom/copper_axe
+
   specialization:copper_hoe:
-    material: stone_hoe
-    settings:
-      tags:
-        - specialization:copper_tools
-    data:
-      item-name: <!i><white><l10n:item.copper_hoe>
+    template:
+      - specialization:tool/copper
+    arguments:
+      part: hoe
+      mining_efficiency: 5
       max-damage: 190
-      attribute-modifiers:
-        - type: "minecraft:player.mining.efficiency"
-          amount: 5
-    texture: minecraft:item/custom/copper_hoe
+
   specialization:copper_shovel:
-    material: stone_shovel
-    settings:
-      tags:
-        - specialization:copper_tools
-    data:
-      item-name: <!i><white><l10n:item.copper_shovel>
+    template:
+      - specialization:tool/copper
+    arguments:
+      part: shovel
+      mining_efficiency: 5
       max-damage: 190
-      attribute-modifiers:
-        - type: "minecraft:player.mining.efficiency"
-          amount: 5
-    texture: minecraft:item/custom/copper_shovel
+
   specialization:copper_sword:
-    material: stone_sword
-    settings:
-      tags:
-        - specialization:copper_tools
-    data:
-      item-name: <!i><white><l10n:item.copper_sword>
+    template:
+      - specialization:tool/copper
+    arguments:
+      part: shovel
+      mining_efficiency: 1
       max-damage: 190
-      attribute-modifiers:
-        - type: "minecraft:player.mining.efficiency"
-          amount: 5
-    texture: minecraft:item/custom/copper_sword
+
 recipes:
   specialization:copper_shovel:
     type: shaped

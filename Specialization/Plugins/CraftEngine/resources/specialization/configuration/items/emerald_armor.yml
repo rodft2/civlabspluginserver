@@ -6,11 +6,12 @@ templates:
       components:  
             minecraft:max_damage: ${maxdamage}
       attribute-modifiers:
-        - type: "minecraft:generic.armor"
+        - type: "minecraft:armor"
           amount: ${armor}
           operation: "add_value"
           slot: ${slot}
-        - type: "minecraft:generic.armor.toughness"
+        - type: "minecraft:generic.armor_toughness"
+          operation: "add_value"
           amount: ${toughness}
     settings:
       tags:

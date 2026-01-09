@@ -23,9 +23,9 @@ recipes:
     type: shaped
     category: misc
     pattern:  
-      - ES
-      - WMW
-      -  SE
+      - "ES "
+      - "WMW"
+      - " SE"
     ingredients:
       E: minecraft:egg
       W: minecraft:wheat

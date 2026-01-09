@@ -1,75 +1,70 @@
+templates:
+  specialization:tool/emerald:
+    material: iron_${part}
+    data:
+      item-name: <!i><white><l10n:item.emerald_${part}>
+      max-damage: ${max-damage}
+      attribute-modifiers:
+        - type: "minecraft:mining_efficiency"
+          operation: "add_value"
+          amount: ${mining_efficiency}
+        - type: "minecraft:attack_damage"
+          operation: "add_value"
+          amount: ${attack_damage}
+        - type: "minecraft:attack_speed"
+          operation: "add_value"
+          amount: ${attack_speed}
+    settings:
+      tags:
+        - specialization:emerald_tools
+    texture: minecraft:item/custom/emerald_${part}
+
 items:
   specialization:emerald_pickaxe:
-    material: iron_pickaxe
-    settings:
-      tags:
-        - specialization:emerald_tools
-    data:
-      item-name: <!i><white><l10n:item.emerald_pickaxe>
+    template:
+      - specialization:tool/emerald
+    arguments:
+      part: pickaxe
       max-damage: 767
-      attribute-modifiers:
-        - type: "minecraft:player.mining.efficiency"
-          amount: 7
-        - type: "minecraft:generic.attack.damage"
-          amount: 4.5
-    operation: "add_value"
-    texture: minecraft:item/custom/emerald_pickaxe
+      attack_damage: 4.5
+      mining_efficiency: 7
+      attack_speed: 1.2
   specialization:emerald_axe:
-    material: iron_axe
-    settings:
-      tags:
-        - specialization:emerald_tools
-    data:
-      item-name: <!i><white><l10n:item.emerald_axe>
+    template:
+      - specialization:tool/emerald
+    arguments:
+      part: axe
       max-damage: 767
-      attribute-modifiers:
-        - type: "minecraft:player.mining.efficiency"
-          amount: 7
-        - type: "minecraft:generic.attack.damage"
-          amount: 4.5
-        - type: "minecraft:generic.attack.speed"
-          amount: 0.95
-    texture: minecraft:item/custom/emerald_axe
+      attack_damage: 4.5
+      mining_efficiency: 7
+      attack_speed: -3
   specialization:emerald_hoe:
-    material: iron_hoe
-    settings:
-      tags:
-        - specialization:emerald_tools
-    data:
-      item-name: <!i><white><l10n:item.emerald_hoe>
+    template:
+      - specialization:tool/emerald
+    arguments:
+      part: hoe
       max-damage: 767
-      attribute-modifiers:
-        - type: "minecraft:player.mining.efficiency"
-          amount: 7
-        - type: "minecraft:generic.attack.speed"
-          amount: 3.5
-    texture: minecraft:item/custom/emerald_hoe
+      attack_damage: 4.5
+      mining_efficiency: 7
+      attack_speed: 3.5
   specialization:emerald_shovel:
-    material: iron_shovel
-    settings:
-      tags:
-        - specialization:emerald_tools
-    data:
-      item-name: <!i><white><l10n:item.emerald_shovel>
+    template:
+      - specialization:tool/emerald
+    arguments:
+      part: shovel
       max-damage: 767
-      attribute-modifiers:
-        - type: "minecraft:player.mining.efficiency"
-          amount: 7
-        - type: "minecraft:generic.attack.damage"
-          amount: 5
-    texture: minecraft:item/custom/emerald_shovel
+      attack_damage: 5
+      mining_efficiency: 7
+      attack_speed: 1
   specialization:emerald_sword:
-    material: iron_sword
-    settings:
-      tags:
-        - specialization:emerald_tools
-    data:
-      item-name: <!i><white><l10n:item.emerald_sword>
+    template:
+      - specialization:tool/emerald
+    arguments:
+      part: sword
       max-damage: 767
-      attribute-modifiers:
-        - type: "minecraft:generic.attack.damage"
-          amount: 6.5
-    texture: minecraft:item/custom/emerald_sword
+      attack_damage: 6.5
+      mining_efficiency: 7
+      attack_speed: -2.8
 recipes:
   specialization:emerald_shovel:
     type: shaped
