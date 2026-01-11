@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "metaldetector/md-on",
-		"particle": "metaldetector/md-on"
+		"0": "minecraft:item/custom/metal_detector_off",
+		"particle": "minecraft:item/custom/metal_detector_off"
 	},
 	"elements": [
 		{
@@ -390,19 +390,19 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [70, 0, 0],
-			"translation": [0, 8, -7]
+			"translation": [0, 8, -8.25]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [70, 0, 0],
-			"translation": [0, 8, -7]
+			"translation": [0, 8, -8.25]
 		},
 		"firstperson_righthand": {
-			"rotation": [25, 0, 0],
-			"translation": [3.5, 1.75, -8.25]
+			"rotation": [10, 0, 0],
+			"translation": [5.5, 1.75, -10.25]
 		},
 		"firstperson_lefthand": {
-			"rotation": [25, 0, 0],
-			"translation": [3.5, 1.75, -8.25]
+			"rotation": [33, 0, 0],
+			"translation": [4.5, 1.5, -8.25]
 		},
 		"ground": {
 			"translation": [0, 2.75, 0],

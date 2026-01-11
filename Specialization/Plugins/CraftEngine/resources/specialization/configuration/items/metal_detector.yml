@@ -1,0 +1,43 @@
+items:  
+  specialization:metal_detector:  
+    material: goat_horn
+
+    data:
+      item-name: <!i><white><l10n:item.metal_detector>
+      max-damage: 50
+    model:
+      type: minecraft:condition
+      property: minecraft:using_item
+      on-true: # When state is "on"
+        type: minecraft:model
+        path: minecraft:item/custom/metal_detector_on
+        generation:
+          parent: minecraft:item/handheld
+          textures:
+            layer0: minecraft:item/custom/metal_detector_on
+      on-false: # When state is "off"
+        type: minecraft:model
+        path: minecraft:item/custom/metal_detector_off
+        generation:
+          parent: minecraft:item/handheld
+          textures:
+            layer0: minecraft:item/custom/metal_detector_off
+recipes:
+  specialization:metal_detector:  
+    type: shaped
+    category: misc
+    pattern:  
+      - " C "
+      - "IRC"
+      - "SI "
+    ingredients:
+      C: minecraft:copper_ingot
+      I: minecraft:iron_ingot
+      S: minecraft:stick
+      R: minecraft:redstone
+    result:  
+      id: specialization:metal_detector
+      count: 1
+translations:
+  en:
+    item.metal_detector: metal_detector

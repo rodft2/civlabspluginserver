@@ -10,3 +10,18 @@ sounds:
       - name: "minecraft:rifle_reload"
         volume: 1.0
         pitch: 1.0
+  specialization:metal_detector_fail:
+    sounds:
+      - name: "minecraft:metal_detector_no_find"
+        volume: 1.0
+        pitch: 1.0
+  specialization:metal_detector_success_1:
+    sounds:
+      - name: "minecraft:metal_detector_find_1"
+        volume: 1.0
+        pitch: 1.0
+  specialization:metal_detector_success_2:
+    sounds:
+      - name: "minecraft:metal_detector_find_2"
+        volume: 1.0
+        pitch: 1.0
