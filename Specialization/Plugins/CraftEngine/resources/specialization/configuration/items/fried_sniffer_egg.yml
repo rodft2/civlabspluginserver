@@ -1,0 +1,33 @@
+items:  
+  specialization:fried_sniffer_egg:  
+    material: beetroot  
+    data:  
+      item-name: <!i><white><l10n:item.fried_sniffer_egg>
+      components:  
+        minecraft:food:  
+          nutrition: 10  
+          saturation: 17  
+          can_always_eat: false  
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/fried_sniffer_egg  
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/fried_sniffer_egg  
+    settings:  
+      can-place: false  
+  
+recipes:  
+  specialization:fried_sniffer_egg_from_sniffer_egg:  
+    type: smelting  
+    experience: 0.35  
+    category: food  
+    time: 200  
+    ingredient: "minecraft:sniffer_egg"
+    result:
+      id: specialization:fried_sniffer_egg  
+      count: 1   
+translations:
+  en:
+    item.fried_sniffer_egg: Fried Sniffer Egg

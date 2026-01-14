@@ -58,16 +58,6 @@ recipes:
     result:  
       id: specialization:fried_egg  
       count: 1  
-  
-  specialization:fried_egg_from_sniffer_egg:  
-    type: smelting  
-    experience: 0.35  
-    category: food  
-    time: 200  
-    ingredient: minecraft:sniffer_egg  
-    result:  
-      id: specialization:fried_egg  
-      count: 1
 translations:
   en:
     item.fried_egg: Fried Egg

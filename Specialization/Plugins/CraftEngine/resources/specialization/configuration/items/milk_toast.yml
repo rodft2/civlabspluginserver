@@ -1,0 +1,43 @@
+items:  
+  specialization:milk_toast:  
+    material: milk_bucket
+    data:  
+      item-name: <!i><white><l10n:item.milk_toast>
+      components:
+        minecraft:max_stack_size: 1
+        minecraft:food:  
+          nutrition: 7
+          saturation: 10  
+          can_always_eat: false
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/milk_toast
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/milk_toast 
+    settings:  
+      can-place: false  
+  
+recipes:  
+  specialization:milk_toast:  
+    type: shaped
+    category: misc
+    pattern:  
+      - AB
+    ingredients:
+      A: minecraft:milk_bucket
+      B: minecraft:bread
+    result:  
+      id: specialization:milk_toast  
+      count: 1  
+    functions:  
+      - type: clear_item  
+        id: minecraft:bucket  
+        count: 1
+    # not sure if this works as intended, gonna test later
+      
+translations:
+  en:
+    item.milk_toast: Milk Toast
