@@ -27,7 +27,7 @@ recipes:
     pattern:  
       - AB
     ingredients:
-      A: minecraft:raw_beef
+      A: minecraft:beef
       B: minecraft:bread
     result:  
       id: specialization:raw_beef_sandwich

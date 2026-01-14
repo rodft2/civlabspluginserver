@@ -27,7 +27,7 @@ recipes:
     pattern:  
       - AB
     ingredients:
-      A: minecraft:raw_chicken
+      A: minecraft:chicken
       B: minecraft:bread
     result:  
       id: specialization:raw_chicken_sandwich

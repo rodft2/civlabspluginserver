@@ -27,7 +27,7 @@ recipes:
     pattern:  
       - AB
     ingredients:
-      A: minecraft:raw_mutton
+      A: minecraft:mutton
       B: minecraft:bread
     result:  
       id: specialization:raw_mutton_sandwich

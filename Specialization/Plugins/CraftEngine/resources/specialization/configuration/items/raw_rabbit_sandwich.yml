@@ -27,7 +27,7 @@ recipes:
     pattern:  
       - AB
     ingredients:
-      A: minecraft:raw_rabbit
+      A: minecraft:rabbit
       B: minecraft:bread
     result:  
       id: specialization:raw_rabbit_sandwich
