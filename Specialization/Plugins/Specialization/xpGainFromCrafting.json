@@ -1,7 +1,9 @@
 {
     "BLACKSMITH" : {
-       "ACACIA_BOAT": 0.0,
-       "ACACIA_BUTTON": 0.0,
+        "SPECIALIZATION_PESTLE": 0.0,
+        "SPECIALIZATION_MORTAR": 0.0,
+         "ACACIA_BOAT": 0.0,
+         "ACACIA_BUTTON": 0.0,
         "ACACIA_CHEST_BOAT": 0.0,
         "ACACIA_DOOR": 0.0,
         "ACACIA_LEAVES": 0.0,

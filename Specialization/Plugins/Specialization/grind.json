@@ -1,0 +1,46 @@
+{
+    "BLACKSMITH" : {},
+    "BUILDER" : {},
+    "FARMER" : {
+      "SUGAR_CANE": {
+        "item" : "SUGAR",
+        "amount": 2,
+        "level" : 1,
+        "xp" : 2,
+        "foodCost" : 0.5
+      }
+    },
+    "GUARDSMAN" : {},
+    "HEALER" : {},
+    "LIBRARIAN" : {},
+    "MINER" : {
+        "DIORITE" : {
+            "item" : "BONE_MEAL",
+            "amount": 2,
+            "level" : 1,
+            "xp" : 2,
+            "foodCost" : 1
+        },
+        "ANDESITE" : {
+          "item" : "GUNPOWDER",
+          "amount": 1,
+          "level" : 2,
+          "xp" : 2,
+          "foodCost" : 1
+        },
+        "GRANITE" : {
+          "item" : "IRON_NUGGET",
+          "amount": 2,
+          "level" : 2,
+          "xp" : 2,
+          "foodCost" : 2
+        },
+        "GRAVEL" : {
+          "item" : "FLINT",
+          "amount": 1,
+          "level" : 1,
+          "xp" : 1,
+          "foodCost" : 1
+        }
+    }
+}

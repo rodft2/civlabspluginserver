@@ -1,0 +1,96 @@
+items:
+  specialization:pestle:
+    material: nether_brick
+    data:
+      item-name: "<!i><white><l10n:item.pestle>"
+      lore:
+        - "<!i><white>1. Be miner or farmer"
+        - "<!i><white>2. Use it on mortar"
+    behavior:
+      - type: specialization:mortar_and_pestle_behavior
+    texture: item/custom/pestle
+  specialization:mortar:
+    material: nether_brick
+    data:
+      item-name: "<!i><white><l10n:item.mortar>"
+      lore:
+        - "<!i><white>1. Be miner or farmer"
+        - "<!i><white>2. Place it down"
+        - "<!i><white>3. Put in resource"
+        - "<!i><white>4. Use pestle"
+    texture: item/custom/mortar
+    behavior:
+      type: block_item
+      block:
+        settings:
+          template:
+            - default:hardness/none
+            - default:sound/stone
+          overrides:
+            push-reaction: destroy
+        behavior:
+          - type: simple_storage_block
+            title: "Mortar"
+            rows: 1
+        loot:
+          template: default:loot_table/self
+        states:
+          properties:
+            facing:
+              type: 4-direction
+              default: north
+          appearances:
+            east:
+              auto-state: tripwire
+              model:
+                path: block/custom/mortar_and_pestle
+                y: 90
+            north:
+              auto-state: tripwire
+              model:
+                path: block/custom/mortar_and_pestle
+                y: 0
+            south:
+              auto-state: tripwire
+              model:
+                path: block/custom/mortar_and_pestle
+                y: 180
+            west:
+              auto-state: tripwire
+              model:
+                path: block/custom/mortar_and_pestle
+                y: 270
+          variants:
+            facing=east:
+              appearance: east
+            facing=north:
+              appearance: north
+            facing=south:
+              appearance: south
+            facing=west:
+              appearance: west
+recipes:
+  specialization:pestle:
+    type: shaped
+    pattern:
+      - ' G'
+      - 'G '
+    ingredients:
+      G: minecraft:granite
+    result:
+      id: specialization:pestle
+      count: 1
+  specialization:mortar:
+    type: shaped
+    pattern:
+      - 'G G'
+      - 'GGG'
+    ingredients:
+      G: minecraft:granite
+    result:
+      id: specialization:mortar
+      count: 1
+translations:
+  en:
+    item.pestle: Pestle
+    item.mortar: Mortar

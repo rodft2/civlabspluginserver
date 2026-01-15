@@ -323,7 +323,9 @@
     "specialization:fried_egg",
     "specialization:ice_cream",
     "specialization:ice_cream_cone",
-    "specialization:ice_cream_on_a_cone"
+    "specialization:ice_cream_on_a_cone",
+    "specialization:pestle",
+    "specialization:mortar"
   ],
   "FARMER_JOURNEYMAN": [
     "minecraft:pumpkin_pie",
@@ -373,7 +375,10 @@
   "LIBRARIAN_MASTER": [],
   "LIBRARIAN_GRANDMASTER": [],
   "MINER_NOVICE": [],
-  "MINER_APPRENTICE": [],
+  "MINER_APPRENTICE": [
+    "specialization:pestle",
+    "specialization:mortar"
+  ],
   "MINER_JOURNEYMAN": [],
   "MINER_EXPERT": [
     "minecraft:tnt"
