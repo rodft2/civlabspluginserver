@@ -1,0 +1,46 @@
+items:  
+  specialization:aloo_sandwich:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.aloo_sandwich>
+      components:
+        minecraft:max_stack_size: 1
+        minecraft:food:  
+          nutrition: 10
+          saturation: 12 
+          can_always_eat: false
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/aloo_sandwich
+      generation:
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/aloo_sandwich 
+    settings:  
+      can-place: false  
+  
+recipes:  
+  specialization:aloo_sandwich:  
+    type: shaped
+    category: misc
+    pattern:  
+      - AB
+    ingredients:
+      A: minecraft:baked_potato
+      B: minecraft:bread
+    result:  
+      id: specialization:aloo_sandwich
+      count: 1
+  specialization:cooked_aloo_sandwich:  
+    type: smelting  
+    experience: 0.35  
+    category: food  
+    time: 200  
+    ingredient: "specialization:potato_sandwich"
+    result:
+      id: specialization:aloo_sandwich  
+      count: 1  
+translations:
+  en:
+    item.aloo_sandwich: Aloo Sandwich

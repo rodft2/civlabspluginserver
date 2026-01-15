@@ -1,0 +1,40 @@
+items:
+  specialization:hammer:
+    material: mace
+    behaviors:
+      - type: specialization:hammer_behavior
+        item_key: specialization:hammer
+        damage: 6.0
+        knockback_multiplier: 2.0
+    settings:
+      enchantable: false
+    data:
+      item-name: <!i><white><l10n:item.hammer>
+      max-damage: 50000
+      attribute-modifiers:
+        - type: "minecraft:generic.attack_damage"
+          amount: -2
+          operation: "add_value"
+      enchantments:
+        wind_burst: 1
+      hide-tooltip:
+        - "attribute_modifiers"
+    models:  
+      type: minecraft:model  
+      path: minecraft:item/custom/hammer
+    recipes:
+      specialization:hammer:
+        type: shaped
+        pattern:
+          - 'I I'
+          - 'I S'
+          - ' S '
+        ingredients:
+          I: minecraft:iron_block
+          S: minecraft:stick
+        result:
+          id: specialization:hammer
+          count: 1
+translations:
+  en:
+    item.hammer: Hammer

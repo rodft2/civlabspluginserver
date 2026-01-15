@@ -414,6 +414,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"firstperson_righthand": {
 			"translation": [0, 0, -4.5]
