@@ -1,6 +1,6 @@
 items:  
   specialization:raw_chicken_sandwich:  
-    material: raw_chicken
+    material: chicken
     data:  
       item-name: <!i><white><l10n:item.raw_chicken_sandwich>
       components:
