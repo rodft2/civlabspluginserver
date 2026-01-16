@@ -1,13 +1,15 @@
 items:
   specialization:pestle:
-    material: nether_brick
+    material: carrot_on_a_stick
     data:
+      max-damage: 128
       item-name: "<!i><white><l10n:item.pestle>"
       lore:
         - "<!i><white>1. Be miner or farmer"
         - "<!i><white>2. Use it on mortar"
     behavior:
       - type: specialization:mortar_and_pestle_behavior
+        cooldown-time: 10
     texture: item/custom/pestle
   specialization:mortar:
     material: nether_brick

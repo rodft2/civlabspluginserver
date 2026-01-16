@@ -1,10 +1,11 @@
 items:  
   specialization:metal_detector:  
-    material: goat_horn
-
+    material: wooden_pickaxe
+    behaviors:
+      - type: specialization:metal_detector_behavior
     data:
       item-name: <!i><white><l10n:item.metal_detector>
-      max-damage: 50
+      max-damage: 150
     model:
       type: minecraft:condition
       property: minecraft:using_item
