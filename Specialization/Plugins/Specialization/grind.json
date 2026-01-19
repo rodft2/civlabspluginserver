@@ -2,45 +2,66 @@
     "BLACKSMITH" : {},
     "BUILDER" : {},
     "FARMER" : {
-      "SUGAR_CANE": {
+      "BONE": [{
+        "item" : "BONE_MEAL",
+        "amount": 5,
+        "level" : 1,
+        "xp" : 1,
+        "chance": 0.75,
+        "foodCost" : 0.5
+      }],
+      "SUGAR_CANE": [{
         "item" : "SUGAR",
         "amount": 2,
         "level" : 1,
+        "chance": 0.75,
         "xp" : 2,
         "foodCost" : 0.5
-      }
+      }]
     },
     "GUARDSMAN" : {},
     "HEALER" : {},
     "LIBRARIAN" : {},
     "MINER" : {
-        "DIORITE" : {
+        "DIORITE" : [{
             "item" : "BONE_MEAL",
             "amount": 2,
             "level" : 1,
             "xp" : 2,
+            "chance": 0.75,
             "foodCost" : 1
-        },
-        "ANDESITE" : {
+        }],
+        "ANDESITE" : [{
           "item" : "GUNPOWDER",
           "amount": 1,
           "level" : 2,
+          "chance": 0.5,
           "xp" : 2,
           "foodCost" : 1
-        },
-        "GRANITE" : {
-          "item" : "IRON_NUGGET",
-          "amount": 2,
+        }],
+        "GRANITE" : [{
+          "item" : "RAW_IRON",
+          "amount": 1,
           "level" : 2,
+          "chance": 0.1,
           "xp" : 2,
           "foodCost" : 2
+        }],
+        "GRAVEL" : [{
+          "item" : "RAW_IRON",
+          "amount": 1,
+          "level" : 1,
+          "chance": 0.0055,
+          "xp" : 1,
+          "foodCost" : 1
         },
-        "GRAVEL" : {
+        {
           "item" : "FLINT",
           "amount": 1,
           "level" : 1,
+          "chance": 0.75,
           "xp" : 1,
           "foodCost" : 1
-        }
+        }]
     }
 }

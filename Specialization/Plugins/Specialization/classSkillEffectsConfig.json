@@ -6,6 +6,10 @@
     "BLACKSMITH_GRANDMASTER" : [
     ],
     "BLACKSMITH_JOURNEYMAN" : [
+      {
+        "amplifier" : 0,
+        "effect" : "minecraft:resistance"
+      }
     ],
     "BLACKSMITH_MASTER" : [
     ],
@@ -46,6 +50,10 @@
     "FARMER_GRANDMASTER" : [
     ],
     "FARMER_JOURNEYMAN" : [
+      {
+        "amplifier" : 0,
+        "effect" : "minecraft:speed"
+      }
     ],
     "FARMER_MASTER" : [
     ],
