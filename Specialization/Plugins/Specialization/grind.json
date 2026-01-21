@@ -2,6 +2,14 @@
     "BLACKSMITH" : {},
     "BUILDER" : {},
     "FARMER" : {
+      "WHEAT": [{
+        "item" : "WHEAT_SEED",
+        "amount": 2,
+        "level" : 0,
+        "xp" : 1,
+        "chance": 0.75,
+        "foodCost" : 0.5        
+      }],
       "BONE": [{
         "item" : "BONE_MEAL",
         "amount": 5,
@@ -23,25 +31,47 @@
     "HEALER" : {},
     "LIBRARIAN" : {},
     "MINER" : {
+        "COBBLESTONE": [
+          {
+            "item" : "GRANITE",
+            "level" : 1,
+            "xp" : 1,
+            "chance": 0.05
+          },
+          {
+            "item" : "DIORITE",
+            "level" : 1,
+            "xp" : 1,
+            "chance": 0.10
+          },
+          {
+            "item" : "ANDESITE",
+            "level" : 1,
+            "xp" : 1,
+            "chance": 0.15
+          },
+          {
+            "item" : "GRAVEL",
+            "level" : 1,
+            "xp" : 1,
+            "chance": 0.5
+          }
+        ],
         "DIORITE" : [{
             "item" : "BONE_MEAL",
             "amount": 2,
             "level" : 1,
             "xp" : 2,
-            "chance": 0.75,
-            "foodCost" : 1
+            "chance": 0.75
         }],
         "ANDESITE" : [{
           "item" : "GUNPOWDER",
-          "amount": 1,
           "level" : 2,
           "chance": 0.5,
-          "xp" : 2,
-          "foodCost" : 1
+          "xp" : 2
         }],
         "GRANITE" : [{
           "item" : "RAW_IRON",
-          "amount": 1,
           "level" : 2,
           "chance": 0.1,
           "xp" : 2,
@@ -49,19 +79,20 @@
         }],
         "GRAVEL" : [{
           "item" : "RAW_IRON",
-          "amount": 1,
           "level" : 1,
           "chance": 0.0055,
-          "xp" : 1,
-          "foodCost" : 1
+          "xp" : 1
         },
         {
           "item" : "FLINT",
-          "amount": 1,
-          "level" : 1,
           "chance": 0.75,
-          "xp" : 1,
-          "foodCost" : 1
-        }]
+          "xp" : 1
+        },
+        {
+          "item" : "SAND",
+          "chance": 0.25,
+          "xp" : 1
+        }
+        ]
     }
 }
