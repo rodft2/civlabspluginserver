@@ -3,7 +3,7 @@
     "BUILDER" : {},
     "FARMER" : {
       "WHEAT": [{
-        "item" : "WHEAT_SEED",
+        "item" : "WHEAT_SEEDS",
         "amount": 2,
         "level" : 0,
         "xp" : 1,
