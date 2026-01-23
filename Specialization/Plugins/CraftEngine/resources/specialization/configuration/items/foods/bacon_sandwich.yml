@@ -6,8 +6,8 @@ items:
       components:
         minecraft:max_stack_size: 8
         minecraft:food:  
-          nutrition: 10
-          saturation: 10  
+          nutrition: 13
+          saturation: 19
           can_always_eat: false
  
     model:  
