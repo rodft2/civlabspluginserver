@@ -1,0 +1,32 @@
+items:  
+  specialization:pitcher_sandwich:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.pitcher_sandwich>
+      components:
+        minecraft:max_stack_size: 8
+        minecraft:food:  
+          nutrition: 10
+          saturation: 14 
+          can_always_eat: false
+        #Luxury II (1:30) (exp boost)
+    events:  
+      - on: consume  
+        functions:  
+          - type: potion_effect  
+            potion-effect: minecraft:hero_of_the_village
+            duration: 1800
+            amplifier: 1
+            particles: true 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/pitcher_sandwich
+      generation:
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/pitcher_sandwich 
+    settings:  
+      can-place: false  
+translations:
+  en:
+    item.pitcher_sandwich: Pitcher Sandwich

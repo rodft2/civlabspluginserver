@@ -1,0 +1,24 @@
+items:  
+  specialization:milk_toast:  
+    material: milk_bucket
+    data:  
+      item-name: <!i><white><l10n:item.milk_toast>
+      components:
+        minecraft:max_stack_size: 1
+        minecraft:food:  
+          nutrition: 7
+          saturation: 10  
+          can_always_eat: false
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/milk_toast
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/milk_toast 
+    settings:  
+      can-place: false
+translations:
+  en:
+    item.milk_toast: Milk Toast

@@ -1,0 +1,67 @@
+items:  
+  specialization:wheat_dough:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.wheat_dough>
+      components:
+        minecraft:food:  
+          nutrition: 1
+          saturation: 1
+          can_always_eat: false
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/wheat_dough
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/wheat_dough 
+    settings:  
+      can-place: false  
+    events:  
+      - on: consume  
+        functions:  
+          - type: potion_effect  
+            potion-effect: minecraft:poison
+            duration: 100
+            amplifier: 0
+            particles: true
+          - type: potion_effect  
+            potion-effect: minecraft:nausea  
+            duration: 200  
+            amplifier: 0  
+            particles: true
+recipes:  
+  specialization:wheat_dough:  
+    type: shaped
+    category: misc
+    pattern:  
+      - AAA
+      -  B
+    ingredients:
+      A: specialization:flour
+      B: minecraft:water_bucket
+    result:  
+      id: specialization:wheat_dough
+      count: 3
+    minecraft:smelt_wheat_dough_into_bread:  
+    type: smelting
+    experience: 0.35  
+    category: food
+    time: 900
+    ingredient: "specialization:wheat_dough"
+    result:
+      id: minecraft:bread
+      count: 1
+    minecraft:smoking_wheat_dough_into_bread:  
+    type: smoking
+    experience: 0.35  
+    category: food
+    time: 450
+    ingredient: "specialization:wheat_dough"
+    result:
+      id: minecraft:bread
+      count: 1  
+translations:
+  en:
+    item.wheat_dough: Wheat Dough

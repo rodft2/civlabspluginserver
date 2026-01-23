@@ -1,0 +1,32 @@
+items:  
+  specialization:crimson_fungus_loaf:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.crimson_fungus_loaf>
+      components:
+        minecraft:max_stack_size: 8
+        minecraft:food:  
+          nutrition: 10
+          saturation: 11
+          can_always_eat: false
+    # gives 3 xp
+    events:  
+      - on: consume  
+        functions:  
+          - type: set_exp  
+            target: self  
+            count: 3  
+            add: true
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/crimson_fungus_loaf
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/crimson_fungus_loaf 
+    settings:
+      can-place: false
+translations:
+  en:
+    item.crimson_fungus_loaf: Crimson Fungus Loaf

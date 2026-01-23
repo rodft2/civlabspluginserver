@@ -1,0 +1,24 @@
+items:  
+  specialization:raw_beef_sandwich:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.raw_beef_sandwich>
+      components:
+        minecraft:max_stack_size: 1
+        minecraft:food:  
+          nutrition: 8
+          saturation: 7  
+          can_always_eat: false
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/raw_beef_sandwich
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/raw_beef_sandwich
+    settings:  
+      can-place: false  
+translations:
+  en:
+    item.raw_beef_sandwich: Raw Beef Sandwich
