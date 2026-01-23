@@ -1,8 +1,8 @@
 items:  
-  specialization:mushroom_costini:  
+  specialization:mushroom_crostini:  
     material: beetroot
     data:
-      item-name: <!i><white><l10n:item.mushroom_costini>
+      item-name: <!i><white><l10n:item.mushroom_crostini>
       components:
         minecraft:max_stack_size: 8
         minecraft:food:  
@@ -11,13 +11,13 @@ items:
           can_always_eat: false
     model:
       type: minecraft:model  
-      path: minecraft:item/custom/foods/mushroom_costini
+      path: minecraft:item/custom/foods/mushroom_crostini
       generation:  
         parent: minecraft:item/generated  
         textures:  
-          layer0: minecraft:item/custom/foods/mushroom_costini
+          layer0: minecraft:item/custom/foods/mushroom_crostini
     settings:  
       can-place: false 
 translations:
   en:
-    item.mushroom_costini: Mushroom Costini
+    item.mushroom_crostini: Mushroom Crostini

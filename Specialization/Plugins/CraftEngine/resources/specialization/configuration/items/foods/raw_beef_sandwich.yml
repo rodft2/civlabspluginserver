@@ -12,11 +12,11 @@ items:
  
     model:  
       type: minecraft:model  
-      path: minecraft:item/custom/foods/raw_beef_sandwich
+      path: minecraft:item/custom/foods/red_meat_sandwich
       generation:  
         parent: minecraft:item/generated  
         textures:  
-          layer0: minecraft:item/custom/foods/raw_beef_sandwich
+          layer0: minecraft:item/custom/foods/red_meat_sandwich
     settings:  
       can-place: false  
 translations:
