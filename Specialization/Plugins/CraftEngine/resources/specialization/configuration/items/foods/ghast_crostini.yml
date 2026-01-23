@@ -32,6 +32,8 @@ items:
         parent: minecraft:item/generated  
         textures:  
           layer0: minecraft:item/custom/foods/ghast_crostini
+    settings:
+      can-place: false
 translations:
   en:
     item.ghast_crostini: Ghast Crostini

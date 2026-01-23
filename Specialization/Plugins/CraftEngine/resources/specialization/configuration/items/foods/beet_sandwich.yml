@@ -4,7 +4,7 @@ items:
     data:  
       item-name: <!i><white><l10n:item.beet_sandwich>
       components:
-        minecraft:max_stack_size: 1
+        minecraft:max_stack_size: 8
         minecraft:food:  
           nutrition: 6
           saturation: 7 

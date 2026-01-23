@@ -31,7 +31,7 @@ items:
         parent: minecraft:item/generated  
         textures:  
           layer0: minecraft:item/custom/foods/glistering_melonpan
-      settings:  
+    settings:  
       can-place: false
 translations:
   en:

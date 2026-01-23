@@ -17,6 +17,8 @@ items:
         parent: minecraft:item/generated  
         textures:  
           layer0: minecraft:item/custom/foods/raw_salmon_crostini
+    settings:
+      can-place: false
 translations:
   en:
     item.raw_salmon_crostini: Raw  Salmon Crostini

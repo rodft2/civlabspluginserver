@@ -17,7 +17,6 @@ items:
           layer0: minecraft:item/custom/foods/waffle_ice_cream 
     settings:  
       can-place: false  
-  
 recipes:  
   specialization:waffle_ice_cream:  
     type: shaped
