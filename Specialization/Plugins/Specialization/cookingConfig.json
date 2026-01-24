@@ -420,9 +420,11 @@
         "minecraft:glistering_melon_slice",
         "minecraft:sweet_berries",
         "minecraft:glow_berries",
+        "minecraft:glowberry",
         "minecraft:sea_pickle",
         "minecraft:carrot",
         "minecraft:golden_carrot",
+        "minecraft:golden_carrot_sandwich",
         "minecraft:potato",
         "minecraft:baked_potato",
         "minecraft:beetroot",
@@ -451,7 +453,15 @@
         "minecraft:cooked_salmon",
         "minecraft:tropical_fish",
         "minecraft:pufferfish",
-        "minecraft:dried_kelp"
+        "minecraft:dried_kelp",
+        "minecraft:melon",
+        "minecraft:glowberry",
+        "minecraft:porkchop",
+        "minecraft:cooked_porkchop",
+        "cooked_porkchop",
+        "specialization:fried_egg",
+        "specialization:fried_sniffer_egg",
+        "minecraft:dried_ghast"
     ],
     "possible_recipients" : [
         "minecraft:bread"
