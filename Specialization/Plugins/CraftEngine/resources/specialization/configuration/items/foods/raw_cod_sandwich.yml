@@ -1,0 +1,24 @@
+items:  
+  specialization:raw_cod_sandwich:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.raw_cod_sandwich>
+      components:
+        minecraft:max_stack_size: 8
+        minecraft:food:  
+          nutrition: 7
+          saturation: 7  
+          can_always_eat: false
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/raw_cod_sandwich
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/raw_cod_sandwich
+    settings:
+      can-place: false
+translations:
+  en:
+    item.raw_cod_sandwich: Raw  Cod Sandwich

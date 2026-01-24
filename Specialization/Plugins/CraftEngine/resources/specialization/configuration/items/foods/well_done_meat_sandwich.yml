@@ -19,25 +19,46 @@ items:
     settings:
       can-place: false
 recipes:  
-  specialization:smelting_well_done_meat_sandwich:  
+  specialization:smelting_well_done_meat_sandwich_beef:  
     type: smelting  
     experience: 0.35  
     category: food  
     time: 1000
-    ingredient: "specialization:red_meat_sandwich"
+    ingredient: "specialization:raw_beef_sandwich"
     result:
       id: specialization:well_done_meat_sandwich  
       count: 1
       
-    specialization:smoked_well_done_meat_sandwich:  
+    specialization:smoking_well_done_meat_sandwich_beef:  
     type: smoking  
     experience: 0.35  
     category: food  
     time: 500 
-    ingredient: "specialization:red_meat_sandwich"
+    ingredient: "specialization:raw_beef_sandwich"
+    result:
+      id: specialization:well_done_meat_sandwich  
+      count: 1
+
+  specialization:smelting_well_done_meat_sandwich_mutton:  
+    type: smelting  
+    experience: 0.35  
+    category: food  
+    time: 1000
+    ingredient: "specialization:raw_mutton_sandwich"
+    result:
+      id: specialization:well_done_meat_sandwich  
+      count: 1
+      
+    specialization:smoking_well_done_meat_sandwich_mutton:  
+    type: smoking  
+    experience: 0.35  
+    category: food  
+    time: 500 
+    ingredient: "specialization:raw_mutton_sandwich"
     result:
       id: specialization:well_done_meat_sandwich  
       count: 1 
+
 
 translations:
   en:

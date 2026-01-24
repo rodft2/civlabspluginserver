@@ -19,24 +19,24 @@ items:
           layer0: minecraft:item/custom/foods/cooked_salmon_crostini
 recipes:
     specialization:smoking_cooked_salmon_crostini:  
-    type: smoking  
-    experience: 0.35  
-    category: food  
-    time: 1200
-    ingredient: "minecraft:raw_salmon_crostini"
-    result:
-      id: specialization:cooked_salmon_crostini  
-      count: 1
+      type: smoking  
+      experience: 0.35  
+      category: food  
+      time: 600
+      ingredient: "specialization:raw_salmon_crostini"
+      result:
+        id: specialization:cooked_salmon_crostini  
+        count: 1
 
-    specialization:smelting_fried_cod_sandwich:  
-    type: smelting  
-    experience: 0.35  
-    category: food  
-    time: 600
-    ingredient: "minecraft:raw_salmon_crostini"
-    result:
-      id: specialization:cooked_salmon_crostini  
-      count: 1
+    specialization:smelting_cooked_salmon_crostini:  
+      type: smelting  
+      experience: 0.35  
+      category: food  
+      time: 1200
+      ingredient: "specialization:raw_salmon_crostini"
+      result:
+        id: specialization:cooked_salmon_crostini  
+        count: 1
     settings:
       can-place: false
 translations:

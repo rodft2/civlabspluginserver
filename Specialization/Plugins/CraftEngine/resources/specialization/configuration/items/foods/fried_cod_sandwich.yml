@@ -19,24 +19,24 @@ items:
           layer0: minecraft:item/custom/foods/fried_cod_sandwich
 recipes:
     specialization:smoking_fried_cod_sandwich:  
-    type: smoking  
-    experience: 0.35  
-    category: food  
-    time: 1200
-    ingredient: "minecraft:raw_cod_sandwich"
-    result:
-      id: specialization:fried_cod_sandwich  
-      count: 1
+      type: smoking  
+      experience: 0.35  
+      category: food  
+      time: 1200
+      ingredient: "specialization:raw_cod_sandwich"
+      result:
+        id: specialization:fried_cod_sandwich  
+        count: 1
 
     specialization:smelting_fried_cod_sandwich:  
-    type: smelting  
-    experience: 0.35  
-    category: food  
-    time: 600
-    ingredient: "minecraft:raw_cod_sandwich"
-    result:
-      id: specialization:fried_cod_sandwich  
-      count: 1
+      type: smelting  
+      experience: 0.35  
+      category: food  
+      time: 600
+      ingredient: "specialization:raw_cod_sandwich"
+      result:
+        id: specialization:fried_cod_sandwich  
+        count: 1
     settings:
       can-place: false
 translations:
