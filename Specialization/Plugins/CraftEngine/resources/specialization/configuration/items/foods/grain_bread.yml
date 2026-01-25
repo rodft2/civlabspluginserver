@@ -1,0 +1,24 @@
+items:  
+  specialization:grain_bread:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.grain_bread>
+      components:
+        minecraft:max_stack_size: 1
+        minecraft:food:  
+          nutrition: 6
+          saturation: 7  
+          can_always_eat: false
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/grain_bread
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/grain_bread 
+    settings:  
+      can-place: false  
+translations:
+  en:
+    item.grain_bread: Grain Bread

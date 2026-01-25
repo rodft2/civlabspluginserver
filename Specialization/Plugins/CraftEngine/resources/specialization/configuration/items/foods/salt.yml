@@ -1,0 +1,17 @@
+items:  
+  specialization:salt:  
+    material: sugar
+    data:  
+      item-name: <!i><white><l10n:item.salt>
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/salt
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/salt 
+    settings:  
+      can-place: false  
+translations:
+  en:
+    item.salt: Salt

@@ -19,9 +19,13 @@ items:
         wind_burst: 1
       hide-tooltip:
         - "attribute_modifiers"
-    models:  
+    model:  
       type: minecraft:model  
       path: minecraft:item/custom/hammer
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/hammer
     recipes:
       specialization:hammer:
         type: shaped

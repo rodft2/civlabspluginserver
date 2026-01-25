@@ -1,0 +1,44 @@
+items:  
+  specialization:cooked_meat_sandwich:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.cooked_meat_sandwich>
+      components:
+        minecraft:max_stack_size: 8
+        minecraft:food:  
+          nutrition: 11
+          saturation: 12  
+          can_always_eat: false
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/cooked_meat_sandwich
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/cooked_meat_sandwich 
+    settings:  
+      can-place: false
+recipes:  
+  specialization:smelting_cooked_meat_sandwich:  
+    type: smelting  
+    experience: 0.35  
+    category: food  
+    time: 1000
+    ingredient: "specialization:raw_meat_sandwich"
+    result:
+      id: specialization:cooked_meat_sandwich  
+      count: 1
+      
+    specialization:smoked_cooked_meat_sandwich:  
+    type: smoking  
+    experience: 0.35  
+    category: food  
+    time: 500
+    ingredient: "specialization:cooked_meat_sandwich"
+    result:
+      id: specialization:cooked_meat_sandwich  
+      count: 1 
+translations:
+  en:
+    item.cooked_meat_sandwich: Cooked Meat Sandwich

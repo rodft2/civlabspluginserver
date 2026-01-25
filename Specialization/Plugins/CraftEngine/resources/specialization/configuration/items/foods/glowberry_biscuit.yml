@@ -1,0 +1,32 @@
+items:  
+  specialization:glowberry_biscuit:  
+    material: beetroot
+    data:
+      item-name: <!i><white><l10n:item.glowberry_biscuit>
+      components:
+        minecraft:max_stack_size: 8
+        minecraft:food:  
+          nutrition: 7
+          saturation: 7
+          can_always_eat: false
+    # Glowing (00:30)
+    events:
+      - on: consume
+        functions:
+          - type: potion_effect
+            potion-effect: minecraft:glowing
+            duration: 600
+            amplifier: 0
+            particles: true
+    model:
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/glowberry_biscuit
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/glowberry_biscuit
+    settings:  
+      can-place: false  
+translations:
+  en:
+    item.glowberry_biscuit: Glowberry Biscuit

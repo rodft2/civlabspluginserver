@@ -2,13 +2,22 @@
     "BLACKSMITH" : {},
     "BUILDER" : {},
     "FARMER" : {
-      "WHEAT": [{
+      "WHEAT": [
+      {
         "item" : "WHEAT_SEEDS",
-        "amount": 2,
-        "level" : 0,
+        "amount": 1,
+        "level" : 1,
         "xp" : 1,
-        "chance": 0.75,
-        "foodCost" : 0.5        
+        "chance": 0.35,
+        "foodCost" : 0.5   
+      },
+      {
+        "item" : "SPECIALIZATION_FLOUR",
+        "amount": 3,
+        "level" : 1,
+        "xp" : 1,
+        "chance": 0.50,
+        "foodCost" : 0.5   
       }],
       "BONE": [{
         "item" : "BONE_MEAL",
@@ -31,6 +40,14 @@
     "HEALER" : {},
     "LIBRARIAN" : {},
     "MINER" : {
+        "CALCITE" : [{
+          "item" : "SPECIALIZATION_SALT",
+          "amount": 1,
+          "level" : 1,
+          "xp" : 2,
+          "chance": 0.50,
+          "foodCost" : 1
+        }],
         "COBBLESTONE": [
           {
             "item" : "GRANITE",

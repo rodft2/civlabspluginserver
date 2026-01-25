@@ -1,0 +1,482 @@
+{
+    "BLACKSMITH_APPRENTICE" : [],
+    "BLACKSMITH_EXPERT" : [],
+    "BLACKSMITH_GRANDMASTER" : [],
+    "BLACKSMITH_JOURNEYMAN" : [],
+    "BLACKSMITH_MASTER" : [],
+    "BLACKSMITH_NOVICE" : [],
+
+    "BUILDER_APPRENTICE" : [],
+    "BUILDER_EXPERT" : [],
+    "BUILDER_GRANDMASTER" : [],
+    "BUILDER_JOURNEYMAN" : [],
+    "BUILDER_MASTER" : [],
+    "BUILDER_NOVICE" : [],
+
+    "FARMER_NOVICE" : [],
+    "FARMER_APPRENTICE" : [],
+    "FARMER_JOURNEYMAN" : [
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:apple"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:apple_bread"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:chicken"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:raw_meat_sandwich"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:rabbit"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:raw_meat_sandwich"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:beef"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:red_meat_sandwich"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:mutton"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:raw_meat_sandwich"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:chicken"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:raw_meat_sandwich"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:porkchop"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:raw_ham_sandwich"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:wheat"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:grain_bread"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:potato"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:potato_sandwich"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:carrot"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:carrot_sandwich"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:beetroot"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:beet_sandwich"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:glowberry"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:glowberry_biscuit"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:melon"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:melonpan"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:sweet_berries"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:sweetberry_bread"
+        }
+    ],
+    "FARMER_EXPERT" : [
+        {
+            "cooking_time" : 30,
+            "exp" : 60,
+            "ingredients" : [
+                "minecraft:golden_apple"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:hesperide_bread"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:pitcher_pod"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:pitcher_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:baked_potato"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:aloo_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:pitcher_pod"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:pitcher_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:brown_mushroom"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:mushroom_crostini"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "specialization:fried_egg"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:egg_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:cooked_chicken"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:cooked_meat_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:cooked_rabbit"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:cooked_meat_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:cooked_mutton"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:well_done_meat_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:cooked_beef"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:well_done_meat_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:cooked_porkchop"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:bacon_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:cod"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:raw_cod_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:salmon"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:raw_salmon_crostini"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:tropical_fish"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:tropical_fish_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:pufferfish"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:pufferfish_sandwich"
+        },
+        {
+            "cooking_time" : 30,
+            "exp" : 30,
+            "ingredients" : [
+                "minecraft:cooked_mutton"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:well_done_meat_sandwich"
+        }
+    ],
+    "FARMER_MASTER" : [
+        {
+            "cooking_time" : 60,
+            "exp" : 60,
+            "ingredients" : [
+                "minecraft:red_mushroom"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:mushroom_crostini"
+        },
+        {
+            "cooking_time" : 60,
+            "exp" : 60,
+            "ingredients" : [
+                "minecraft:crimson_fungus"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:crimson_fungus_loaf"
+        },
+        {
+            "cooking_time" : 60,
+            "exp" : 60,
+            "ingredients" : [
+                "minecraft:warped_fungus"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:warped_fungus_swirl"
+        },
+        {
+            "cooking_time" : 60,
+            "exp" : 60,
+            "ingredients" : [
+                "minecraft:crimson_fungus", "cooked_porkchop"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:crimson_fungus_hot_dog"
+        },
+        {
+            "cooking_time" : 60,
+            "exp" : 60,
+            "ingredients" : [
+                "specialization:fried_sniffer_egg"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:sniffer_egg_in_a_basket"
+        },
+        {
+            "cooking_time" : 60,
+            "exp" : 60,
+            "ingredients" : [
+                "minecraft:milk_bucket"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:milk_toast"
+        },
+        {
+            "cooking_time" : 60,
+            "exp" : 60,
+            "ingredients" : [
+                "minecraft:cooked_cod"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:fried_cod_sandwich"
+        },
+        {
+            "cooking_time" : 60,
+            "exp" : 60,
+            "ingredients" : [
+                "minecraft:cooked_salmon"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:cooked_salmon_crostini"
+        }
+    ],
+    "FARMER_GRANDMASTER" : [
+        {
+            "cooking_time" : 75,
+            "exp" : 75,
+            "ingredients" : [
+                "minecraft:golden_carrot_sandwich"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:golden_carrot"
+        },
+        {
+            "cooking_time" : 60,
+            "exp" : 60,
+            "ingredients" : [
+                "minecraft:dried_ghast"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:ghast_crostini"
+        }
+],
+
+    "GUARDSMAN_APPRENTICE" : [],
+    "GUARDSMAN_EXPERT" : [],
+    "GUARDSMAN_GRANDMASTER" : [],
+    "GUARDSMAN_JOURNEYMAN" : [],
+    "GUARDSMAN_MASTER" : [],
+    "GUARDSMAN_NOVICE" : [],
+
+    "HEALER_APPRENTICE" : [],
+    "HEALER_EXPERT" : [],
+    "HEALER_GRANDMASTER" : [],
+    "HEALER_JOURNEYMAN" : [],
+    "HEALER_MASTER" : [],
+    "HEALER_NOVICE" : [],
+
+    "LIBRARIAN_APPRENTICE" : [],
+    "LIBRARIAN_EXPERT" : [],
+    "LIBRARIAN_GRANDMASTER" : [],
+    "LIBRARIAN_JOURNEYMAN" : [],
+    "LIBRARIAN_MASTER" : [],
+    "LIBRARIAN_NOVICE" : [],
+
+    "MINER_APPRENTICE" : [],
+    "MINER_EXPERT" : [],
+    "MINER_GRANDMASTER" : [],
+    "MINER_JOURNEYMAN" : [],
+    "MINER_MASTER" : [],
+    "MINER_NOVICE" : [],
+
+    "possible_ingredients" : [
+        "minecraft:apple",
+        "minecraft:golden_apple",
+        "minecraft:enchanted_golden_apple",
+        "minecraft:melon_slice",
+        "minecraft:glistering_melon_slice",
+        "minecraft:sweet_berries",
+        "minecraft:glow_berries",
+        "minecraft:glowberry",
+        "minecraft:sea_pickle",
+        "minecraft:carrot",
+        "minecraft:golden_carrot",
+        "minecraft:golden_carrot_sandwich",
+        "minecraft:potato",
+        "minecraft:baked_potato",
+        "minecraft:beetroot",
+        "minecraft:nether_wart",
+        "minecraft:pitcher_pod",
+        "minecraft:brown_mushroom",
+        "minecraft:red_mushroom",
+        "minecraft:warped_fungus",
+        "minecraft:crimson_fungus",
+        "minecraft:wheat",
+        "minecraft:egg",
+        "minecraft:turtle_egg",
+        "minecraft:sniffer_egg",
+        "minecraft:milk_bucket",
+        "minecraft:chicken",
+        "minecraft:cooked_chicken",
+        "minecraft:rabbit",
+        "minecraft:cooked_rabbit",
+        "minecraft:mutton",
+        "minecraft:cooked_mutton",
+        "minecraft:beef",
+        "minecraft:cooked_beef",
+        "minecraft:cod",
+        "minecraft:cooked_cod",
+        "minecraft:salmon",
+        "minecraft:cooked_salmon",
+        "minecraft:tropical_fish",
+        "minecraft:pufferfish",
+        "minecraft:dried_kelp",
+        "minecraft:melon",
+        "minecraft:glowberry",
+        "minecraft:porkchop",
+        "minecraft:cooked_porkchop",
+        "cooked_porkchop",
+        "specialization:fried_egg",
+        "specialization:fried_sniffer_egg",
+        "minecraft:dried_ghast"
+    ],
+    "possible_recipients" : [
+        "minecraft:bread"
+    ],
+    "possible_sauces" : [
+        "minecraft:glow_ink_sac",
+        "minecraft:ink_sac",
+        "minecraft:ghast_tear"
+    ],
+    "possible_seasonings" : [
+        "specialization:salt",
+        "minecraft:sugar",
+        "minecraft:cocoa_beans",
+        "minecraft:honey_bottle",
+        "minecraft:glow_lichen",
+        "minecraft:blaze_powder"
+    ]
+}

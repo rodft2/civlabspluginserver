@@ -1,0 +1,24 @@
+items:  
+  specialization:sweetberry_bread:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.sweetberry_bread>
+      components:
+        minecraft:max_stack_size: 8
+        minecraft:food:  
+          nutrition: 7
+          saturation: 7
+          can_always_eat: false
+ 
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/sweetberry_bread
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/sweetberry_bread 
+    settings:  
+      can-place: false  
+translations:
+  en:
+    item.sweetberry_bread: Sweetberry Bread

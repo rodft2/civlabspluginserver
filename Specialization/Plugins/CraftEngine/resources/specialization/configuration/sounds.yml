@@ -25,3 +25,8 @@ sounds:
       - name: "minecraft:metal_detector_find_2"
         volume: 1.0
         pitch: 1.0
+  specialization:cooking_success:
+    sounds:
+      - name: "minecraft:cooking_success"
+        volume: 1.0
+        pitch: 1.0

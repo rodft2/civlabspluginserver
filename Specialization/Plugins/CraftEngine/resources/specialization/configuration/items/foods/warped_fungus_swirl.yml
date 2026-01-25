@@ -1,0 +1,31 @@
+items:  
+  specialization:warped_fungus_swirl:  
+    material: beetroot
+    data:  
+      item-name: <!i><white><l10n:item.warped_fungus_swirl>
+      components:
+        minecraft:max_stack_size: 8
+        minecraft:food:  
+          nutrition: 10
+          saturation: 12
+          can_always_eat: false
+        # gives 4 xp
+    events:  
+      - on: consume  
+        functions:  
+          - type: set_exp  
+            target: self  
+            count: 4 
+            add: true
+    model:  
+      type: minecraft:model  
+      path: minecraft:item/custom/foods/warped_fungus_swirl
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/foods/warped_fungus_swirl 
+    settings:
+      can-place: false
+translations:
+  en:
+    item.warped_fungus_swirl: Warped Fungus Swirl
