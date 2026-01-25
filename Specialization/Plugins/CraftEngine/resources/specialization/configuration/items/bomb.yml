@@ -1,0 +1,22 @@
+items:  
+  specialization:bomb:
+    material: snowball
+    behavior:
+      type: specialization:throwable_explosive_behavior
+      materials: [ "stone", "dirt", "grass_block" ]
+      radius: 5.0
+      strength: 15.0
+      delay: 20
+      cooldown: 60
+    data:
+      item-name: <!i><white><l10n:item.bomb>
+    model:
+      type: minecraft:model  
+      path: minecraft:item/custom/bomb
+      generation:  
+        parent: minecraft:item/generated  
+        textures:  
+          layer0: minecraft:item/custom/bomb
+translations:
+  en:
+    item.bomb: Bomb

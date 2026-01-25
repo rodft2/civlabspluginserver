@@ -1112,5 +1112,7 @@
     "GUARDSMAN" : {},
     "HEALER" : {},
     "LIBRARIAN" : {},
-    "MINER" : {}
+    "MINER" : {
+      "SPECIALIZATION_MORTAR": 0
+    }
 }
