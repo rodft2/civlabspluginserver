@@ -12,8 +12,8 @@
         "foodCost" : 0.5   
       },
       {
-        "item" : "SPECIALIZATION_FLOUR",
-        "amount": 3,
+        "item" : "specialization:flour",
+        "amount": 1,
         "level" : 1,
         "xp" : 1,
         "chance": 0.50,

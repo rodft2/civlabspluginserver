@@ -20,25 +20,25 @@ items:
     settings:  
       can-place: false
 recipes:  
-  specialization:smelting_cooked_meat_sandwich:  
-    type: smelting  
-    experience: 0.35  
-    category: food  
-    time: 1000
-    ingredient: "specialization:raw_meat_sandwich"
-    result:
-      id: specialization:cooked_meat_sandwich  
-      count: 1
+    specialization:smelting_cooked_meat_sandwich_rabbit:
+      type: smelting
+      experience: 0.35
+      category: food
+      time: 1000
+      ingredient: "specialization:raw_rabbit_sandwich"
+      result:
+        id: specialization:cooked_meat_sandwich
+        count: 1
       
-    specialization:smoked_cooked_meat_sandwich:  
-    type: smoking  
-    experience: 0.35  
-    category: food  
-    time: 500
-    ingredient: "specialization:cooked_meat_sandwich"
-    result:
-      id: specialization:cooked_meat_sandwich  
-      count: 1 
+    specialization:smoked_cooked_meat_sandwich_chicken:
+      type: smoking
+      experience: 0.35
+      category: food
+      time: 500
+      ingredient: "specialization:raw_chicken_sandwich"
+      result:
+        id: specialization:cooked_meat_sandwich
+        count: 1
 translations:
   en:
     item.cooked_meat_sandwich: Cooked Meat Sandwich

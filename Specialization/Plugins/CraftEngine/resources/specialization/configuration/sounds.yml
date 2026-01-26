@@ -30,3 +30,8 @@ sounds:
       - name: "minecraft:cooking_success"
         volume: 1.0
         pitch: 1.0
+    specialization:cooking_fail:
+    sounds:
+      - name: "minecraft:cooking_fail"
+        volume: 1.0
+        pitch: 0.8

@@ -17,6 +17,8 @@ items:
         parent: minecraft:item/generated  
         textures:  
           layer0: minecraft:item/custom/foods/cooked_salmon_crostini
+    settings:
+      can-place: false
 recipes:
     specialization:smoking_cooked_salmon_crostini:  
       type: smoking  
@@ -37,8 +39,6 @@ recipes:
       result:
         id: specialization:cooked_salmon_crostini  
         count: 1
-    settings:
-      can-place: false
 translations:
   en:
     item.cooked_salmon_crostini: Cooked Salmon Crostini

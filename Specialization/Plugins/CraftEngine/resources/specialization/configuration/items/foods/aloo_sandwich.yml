@@ -22,14 +22,14 @@ items:
   
 recipes:  
   specialization:smelting_cooked_aloo_sandwich:  
-    type: smelting  
-    experience: 0.35  
-    category: food  
-    time: 1000
-    ingredient: "specialization:potato_sandwich"
-    result:
-      id: specialization:aloo_sandwich  
-      count: 1
+      type: smelting
+      experience: 0.35
+      category: food
+      time: 1000
+      ingredient: "specialization:potato_sandwich"
+      result:
+          id: specialization:aloo_sandwich
+          count: 1
       
     specialization:smoked_cooked_aloo_sandwich:  
     type: smoking  

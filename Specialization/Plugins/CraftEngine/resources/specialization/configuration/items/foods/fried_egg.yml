@@ -54,14 +54,14 @@ recipes:
     experience: 0.35  
     category: food  
     time: 1200
-    ingredient: minecraft:turtle_egg  
-    result:  
+    ingredient: minecraft:turtle_egg
+    result:
       id: specialization:fried_egg  
       count: 1
-    specialization:smelting_fried_egg_from_egg:  
-    type: smelting  
-    experience: 0.35  
-    category: food  
+  specialization:smelting_fried_egg_from_egg:
+    type: smelting
+    experience: 0.35
+    category: food
     time: 1200
     ingredient: "minecraft:egg"
     result:

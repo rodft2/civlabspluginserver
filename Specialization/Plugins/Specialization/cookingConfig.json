@@ -32,7 +32,7 @@
                 "minecraft:chicken"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:raw_meat_sandwich"
+            "result" : "specialization:raw_chicken_sandwich"
         },
         {
             "cooking_time" : 15,
@@ -41,7 +41,7 @@
                 "minecraft:rabbit"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:raw_meat_sandwich"
+            "result" : "specialization:raw_rabbit_sandwich"
         },
         {
             "cooking_time" : 15,
@@ -50,7 +50,7 @@
                 "minecraft:beef"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:red_meat_sandwich"
+            "result" : "specialization:raw_beef_sandwich"
         },
         {
             "cooking_time" : 15,
@@ -59,7 +59,7 @@
                 "minecraft:mutton"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:raw_meat_sandwich"
+            "result" : "specialization:raw_mutton_sandwich"
         },
         {
             "cooking_time" : 15,
@@ -68,7 +68,7 @@
                 "minecraft:chicken"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:raw_meat_sandwich"
+            "result" : "specialization:raw_chicken_sandwich"
         },
         {
             "cooking_time" : 15,
@@ -368,10 +368,10 @@
             "cooking_time" : 75,
             "exp" : 75,
             "ingredients" : [
-                "minecraft:golden_carrot_sandwich"
+                "minecraft:golden_carrot"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:golden_carrot"
+            "result" : "specialization:golden_carrot_sandwich"
         },
         {
             "cooking_time" : 60,

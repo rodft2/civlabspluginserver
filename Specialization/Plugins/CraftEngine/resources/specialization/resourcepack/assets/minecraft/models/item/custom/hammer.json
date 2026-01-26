@@ -3,7 +3,7 @@
 	"credit": "Made by Cecighost",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/mace"
+		"0": "item/custom/mace"
 	},
 	"elements": [
 		{

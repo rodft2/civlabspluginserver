@@ -18,20 +18,7 @@ items:
         textures:  
           layer0: minecraft:item/custom/foods/hesperide_bread 
     settings:  
-      can-place: false  
-  
-recipes:  
-  specialization:hesperide_bread:  
-    type: shaped
-    category: misc
-    pattern:  
-      - AB
-    ingredients:
-      A: minecraft:golden_apple
-      B: minecraft:bread
-    result:  
-      id: specialization:hesperide_bread
-      count: 1
+      can-place: false
 translations:
   en:
     item.hesperide_bread: Hesperide Bread

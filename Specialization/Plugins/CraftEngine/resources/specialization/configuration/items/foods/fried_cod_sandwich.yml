@@ -17,6 +17,8 @@ items:
         parent: minecraft:item/generated  
         textures:  
           layer0: minecraft:item/custom/foods/fried_cod_sandwich
+    settings:
+      can-place: false
 recipes:
     specialization:smoking_fried_cod_sandwich:  
       type: smoking  
@@ -37,8 +39,6 @@ recipes:
       result:
         id: specialization:fried_cod_sandwich  
         count: 1
-    settings:
-      can-place: false
 translations:
   en:
     item.fried_cod_sandwich: Fried Cod Sandwich

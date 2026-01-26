@@ -3,6 +3,7 @@ items:
     material: beetroot
     settings:
       compost-probability: 0.3
+      can-place: false
     data:  
       item-name: <!i><white><l10n:item.dubious_food>
       components:
@@ -26,8 +27,6 @@ items:
         parent: minecraft:item/generated  
         textures:  
           layer0: minecraft:item/custom/foods/dubious_food
-    settings:  
-      can-place: false
 translations:
   en:
     item.dubious_food: Dubious Food
