@@ -31,15 +31,15 @@ recipes:
           id: specialization:aloo_sandwich
           count: 1
       
-    specialization:smoked_cooked_aloo_sandwich:  
-    type: smoking  
-    experience: 0.35  
-    category: food  
-    time: 500 
-    ingredient: "specialization:potato_sandwich"
-    result:
-      id: specialization:aloo_sandwich  
-      count: 1 
+  specialization:smoked_cooked_aloo_sandwich:
+      type: smoking
+      experience: 0.35
+      category: food
+      time: 500
+      ingredient: "specialization:potato_sandwich"
+      result:
+        id: specialization:aloo_sandwich
+        count: 1
 translations:
   en:
     item.aloo_sandwich: Aloo Sandwich
