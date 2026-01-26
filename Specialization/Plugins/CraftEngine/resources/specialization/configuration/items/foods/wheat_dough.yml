@@ -37,8 +37,8 @@ recipes:
     type: shaped
     category: misc
     pattern:
-      - AAA
-      -  B
+      - 'AAA'
+      - ' B '
     ingredients:
       A: specialization:flour
       B: minecraft:water_bucket
