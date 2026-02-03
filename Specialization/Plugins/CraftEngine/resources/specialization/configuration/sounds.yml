@@ -30,8 +30,13 @@ sounds:
       - name: "minecraft:cooking_success"
         volume: 1.0
         pitch: 1.0
-    specialization:cooking_fail:
+  specialization:cooking_fail:
     sounds:
       - name: "minecraft:cooking_fail"
         volume: 1.0
         pitch: 0.8
+  specialization:hero_of_the_village:
+    sounds:
+      - name: "minecraft:ui.toast.challenge_complete"
+        volume: 1.0
+        pitch: 2.0

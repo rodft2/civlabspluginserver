@@ -1,0 +1,21 @@
+items:
+  specialization:hero_of_the_village:
+    material: totem_of_undying
+    data:
+      item-name: <!i><gold><l10n:item.hero_of_the_village>
+      lore:
+        - <!i><gray><l10n:item.hero_of_the_village.lore>
+    model:
+      type: minecraft:model
+      path: minecraft:item/custom/hero_of_the_village
+      generation:
+        parent: minecraft:item/generated
+        textures:
+          layer0: minecraft:item/custom/hero_of_the_village
+    settings:
+      can-place: false
+
+translations:
+  en:
+    item.hero_of_the_village: Hero of the Village
+    item.hero_of_the_village.lore: A symbol of honor and gratitude

@@ -9,15 +9,8 @@ items:
           nutrition: 10
           saturation: 12
           can_always_eat: false
-        # gives 4 xp
-    events:  
-      - on: consume  
-        functions:  
-          - type: set_exp  
-            target: self  
-            count: 4 
-            add: true
-    model:  
+    # Effects now handled by cookingConfig.json
+    model:
       type: minecraft:model  
       path: minecraft:item/custom/foods/warped_fungus_swirl
       generation:  

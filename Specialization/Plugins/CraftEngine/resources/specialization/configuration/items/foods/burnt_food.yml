@@ -1,6 +1,6 @@
 items:  
   specialization:burnt_food:
-    material: beetroot
+    material: dried_kelp
     data:  
       item-name: <!i><white><l10n:item.burnt_food>
       components:
@@ -9,8 +9,20 @@ items:
           nutrition: 1
           saturation: 1
           can_always_eat: false
- 
-    model:  
+    events:
+      - on: consume
+        functions:
+          - type: potion_effect
+            potion-effect: minecraft:nausea
+            duration: 200
+            amplifier: 0
+            particles: true
+          - type: potion_effect
+            potion-effect: minecraft:poison
+            duration: 100
+            amplifier: 0
+            particles: true
+    model:
       type: minecraft:model  
       path: minecraft:item/custom/foods/burnt_food
       generation:

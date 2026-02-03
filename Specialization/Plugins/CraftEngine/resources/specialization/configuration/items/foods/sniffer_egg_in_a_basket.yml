@@ -9,16 +9,8 @@ items:
           nutrition: 15
           saturation: 23 
           can_always_eat: false
-    #Luxury III (3:30) (exp boost)
-    events:  
-      - on: consume  
-        functions:  
-          - type: potion_effect  
-            potion-effect: minecraft:hero_of_the_village
-            duration: 4200
-            amplifier: 2
-            particles: true     
- 
+    # Effects now handled by cookingConfig.json
+
     model:  
       type: minecraft:model  
       path: minecraft:item/custom/foods/sniffer_egg_in_a_basket

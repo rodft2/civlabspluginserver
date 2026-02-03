@@ -9,16 +9,8 @@ items:
           nutrition: 6
           saturation: 7  
           can_always_eat: false
-    #Luxury I (0:30) (exp boost)
-    events:  
-      - on: consume
-        functions:  
-          - type: potion_effect  
-            potion-effect: minecraft:hero_of_the_village
-            duration: 600
-            amplifier: 0
-            particles: true
- 
+    # Effects now handled by cookingConfig.json
+
     model:  
       type: minecraft:model  
       path: minecraft:item/custom/foods/sea_pickle_sandwich

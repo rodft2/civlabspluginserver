@@ -119,10 +119,13 @@
             "cooking_time" : 15,
             "exp" : 15,
             "ingredients" : [
-                "minecraft:glowberry"
+                "minecraft:glow_berries"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:glowberry_biscuit"
+            "result" : "specialization:glowberry_biscuit",
+            "effects" : [
+                {"effect": "minecraft:glowing", "duration": 600, "amplifier": 0}
+            ]
         },
         {
             "cooking_time" : 15,
@@ -135,12 +138,49 @@
         },
         {
             "cooking_time" : 15,
+            "exp" : 20,
+            "ingredients" : [
+                "minecraft:glistering_melon_slice"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:glistering_melonpan",
+            "effects" : [
+                {"effect": "minecraft:instant_health", "duration": 20, "amplifier": 0}
+            ],
+            "bonus_exp" : 3
+        },
+        {
+            "cooking_time" : 15,
             "exp" : 15,
             "ingredients" : [
                 "minecraft:sweet_berries"
             ],
             "recipient" : "minecraft:bread",
             "result" : "specialization:sweetberry_bread"
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:sea_pickle"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:sea_pickle_sandwich",
+            "effects" : [
+                {"effect": "minecraft:hero_of_the_village", "duration": 600, "amplifier": 0}
+            ]
+        },
+        {
+            "cooking_time" : 15,
+            "exp" : 15,
+            "ingredients" : [
+                "minecraft:tropical_fish"
+            ],
+            "recipient" : "minecraft:bread",
+            "result" : "specialization:tropical_sandwich",
+            "effects" : [
+                {"effect": "minecraft:hero_of_the_village", "duration": 1200, "amplifier": 0}
+            ]
         }
     ],
     "FARMER_EXPERT" : [
@@ -160,7 +200,10 @@
                 "minecraft:pitcher_pod"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:pitcher_sandwich"
+            "result" : "specialization:pitcher_sandwich",
+            "effects" : [
+                {"effect": "minecraft:hero_of_the_village", "duration": 1800, "amplifier": 1}
+            ]
         },
         {
             "cooking_time" : 30,
@@ -170,15 +213,6 @@
             ],
             "recipient" : "minecraft:bread",
             "result" : "specialization:aloo_sandwich"
-        },
-        {
-            "cooking_time" : 30,
-            "exp" : 30,
-            "ingredients" : [
-                "minecraft:pitcher_pod"
-            ],
-            "recipient" : "minecraft:bread",
-            "result" : "specialization:pitcher_sandwich"
         },
         {
             "cooking_time" : 30,
@@ -268,7 +302,10 @@
                 "minecraft:tropical_fish"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:tropical_fish_sandwich"
+            "result" : "specialization:tropical_fish_sandwich",
+            "effects" : [
+                {"effect": "minecraft:hero_of_the_village", "duration": 1200, "amplifier": 0}
+            ]
         },
         {
             "cooking_time" : 30,
@@ -277,7 +314,10 @@
                 "minecraft:pufferfish"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:pufferfish_sandwich"
+            "result" : "specialization:pufferfish_sandwich",
+            "effects" : [
+                {"effect": "minecraft:hero_of_the_village", "duration": 1200, "amplifier": 1}
+            ]
         },
         {
             "cooking_time" : 30,
@@ -306,7 +346,8 @@
                 "minecraft:crimson_fungus"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:crimson_fungus_loaf"
+            "result" : "specialization:crimson_fungus_loaf",
+            "bonus_exp" : 3
         },
         {
             "cooking_time" : 60,
@@ -315,7 +356,8 @@
                 "minecraft:warped_fungus"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:warped_fungus_swirl"
+            "result" : "specialization:warped_fungus_swirl",
+            "bonus_exp" : 4
         },
         {
             "cooking_time" : 60,
@@ -324,7 +366,8 @@
                 "minecraft:crimson_fungus", "cooked_porkchop"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:crimson_fungus_hot_dog"
+            "result" : "specialization:crimson_fungus_hot_dog",
+            "bonus_exp" : 3
         },
         {
             "cooking_time" : 60,
@@ -333,7 +376,10 @@
                 "specialization:fried_sniffer_egg"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:sniffer_egg_in_a_basket"
+            "result" : "specialization:sniffer_egg_in_a_basket",
+            "effects" : [
+                {"effect": "minecraft:hero_of_the_village", "duration": 4200, "amplifier": 2}
+            ]
         },
         {
             "cooking_time" : 60,
@@ -380,7 +426,11 @@
                 "minecraft:dried_ghast"
             ],
             "recipient" : "minecraft:bread",
-            "result" : "specialization:ghast_crostini"
+            "result" : "specialization:ghast_crostini",
+            "effects" : [
+                {"effect": "minecraft:hero_of_the_village", "duration": 900, "amplifier": 3},
+                {"effect": "minecraft:levitation", "duration": 60, "amplifier": 0}
+            ]
         }
 ],
 
@@ -458,7 +508,6 @@
         "minecraft:glowberry",
         "minecraft:porkchop",
         "minecraft:cooked_porkchop",
-        "cooked_porkchop",
         "specialization:fried_egg",
         "specialization:fried_sniffer_egg",
         "minecraft:dried_ghast"

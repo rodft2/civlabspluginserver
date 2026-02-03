@@ -9,15 +9,8 @@ items:
           nutrition: 10
           saturation: 11
           can_always_eat: false
-    # gives 3 xp
-    events:  
-      - on: consume  
-        functions:  
-          - type: set_exp  
-            target: self  
-            count: 3  
-            add: true
- 
+    # Effects now handled by cookingConfig.json
+
     model:  
       type: minecraft:model  
       path: minecraft:item/custom/foods/crimson_fungus_loaf

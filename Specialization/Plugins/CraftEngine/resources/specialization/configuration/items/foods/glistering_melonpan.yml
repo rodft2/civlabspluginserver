@@ -9,21 +9,8 @@ items:
           nutrition: 8
           saturation: 10
           can_always_eat: false
-    # Instant Health I (00:01), +3 Exp
-    events:
-      - on: consume  
-        functions:  
-          - type: potion_effect  
-            potion-effect: minecraft:instant_health
-            duration: 20
-            amplifier: 0
-            particles: true 
-          - type: set_exp  
-            target: self  
-            count: 3  
-            add: true
-    
- 
+    # Effects now handled by cookingConfig.json
+
     model:  
       type: minecraft:model  
       path: minecraft:item/custom/foods/glistering_melonpan

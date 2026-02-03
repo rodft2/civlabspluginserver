@@ -8,7 +8,7 @@ items:
         minecraft:food:  
           nutrition: 9
           saturation: 15
-          can_always_eat: false
+          can_always_eat: true
  
     model:  
       type: minecraft:model  

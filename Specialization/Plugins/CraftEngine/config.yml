@@ -213,8 +213,8 @@ resource-pack:
       # Prevent a single IP from sending too many resource pack download requests in a short time period
       #  5 requests per 60 seconds
       - type: "self"
-        ip: "localhost"
-        port: 8163
+        ip: "84.113.48.136"
+        port: 8123
         protocol: "http"
         deny-non-minecraft-request: true
         one-time-token: true
