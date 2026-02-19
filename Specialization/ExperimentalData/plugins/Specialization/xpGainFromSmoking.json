@@ -1,0 +1,20 @@
+{
+    "BLACKSMITH" : {},
+    "BUILDER" : {},
+    "FARMER" : {
+        "BAKED_POTATO" : 3,
+        "COOKED_BEEF" : 3,
+        "COOKED_CHICKEN" : 3,
+        "COOKED_COD" : 3,
+        "COOKED_MUTTON" : 3,
+        "COOKED_PORKCHOP" : 3,
+        "COOKED_RABBIT" : 3,
+        "COOKED_SALMON" : 3,
+        "DRIED_KELP" : 3,
+        "SPECIALIZATION_FRIED_EGG" : 3
+    },
+    "GUARDSMAN" : {},
+    "HEALER" : {},
+    "LIBRARIAN" : {},
+    "MINER" : {}
+}

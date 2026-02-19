@@ -1,0 +1,11 @@
+{
+    "ALLOW_BED_SHARING" : false,
+    "BED_CLAIM_MESSAGE" : "§aYou have claimed this bed as your spawn point!",
+    "BED_OWNERSHIP_ENABLED" : true,
+    "BED_OWNERSHIP_MESSAGE" : "§cThis bed is already claimed by another player!",
+    "BED_RESPAWN_HUNGER_DIVISOR" : 3,
+    "BED_RESPAWN_HUNGER_REDUCTION_ENABLED" : true,
+    "BED_RESPAWN_MINIMUM_HUNGER" : 1,
+    "BED_RESPAWN_SHOW_MESSAGE" : true,
+    "BED_UNCLAIM_MESSAGE" : "§7Your previous bed has been unclaimed."
+}
