@@ -37,6 +37,10 @@
     "minecraft:bucket"
   ],
   "BLACKSMITH_JOURNEYMAN": [
+    "farmersdelight:skillet",
+    "farmersdelight:cooking_pot",
+    "farmersdelight:iron_knife",
+    "farmersdelight:stove",
     "minecraft:iron_pickaxe",
     "minecraft:iron_axe",
     "minecraft:iron_sword",
@@ -55,7 +59,8 @@
     "minecraft:iron_door",
     "minecraft:wolf_armor",
     "minecraft:iron_trapdoor",
-    "minecraft:turtle_helmet"
+    "minecraft:turtle_helmet",
+    "overgeared:iron_arrow"
   ],
   "BLACKSMITH_EXPERT": [
     "minecraft:golden_pickaxe",
@@ -67,6 +72,9 @@
     "minecraft:golden_chestplate",
     "minecraft:golden_leggings",
     "minecraft:golden_boots",
+    "farmersdelight:golden_knife",
+    "overgeared:steel_arrow",
+    "overgeared:alloy_furnace",
     "overgeared:crude_steel",
     "overgeared:steal_hammer_head",
     "overgeared:steel_axe",
@@ -92,7 +100,10 @@
     "minecraft:diamond_helmet",
     "minecraft:diamond_chestplate",
     "minecraft:diamond_leggings",
-    "minecraft:diamond_boots"
+    "minecraft:diamond_boots",
+    "farmersdelight:diamond_knife",
+    "overgeared:diamond_arrow",
+    "overgeared:nether_alloy_furnace"
   ],
   "BLACKSMITH_GRANDMASTER": [
     "minecraft:netherite_pickaxe",
@@ -105,8 +116,8 @@
     "minecraft:netherite_leggings",
     "minecraft:netherite_boots",
     "minecraft:netherite_upgrade_smithing_template",
-    "minecraft:mace",
-    "minecraft:crafter"
+    "farmersdelight:netherite_knife",
+    "overgeared:casting_furnace"
   ],
   "BUILDER_NOVICE": [],
   "BUILDER_APPRENTICE": [
@@ -344,22 +355,32 @@
   "GUARDSMAN_MASTER": [],
   "GUARDSMAN_GRANDMASTER": ["crusty_chunks:fusion_bomb"],
   "HEALER_NOVICE": [],
-  "HEALER_APPRENTICE": [
-    "specialization:bandage_recipe"
-  ],
-  "HEALER_JOURNEYMAN": [
-    "minecraft:suspicious_stew"
-  ],
-  "HEALER_EXPERT": [
-    "minecraft:golden_apple"
-  ],
-  "HEALER_MASTER": [
+  "HEALER_APPRENTICE" : ["marbledsfirstaid:bandaid", "marbledsfirstaid:bandaid_box"],
+  "HEALER_EXPERT" : [
+    "minecraft:nether_wart",
     "minecraft:blaze_rod",
-    "minecraft:brewing_stand"
+    "minecraft:brewing_stand",
+    "minecraft:suspicious_stew",
+    "marbledsfirstaid:medicine_bottle",
+    "marbledsfirstaid:morphine",
+    "marbledsfirstaid:syringe",
+    "marbledsfirstaid:morphine_syringe"
   ],
-  "HEALER_GRANDMASTER": [
-    "minecraft:nether_wart"
+  "HEALER_GRANDMASTER" : [
+    "marbledsfirstaid:medkit",
+    "marbledsfirstaid:medical_bag",
+    "marbledsfirstaid:panacea_pills"
   ],
+  "HEALER_JOURNEYMAN" : [
+    "marbledsfirstaid:pill_bottle",
+    "marbledsfirstaid:pain_pills",
+    "marbledsfirstaid:bandages"
+  ],
+  "HEALER_MASTER" : [
+    "minecraft:golden_apple",
+    "marbledsfirstaid:adrenaline_syringe",
+    "marbledsfirstaid:first_aid_kit",
+    "marbledsfirstaid:stimpack"],
   "LIBRARIAN_NOVICE": [],
   "LIBRARIAN_APPRENTICE": [],
   "LIBRARIAN_JOURNEYMAN": [],
