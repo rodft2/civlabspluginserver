@@ -376,7 +376,8 @@
     "farmersdelight:stuffed_potato",
     "farmersdelight:salmon_roll",
     "farmersdelight:cod_roll",
-    "farmersdelight:rice_roll_medley_block"
+    "farmersdelight:rice_roll_medley_block",
+    "farmersdelight:melon_juice"
   ],
   "FARMER_EXPERT": [
     "minecraft:lead",
@@ -412,7 +413,8 @@
     "marbledsfirstaid:bandaid",
     "marbledsfirstaid:bandaid_box",
     "farmersdelight:fruit_salad",
-    "farmersdelight:mixed_salad"
+    "farmersdelight:mixed_salad",
+    "farmersdelight:melon_juice"
   ],
   "HEALER_EXPERT": [
     "minecraft:nether_wart",
