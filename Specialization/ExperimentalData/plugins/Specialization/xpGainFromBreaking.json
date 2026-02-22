@@ -849,7 +849,7 @@
       "SEA_LANTERN": 0,
       "SEA_PICKLE": 0,
       "SHORT_DRY_GRASS": 0,
-      "GRASS": 0,
+      "GRASS": 0.5,
       "SHROOMLIGHT": 0,
       "SHULKER_BOX": 0,
       "SKELETON_SKULL": 0,

@@ -255,13 +255,13 @@
 	weightPoorQuality = 50
 	#Weight for Well quality for loot-tools/weapons. Set to 0 to disable.
 	#Range: > 0
-	weightWellQuality = 30
+	weightWellQuality = 1
 	#Weight for Expert quality for loot-tools/weapons. Set to 0 to disable.
 	#Range: > 0
-	weightExpertQuality = 10
+	weightExpertQuality = 1
 	#Weight for Perfect quality for loot-tools/weapons. Set to 0 to disable.
 	#Range: > 0
-	weightPerfectQuality = 5
+	weightPerfectQuality = 1
 	#Weight for Master quality for loot-tools/weapons. Set to 0 to disable.
 	#Range: > 0
 	weightMasterQuality = 1

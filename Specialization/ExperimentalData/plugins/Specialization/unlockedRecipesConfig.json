@@ -30,6 +30,7 @@
     "overgeared:copper_chestplate",
     "overgeared:copper_leggings",
     "overgeared:copper_boots",
+    "prospectingpicks:copper_prospector_pick",
     "minecraft:copper_block",
     "minecraft:lightning_rod",
     "minecraft:brush",
@@ -57,6 +58,7 @@
     "minecraft:iron_trapdoor",
     "minecraft:turtle_helmet",
     "overgeared:iron_arrow",
+    "prospectingpicks:iron_prospector_pick",
     "farmersdelight:skillet",
     "cuisinedelight:cuisine_skillet",
     "farmersdelight:cooking_pot",
@@ -102,6 +104,7 @@
     "minecraft:diamond_chestplate",
     "minecraft:diamond_leggings",
     "minecraft:diamond_boots",
+    "prospectingpicks:diamond_prospector_pick",
     "farmersdelight:diamond_knife",
     "overgeared:diamond_arrow",
     "overgeared:nether_alloy_furnace"
@@ -117,6 +120,7 @@
     "minecraft:netherite_leggings",
     "minecraft:netherite_boots",
     "minecraft:netherite_upgrade_smithing_template",
+    "prospectingpicks:netherite_prospector_pick",
     "farmersdelight:netherite_knife",
     "overgeared:casting_furnace"
   ],
@@ -173,7 +177,7 @@
     "farmersdelight:cherry_cabinet",
     "farmersdelight:bamboo_cabinet",
     "farmersdelight:canvas_rug",
-    "farmersdelight:tatami_block",
+    "farmersdelight:tatami",
     "farmersdelight:half_tatami_mat",
     "farmersdelight:full_tatami_mat"
   ],
@@ -231,12 +235,12 @@
     "minecraft:cut_sandstone_slab",
     "minecraft:sandstone_stairs",
     "minecraft:red_sandstone",
-    "minecraft:red_chiseled_sandstone",
-    "minecraft:red_cut_sandstone",
-    "minecraft:red_smooth_sandstone",
+    "minecraft:chiseled_red_sandstone",
+    "minecraft:cut_red_sandstone",
+    "minecraft:smooth_red_sandstone",
     "minecraft:red_sandstone_slab",
-    "minecraft:red_cut_sandstone_slab",
-    "minecraft:red_smooth_sandstone_slab",
+    "minecraft:cut_red_sandstone_slab",
+    "minecraft:smooth_red_sandstone_slab",
     "minecraft:red_sandstone_stairs",
     "minecraft:white_terracotta",
     "minecraft:gray_terracotta",
@@ -253,7 +257,15 @@
     "minecraft:purple_terracotta",
     "minecraft:magenta_terracotta",
     "minecraft:pink_terracotta",
-    "minecraft:cyan_terracotta"
+    "minecraft:cyan_terracotta",
+    "secretroomsmod:secret_pressure_plate",
+    "secretroomsmod:switch_probe",
+    "secretroomsmod:torch_lever",
+    "secretroomsmod:secret_trapdoor",
+    "secretroomsmod:secret_door",
+    "secretroomsmod:secret_chest",
+    "secretroomsmod:secret_trapped_chest"
+
   ],
   "BUILDER_EXPERT": [
     "minecraft:scaffolding",
@@ -273,9 +285,8 @@
     "minecraft:green_concrete_powder",
     "minecraft:red_concrete_powder",
     "minecraft:black_concrete_powder",
-    "minecraft:tuff_bricks",
     "minecraft:nether_bricks",
-    "minecraft:blackstone_bricks",
+    "minecraft:polished_blackstone_bricks",
     "minecraft:nether_brick_slab",
     "minecraft:nether_brick_stairs",
     "minecraft:nether_brick_wall",
@@ -291,16 +302,21 @@
     "minecraft:polished_blackstone_wall",
     "minecraft:polished_blackstone_button",
     "minecraft:polished_blackstone_pressure_plate",
-    "minecraft:blackstone_brick_slab",
-    "minecraft:blackstone_brick_stairs",
-    "minecraft:blackstone_brick_wall",
+    "minecraft:polished_blackstone_brick_slab",
+    "minecraft:polished_blackstone_brick_stairs",
+    "minecraft:polished_blackstone_brick_wall",
     "minecraft:chiseled_nether_bricks",
     "minecraft:basalt",
     "minecraft:polished_basalt",
     "minecraft:daylight_detector",
     "minecraft:repeater",
     "minecraft:comparator",
-    "minecraft:dropper"
+    "minecraft:dropper",
+    "secretroomsmod:ghost_block",
+    "secretroomsmod:secret_stairs",
+    "secretroomsmod:secret_stone_button",
+    "secretroomsmod:secret_wooden_button",
+    "secretroomsmod:secret_lever"
   ],
   "BUILDER_MASTER": [
     "minecraft:prismarine_bricks",
@@ -313,7 +329,7 @@
     "minecraft:chiseled_quartz_block",
     "minecraft:quartz_bricks",
     "minecraft:quartz_pillar",
-    "minecraft:smooth_quartz_block",
+    "minecraft:smooth_quartz",
     "minecraft:quartz_slab",
     "minecraft:smooth_quartz_slab",
     "minecraft:smooth_quartz_stairs",
@@ -335,12 +351,22 @@
     "minecraft:red_glazed_terracotta",
     "minecraft:black_glazed_terracotta",
     "minecraft:redstone_lamp",
-    "minecraft:noteblock",
+    "minecraft:note_block",
     "minecraft:dispenser",
     "minecraft:calibrated_sculk_sensor",
-    "minecraft:observer"
+    "minecraft:observer",
+    "secretroomsmod:secret_daylight_detector",
+    "secretroomsmod:secret_redstone",
+    "secretroomsmod:one_way_glass"
   ],
-  "BUILDER_GRANDMASTER": [],
+  "BUILDER_GRANDMASTER": [
+    "secretroomsmod:secret_player_pressure_plate",
+    "secretroomsmod:secret_iron_trapdoor",
+    "secretroomsmod:secret_iron_door",
+    "secretroomsmod:secret_observer",
+    "secretroomsmod:secret_dummy_block",
+    "secretroomsmod:secret_gate"
+  ],
   "FARMER_NOVICE": [
     "minecraft:smoker"
   ],
@@ -443,11 +469,21 @@
     "marbledsfirstaid:stimpack"
   ],
   "LIBRARIAN_NOVICE": [],
-  "LIBRARIAN_APPRENTICE": [],
-  "LIBRARIAN_JOURNEYMAN": [],
-  "LIBRARIAN_EXPERT": [],
-  "LIBRARIAN_MASTER": [],
-  "LIBRARIAN_GRANDMASTER": [],
+  "LIBRARIAN_APPRENTICE": [
+    "trashcompactor:trash_compactor"
+  ],
+  "LIBRARIAN_JOURNEYMAN": [
+    "minecraft:cartography"
+  ],
+  "LIBRARIAN_EXPERT": [
+    "minecraft:ender_chest"
+  ],
+  "LIBRARIAN_MASTER": [
+    "minecraft:enchanting_table"
+  ],
+  "LIBRARIAN_GRANDMASTER": [
+    "enchantinginfuser:enchanting_infuser"
+  ],
   "MINER_NOVICE": [],
   "MINER_APPRENTICE": [],
   "MINER_JOURNEYMAN": [],
@@ -455,5 +491,14 @@
     "minecraft:tnt"
   ],
   "MINER_MASTER": [],
-  "MINER_GRANDMASTER": []
+  "MINER_GRANDMASTER": [],
+  "mod_blacklist" : ["CREATE", "MARBLEDSFIRSTAID", "SECURITYCRAFT"],
+  "blacklist": ["secretroomsmod:true_vison_goggles",
+    "farmersdelight:cake_from_slices",
+    "farmersdelight:apple_pie_from_slices",
+    "farmersdelight:chocolate_pie_from_slices",
+    "farmersdelight:sweet_berry_cheesecake_from_slices",
+    "minecraft:bread",
+    "enchantinginfuser:advanced_enchanting_infuser"
+  ]
 }
