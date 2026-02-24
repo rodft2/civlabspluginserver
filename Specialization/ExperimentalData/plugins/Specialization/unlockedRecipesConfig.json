@@ -6,7 +6,14 @@
     "minecraft:wooden_sword",
     "minecraft:wooden_hoe",
     "minecraft:wooden_shovel",
-    "minecraft:arrow"
+    "minecraft:arrow",
+    "crafttweaker:cardboard_craft",
+    "create:crafting/appliances/cardboard_leggings",
+    "create:crafting/appliances/cardboard_chestplate",
+    "create:crafting/appliances/cardboard_helmet",
+    "create:crafting/appliances/cardboard_boots",
+    "create:crafting/materials/cardboard_block",
+    "create:crafting/appliances/cardboard_sword"
   ],
   "BLACKSMITH_APPRENTICE": [
     "overgeared:knappable_rock",
@@ -56,13 +63,14 @@
     "minecraft:iron_door",
     "minecraft:iron_trapdoor",
     "minecraft:turtle_helmet",
+    "cartridge_shapeless",
+    "musketmod:pistol",
     "overgeared:iron_arrow",
     "prospectingpicks:iron_prospector_pick",
     "farmersdelight:skillet",
     "cuisinedelight:cuisine_skillet",
     "farmersdelight:cooking_pot",
-    "farmersdelight:iron_knife",
-    "farmersdelight:stove"
+    "farmersdelight:iron_knife"
   ],
   "BLACKSMITH_EXPERT": [
     "minecraft:golden_pickaxe",
@@ -88,6 +96,8 @@
     "overgeared:steel_chestplate",
     "overgeared:steel_leggings",
     "overgeared:steel_boots",
+    "musketmod:musket",
+    "musketmod:musket_with_bayonet",
     "minecraft:lava_bucket",
     "minecraft:smithing_table",
     "minecraft:powered_rail",
@@ -103,6 +113,8 @@
     "minecraft:diamond_chestplate",
     "minecraft:diamond_leggings",
     "minecraft:diamond_boots",
+    "musketmod:blunderbuss",
+    "musketmod:musket_with_scope",
     "prospectingpicks:diamond_prospector_pick",
     "farmersdelight:diamond_knife",
     "overgeared:diamond_arrow",
@@ -175,6 +187,7 @@
     "farmersdelight:mangrove_cabinet",
     "farmersdelight:cherry_cabinet",
     "farmersdelight:bamboo_cabinet",
+    "collectorsreap:lucuma_cabinet",
     "farmersdelight:canvas_rug",
     "farmersdelight:tatami",
     "farmersdelight:half_tatami_mat",
@@ -311,6 +324,7 @@
     "minecraft:repeater",
     "minecraft:comparator",
     "minecraft:dropper",
+    "farmersdelight:stove",
     "secretroomsmod:ghost_block",
     "secretroomsmod:secret_stairs",
     "secretroomsmod:secret_stone_button",
@@ -374,6 +388,7 @@
     "minecraft:cookie",
     "farmersdelight:wheat_dough",
     "farmersdelight:sweet_berry_cookie",
+    "collectorsreap:lime_cookie",
     "farmersdelight:honey_cookie",
     "farmersdelight:fruit_salad",
     "farmersdelight:mixed_salad",
@@ -391,7 +406,6 @@
     "farmersdelight:apple_pie",
     "farmersdelight:sweet_berry_cheesecake",
     "farmersdelight:chocolate_pie",
-    "farmersdelight:melon_popsicle",
     "farmersdelight:barbecue_stick",
     "farmersdelight:chicken_sandwich",
     "farmersdelight:hamburger",
@@ -401,19 +415,41 @@
     "farmersdelight:salmon_roll",
     "farmersdelight:cod_roll",
     "farmersdelight:rice_roll_medley_block",
-    "farmersdelight:melon_juice"
+    "farmersdelight:melon_juice",
+    "farmersdelight:melon_popsicle"
   ],
   "FARMER_EXPERT": [
     "minecraft:lead",
-    "farmersdelight:rice"
+    "farmersdelight:rice",
+    "collectorsreap:portobello_quiche",
+    "collectorsreap:lime_pie",
+    "collectorsreap:lime_cake",
+    "collectorsreap:pomegranate_cake",
+    "collectorsreap:pink_dragon_fruit_cake",
+    "collectorsreap:lucuma_cake"
   ],
   "FARMER_MASTER": [
     "minecraft:golden_carrot",
     "farmersdelight:organic_compost",
     "farmersdelight:kelp_roll",
-    "farmersdelight:bacon_and_eggs"
+    "farmersdelight:bacon_and_eggs",
+    "collectorsreap:gilded_lucuma",
+
+    "collectorsreap:lucuma_breaad",
+    "collectorsreap:deluxe_salad",
+    "collectorsreap:portobello_burger",
+    "collectorsreap:portobello_wrap",
+    "collectorsreap:salmon_tartare",
+    "collectorsreap:cod_ceviche",
+    "collectorsreap:prawn_spread",
+    "collectorsreap:clam_roll",
+    "collectorsreap:prawn_po_boy",
+    "collectorsreap:fish_mix",
+    "collectorsreap:big_rice_ball",
+    "collectorsreap:uni_roll"
   ],
   "FARMER_GRANDMASTER": [
+    "collectorsreap:land_and_sea_burger",
     "farmersdelight:roasted_mutton_chops",
     "farmersdelight:steak_and_potatoes",
     "farmersdelight:grilled_salmon",
@@ -471,16 +507,24 @@
     "trashcompactor:trash_compactor"
   ],
   "LIBRARIAN_JOURNEYMAN": [
-    "minecraft:cartography"
+    "minecraft:cartography",
+    "exposure:photograph",
+    "exposure:aged_photograph",
+    "exposure:camera"
   ],
   "LIBRARIAN_EXPERT": [
+    "exposure:white_and_black_film",
+    "exposure:developed_white_and_black_film",
     "minecraft:ender_chest"
   ],
   "LIBRARIAN_MASTER": [
-    "minecraft:enchanting_table"
+    "minecraft:enchanting_table",
+    "exposure:color_film",
+    "exposure:developed_color_film"
   ],
   "LIBRARIAN_GRANDMASTER": [
-    "enchantinginfuser:enchanting_infuser"
+    "enchantinginfuser:enchanting_infuser",
+    "exposure:interplanar_projector"
   ],
   "MINER_NOVICE": [],
   "MINER_APPRENTICE": [],
@@ -497,6 +541,12 @@
     "farmersdelight:chocolate_pie_from_slices",
     "farmersdelight:sweet_berry_cheesecake_from_slices",
     "minecraft:bread",
-    "enchantinginfuser:advanced_enchanting_infuser"
+    "enchantinginfuser:advanced_enchanting_infuser",
+    "collectorsreap:portobello_quiche_from_slices",
+    "collectorsreap:lime_pie_from_slices",
+    "collectorsreap:lime_cake_from_slices",
+    "collectorsreap:pomegranate_cake_from_slices",
+    "collectorsreap:pink_dragon_fruit_cake_from_slices",
+    "collectorsreap:lucuma_cake_from_slices"
   ]
 }
