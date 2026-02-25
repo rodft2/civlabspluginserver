@@ -68,7 +68,6 @@
     "overgeared:iron_arrow",
     "prospectingpicks:iron_prospector_pick",
     "farmersdelight:skillet",
-    "cuisinedelight:cuisine_skillet",
     "farmersdelight:cooking_pot",
     "farmersdelight:iron_knife"
   ],
@@ -269,14 +268,7 @@
     "minecraft:purple_terracotta",
     "minecraft:magenta_terracotta",
     "minecraft:pink_terracotta",
-    "minecraft:cyan_terracotta",
-    "secretroomsmod:secret_pressure_plate",
-    "secretroomsmod:switch_probe",
-    "secretroomsmod:torch_lever",
-    "secretroomsmod:secret_trapdoor",
-    "secretroomsmod:secret_door",
-    "secretroomsmod:secret_chest",
-    "secretroomsmod:secret_trapped_chest"
+    "minecraft:cyan_terracotta"
 
   ],
   "BUILDER_EXPERT": [
@@ -325,11 +317,6 @@
     "minecraft:comparator",
     "minecraft:dropper",
     "farmersdelight:stove",
-    "secretroomsmod:ghost_block",
-    "secretroomsmod:secret_stairs",
-    "secretroomsmod:secret_stone_button",
-    "secretroomsmod:secret_wooden_button",
-    "secretroomsmod:secret_lever"
   ],
   "BUILDER_MASTER": [
     "minecraft:prismarine_bricks",
@@ -367,18 +354,9 @@
     "minecraft:note_block",
     "minecraft:dispenser",
     "minecraft:calibrated_sculk_sensor",
-    "minecraft:observer",
-    "secretroomsmod:secret_daylight_detector",
-    "secretroomsmod:secret_redstone",
-    "secretroomsmod:one_way_glass"
+    "minecraft:observer"
   ],
   "BUILDER_GRANDMASTER": [
-    "secretroomsmod:secret_player_pressure_plate",
-    "secretroomsmod:secret_iron_trapdoor",
-    "secretroomsmod:secret_iron_door",
-    "secretroomsmod:secret_observer",
-    "secretroomsmod:secret_dummy_block",
-    "secretroomsmod:secret_gate"
   ],
   "FARMER_NOVICE": [
     "minecraft:smoker"
@@ -535,18 +513,35 @@
   "MINER_MASTER": [],
   "MINER_GRANDMASTER": [],
   "mod_blacklist" : ["CREATE", "MARBLEDSFIRSTAID", "SECURITYCRAFT"],
-  "blacklist": ["secretroomsmod:true_vison_goggles",
+  "blacklist": [
     "farmersdelight:cake_from_slices",
     "farmersdelight:apple_pie_from_slices",
     "farmersdelight:chocolate_pie_from_slices",
     "farmersdelight:sweet_berry_cheesecake_from_slices",
+
     "minecraft:bread",
+
     "enchantinginfuser:advanced_enchanting_infuser",
     "collectorsreap:portobello_quiche_from_slices",
     "collectorsreap:lime_pie_from_slices",
     "collectorsreap:lime_cake_from_slices",
     "collectorsreap:pomegranate_cake_from_slices",
     "collectorsreap:pink_dragon_fruit_cake_from_slices",
-    "collectorsreap:lucuma_cake_from_slices"
+    "collectorsreap:lucuma_cake_from_slices",
+
+    "create:crushing_wheel",
+    "create:mechanical_crafter",
+    "create:empty_blaze_burner",
+    "create:blaze_burner",
+    "create:hose_pulley",
+    "create:steam_engine",
+    "create:item_vault",
+    "create:mechanical_drill",
+    "create:mechanical_harvester",
+    "create:cart_assembler",
+    "create:gantry_shaft",
+    "create:gantry_carriage",
+    "create:schematicannon",
+    ""
   ]
 }
