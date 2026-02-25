@@ -316,7 +316,7 @@
     "minecraft:repeater",
     "minecraft:comparator",
     "minecraft:dropper",
-    "farmersdelight:stove",
+    "farmersdelight:stove"
   ],
   "BUILDER_MASTER": [
     "minecraft:prismarine_bricks",
