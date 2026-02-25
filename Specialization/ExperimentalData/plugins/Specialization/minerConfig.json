@@ -1,0 +1,7 @@
+{
+    "TRESSURE_TRIGGERING_BLOCKS" : {
+        "STONE": 1.0,
+        "DEEPSLATE": 1,
+        "COAL": 1.0
+    }
+}
