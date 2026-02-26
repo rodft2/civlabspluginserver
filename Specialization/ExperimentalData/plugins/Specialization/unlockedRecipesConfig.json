@@ -268,8 +268,24 @@
     "minecraft:purple_terracotta",
     "minecraft:magenta_terracotta",
     "minecraft:pink_terracotta",
-    "minecraft:cyan_terracotta"
-
+    "minecraft:cyan_terracotta",
+    "copycats:copycat_block",
+    "copycats:copycat_slab",
+    "copycats:copycat_stairs",
+    "copycats:copycat_vertical_stairs",
+    "copycats:copycat_vertical_step",
+    "copycats:copycat_slice",
+    "copycats:copycat_vertical_slice",
+    "copycats:copycat_layer",
+    "copycats:copycat_pane",
+    "copycats:copycat_flat_pane",
+    "copycats:copycat_catwalk",
+    "copycats:copycat_box",
+    "copycats:copycat_half_layer",
+    "copycats:copycat_trapdoor",
+    "copycats:copycat_fluid_pipe",
+    "copycats:copycat_cogwheel",
+    "copycats:copycat_large_cogwheel"
   ],
   "BUILDER_EXPERT": [
     "minecraft:scaffolding",
@@ -356,8 +372,7 @@
     "minecraft:calibrated_sculk_sensor",
     "minecraft:observer"
   ],
-  "BUILDER_GRANDMASTER": [
-  ],
+  "BUILDER_GRANDMASTER": [],
   "FARMER_NOVICE": [
     "minecraft:smoker"
   ],
@@ -412,7 +427,6 @@
     "farmersdelight:kelp_roll",
     "farmersdelight:bacon_and_eggs",
     "collectorsreap:gilded_lucuma",
-
     "collectorsreap:lucuma_breaad",
     "collectorsreap:deluxe_salad",
     "collectorsreap:portobello_burger",
@@ -530,6 +544,7 @@
     "minecraft:deepslate_emerald_ore",
     "minecraft:tnt"
   ],
+<<<<<<< Updated upstream
   "MINER_MASTER": [
     "minecraft:deepslate_gold_ore",
     "minecraft:deepslate_lapis_ore",
@@ -542,14 +557,21 @@
     "minecraft:ancient_debris"
   ],
   "mod_blacklist" : ["CREATE", "MARBLEDSFIRSTAID", "SECURITYCRAFT"],
+=======
+  "MINER_MASTER": [],
+  "MINER_GRANDMASTER": [],
+  "mod_blacklist": [
+    "CREATE",
+    "MARBLEDSFIRSTAID",
+    "SECURITYCRAFT"
+  ],
+>>>>>>> Stashed changes
   "blacklist": [
     "farmersdelight:cake_from_slices",
     "farmersdelight:apple_pie_from_slices",
     "farmersdelight:chocolate_pie_from_slices",
     "farmersdelight:sweet_berry_cheesecake_from_slices",
-
     "minecraft:bread",
-
     "enchantinginfuser:advanced_enchanting_infuser",
     "collectorsreap:portobello_quiche_from_slices",
     "collectorsreap:lime_pie_from_slices",
@@ -557,7 +579,6 @@
     "collectorsreap:pomegranate_cake_from_slices",
     "collectorsreap:pink_dragon_fruit_cake_from_slices",
     "collectorsreap:lucuma_cake_from_slices",
-
     "create:crushing_wheel",
     "create:mechanical_crafter",
     "create:empty_blaze_burner",
