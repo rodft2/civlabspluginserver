@@ -33,7 +33,6 @@ Specialization/Plugins/CraftEngine/commands.yml
 Specialization/Plugins/VivecraftPaperExtentions
 Specialization/Plugins/PerfoBooster
 Specialization/ExperimentalData/*.bat
-Specialization/ExperimentalData/*.json
 Specialization/ExperimentalData/*.yml
 Specialization/ExperimentalData/.arclight/
 Specialization/ExperimentalData/crash-reports/
@@ -41,7 +40,6 @@ Specialization/ExperimentalData/libraries/
 Specialization/ExperimentalData/logs/
 Specialization/ExperimentalData/*.sh
 Specialization/ExperimentalData/*.txt
-Specialization/ExperimentalData/*.properties
 Specialization/ExperimentalData/*.jar
 Specialization/ExperimentalData/installer_stripped.jar.log
 Specialization/ExperimentalData/world/
@@ -50,3 +48,9 @@ Specialization/ExperimentalData/plugins/Specialization/GeneratedNames.txt
 Specialization/ExperimentalData/config/spark/tmp/
 Specialization/ExperimentalData/plugins/ProtocolLib/lastupdate
 /Specialization/ExperimentalData/modernfix/structureCacheV1
+Specialization/ExperimentalData/banned-ips.json
+Specialization/ExperimentalData/banned-players.json
+Specialization/ExperimentalData/ops.json
+Specialization/ExperimentalData/usercache.json
+Specialization/ExperimentalData/usernamecache.json
+Specialization/ExperimentalData/whitelist.json

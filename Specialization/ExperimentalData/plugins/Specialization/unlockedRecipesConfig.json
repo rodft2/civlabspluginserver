@@ -504,8 +504,16 @@
     "enchantinginfuser:enchanting_infuser",
     "exposure:interplanar_projector"
   ],
-  "MINER_NOVICE": [],
-  "MINER_APPRENTICE": [],
+  "MINER_NOVICE": [
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:coal_ore",
+    "minecraft:coal"
+  ],
+  "MINER_APPRENTICE": [
+    "minecraft:copper_ore",
+    "minecraft:copper_ore"
+  ],
   "MINER_JOURNEYMAN": [],
   "MINER_EXPERT": [
     "minecraft:tnt"
