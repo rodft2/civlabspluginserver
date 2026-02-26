@@ -1,0 +1,40 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "openlabs:treasure/misc_junk",
+          "weight": 40
+        },
+        {
+          "type": "loot_table",
+          "name": "openlabs:treasure/stone_junk",
+          "weight": 80
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "openlabs:treasure/low_tier_ore",
+          "weight": 40
+        },
+        {
+          "type": "loot_table",
+          "name": "openlabs:treasure/stone_tools",
+          "weight": 30
+        },
+        {
+          "type": "loot_table",
+          "name": "openlabs:treasure/leather_armor",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}

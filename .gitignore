@@ -42,7 +42,9 @@ Specialization/ExperimentalData/*.sh
 Specialization/ExperimentalData/*.txt
 Specialization/ExperimentalData/*.jar
 Specialization/ExperimentalData/installer_stripped.jar.log
-Specialization/ExperimentalData/world/
+Specialization/ExperimentalData/world/*
+!Specialization/ExperimentalData/world/
+!Specialization/ExperimentalData/world/datapacks/
 Specialization/ExperimentalData/plugins/Specialization/players/
 Specialization/ExperimentalData/plugins/Specialization/GeneratedNames.txt
 Specialization/ExperimentalData/config/spark/tmp/

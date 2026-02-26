@@ -506,20 +506,41 @@
   ],
   "MINER_NOVICE": [
     "minecraft:stone",
+    "minecraft:gravel",
+    "minecraft:sand",
     "minecraft:cobblestone",
-    "minecraft:coal_ore",
-    "minecraft:coal"
+    "minecraft:coal_ore"
   ],
   "MINER_APPRENTICE": [
-    "minecraft:copper_ore",
     "minecraft:copper_ore"
   ],
-  "MINER_JOURNEYMAN": [],
+  "MINER_JOURNEYMAN": [
+    "minecraft:iron_ore",
+    "minecraft:calcite",
+    "create:zinc_ore",
+    "minecraft:deepslate",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:deepslate_copper_ore"
+  ],
   "MINER_EXPERT": [
+    "minecraft:lapis_ore",
+    "minecraft:redstone_ore",
+    "create:deepslate_zinc_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:deepslate_emerald_ore",
     "minecraft:tnt"
   ],
-  "MINER_MASTER": [],
-  "MINER_GRANDMASTER": [],
+  "MINER_MASTER": [
+    "minecraft:deepslate_gold_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:deepslate_redstone_ore",
+    "minecraft:diamond_ore",
+    "minecraft:obsidian"
+  ],
+  "MINER_GRANDMASTER": [
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:ancient_debris"
+  ],
   "mod_blacklist" : ["CREATE", "MARBLEDSFIRSTAID", "SECURITYCRAFT"],
   "blacklist": [
     "farmersdelight:cake_from_slices",
