@@ -87,8 +87,6 @@
   ],
   "blacklist": [],
   "mod_blacklist": [
-    "CREATE",
-    "MARBLEDSFIRSTAID",
-    "SECURITYCRAFT"
+    "MARBLEDSFIRSTAID"
   ]
 }

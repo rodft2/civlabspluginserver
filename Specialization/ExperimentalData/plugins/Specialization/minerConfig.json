@@ -1,7 +1,58 @@
 {
     "TRESSURE_TRIGGERING_BLOCKS" : {
-        "STONE": 1.0,
-        "DEEPSLATE": 1,
-        "COAL": 1.0
-    }
+        "STONE": 0.01,
+        "GRANITE": 0.012,
+        "ANDESITE": 0.012,
+        "DIORITE": 0.012,
+        "BASALT": 0.01,
+        "DEEPSLATE": 0.015,
+        "COAL_ORE": 0.015,
+        "COPPER_ORE": 0.015,
+        "CREATE_ZINC_ORE": 0.015,
+        "IRON_ORE": 0.025,
+        "GOLD_ORE": 0.035,
+        "REDSTONE_ORE": 0.035,
+        "LAPIS_ORE": 0.035,
+        "EMERALD_ORE": 0.05,
+        "DIAMOND_ORE": 0.05,
+        "NETHER_GOLD_ORE": 0.015,
+        "NETHER_QUARTZ_ORE": 0.015,
+        "NETHERRACK": 0.005,
+
+        "DEEPSLATE_COAL_ORE": 0.025,
+        "DEEPSLATE_COPPER_ORE": 0.025,
+        "CREATE_DEEPSLATE_ZINC_ORE": 0.025,
+        "DEEPSLATE_IRON_ORE": 0.035,
+        "DEEPSLATE_GOLD_ORE": 0.045,
+        "DEEPSLATE_REDSTONE_ORE": 0.045,
+        "DEEPSLATE_LAPIS_ORE": 0.045,
+        "DEEPSLATE_EMERALD_ORE": 0.06,
+        "DEEPSLATE_DIAMOND_ORE": 0.06
+    },
+    "MINER_TREASURE_TIERS": [
+      {
+        "skill_level": "novice",
+        "chance": 100
+      },
+      {
+        "skill_level": "apprentice",
+        "chance": 75
+      },
+      {
+        "skill_level": "journeyman",
+        "chance": 50
+      },
+      {
+        "skill_level": "expert",
+        "chance": 30
+      },
+      {
+        "skill_level": "master",
+        "chance": 20
+      },
+      {
+        "skill_level": "grandmaster",
+        "chance": 10
+      }
+    ]
 }
