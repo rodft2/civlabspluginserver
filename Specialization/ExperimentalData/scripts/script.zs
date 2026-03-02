@@ -9,3 +9,7 @@ craftingTable.removeByName("musketmod:cartridge");
     [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>],
     [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>]
 ]);
+
+<recipetype:minecraft:crafting>.addShapeless("straw_to_string_shapeless", <item:minecraft:string>,
+    [<item:farmersdelight:straw>,<item:farmersdelight:straw>]
+);

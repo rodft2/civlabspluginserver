@@ -44,6 +44,10 @@
     "minecraft:bucket"
   ],
   "BLACKSMITH_JOURNEYMAN": [
+    "cold_sweat:goat_fur_boots",
+    "cold_sweat:goat_fur_cap",
+    "cold_sweat:goat_fur_pants",
+    "cold_sweat:goat_fur_parka",
     "minecraft:iron_pickaxe",
     "minecraft:iron_axe",
     "minecraft:iron_sword",
@@ -110,6 +114,11 @@
     "minecraft:diamond_chestplate",
     "minecraft:diamond_leggings",
     "minecraft:diamond_boots",
+    "cold_sweat:hoglin_headpiece",
+    "cold_sweat:hoglin_hooves",
+    "cold_sweat:hoglin_leather",
+    "cold_sweat:hoglin_trousers",
+    "cold_sweat:hoglin_tunic",
     "musketmod:blunderbuss",
     "musketmod:musket_with_scope",
     "farmersdelight:diamond_knife",
@@ -441,6 +450,12 @@
     "another_furniture:yellow_tall_stool_dyeing"
   ],
   "BUILDER_JOURNEYMAN": [
+    "cold_sweat:boiler",
+    "cold_sweat:hearth",
+    "cold_sweat:icebox",
+    "cold_sweat:sewing_table",
+    "cold_sweat:smokestack",
+    "cold_sweat:soulspring_lamp",
     "minecraft:stone",
     "minecraft:smooth_stone",
     "minecraft:stone_slab",
@@ -583,6 +598,7 @@
     "farmersdelight:stove"
   ],
   "BUILDER_MASTER": [
+    "cold_sweat:thermolith",
     "minecraft:prismarine_bricks",
     "minecraft:red_nether_bricks",
     "minecraft:end_stone_bricks",
@@ -622,7 +638,8 @@
   ],
   "BUILDER_GRANDMASTER": [],
   "FARMER_NOVICE": [
-    "minecraft:smoker"
+    "minecraft:smoker",
+    "crafttweaker:straw_to_string_shapeless"
   ],
   "FARMER_APPRENTICE": [
     "minecraft:bread",
@@ -761,7 +778,10 @@
     "create:zinc_ore",
     "minecraft:deepslate",
     "minecraft:deepslate_coal_ore",
-    "minecraft:deepslate_copper_ore"
+    "minecraft:deepslate_copper_ore",
+    "cold_sweat:insul_minecart",
+    "cold_sweat:insul_minecart_raw",
+    "cold_sweat:minecart_insulation"
   ],
   "MINER_EXPERT": [
     "minecraft:lapis_ore",
@@ -771,7 +791,6 @@
     "minecraft:deepslate_emerald_ore",
     "minecraft:tnt"
   ],
-<<<<<<< Updated upstream
   "MINER_MASTER": [
     "minecraft:deepslate_gold_ore",
     "minecraft:deepslate_lapis_ore",
@@ -783,10 +802,8 @@
     "minecraft:deepslate_diamond_ore",
     "minecraft:ancient_debris"
   ],
-  "MINER_MASTER": [],
-  "MINER_GRANDMASTER": [],
   "mod_blacklist": [
-    "MARBLEDSFIRSTAID",
+    "MARBLEDSFIRSTAID"
   ],
   "blacklist": [
     "farmersdelight:cake_from_slices",
