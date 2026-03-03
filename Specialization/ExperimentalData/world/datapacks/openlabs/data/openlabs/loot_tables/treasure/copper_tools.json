@@ -7,6 +7,7 @@
         {
           "type": "item",
           "name": "overgeared:copper_pickaxe",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 20,
           "functions": [
             {
@@ -32,6 +33,7 @@
         {
           "type": "item",
           "name": "overgeared:copper_axe",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 10,
           "functions": [
             {
@@ -57,6 +59,7 @@
         {
           "type": "item",
           "name": "overgeared:copper_shovel",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 10,
           "functions": [
             {
@@ -82,6 +85,7 @@
         {
           "type": "item",
           "name": "overgeared:copper_sword",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 10,
           "functions": [
             {

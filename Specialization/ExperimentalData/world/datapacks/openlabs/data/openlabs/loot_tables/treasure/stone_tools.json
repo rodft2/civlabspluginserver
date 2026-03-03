@@ -7,6 +7,7 @@
         {
           "type": "item",
           "name": "minecraft:stone_pickaxe",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 10,
           "functions": [
             {
@@ -32,6 +33,7 @@
         {
           "type": "item",
           "name": "minecraft:stone_axe",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 10,
           "functions": [
             {
@@ -57,6 +59,7 @@
         {
           "type": "item",
           "name": "minecraft:stone_shovel",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 10,
           "functions": [
             {
@@ -84,6 +87,7 @@
           "name": "minecraft:stone_sword",
           "weight": 10,
           "functions": [
+
             {
               "function": "minecraft:set_damage",
               "damage": {

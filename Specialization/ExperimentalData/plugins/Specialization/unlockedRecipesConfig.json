@@ -639,7 +639,10 @@
   "BUILDER_GRANDMASTER": [],
   "FARMER_NOVICE": [
     "minecraft:smoker",
-    "crafttweaker:straw_to_string_shapeless"
+    "crafttweaker:straw_to_string_shapeless",
+    "crafttweaker:white_puffball_stew_recipe",
+    "crafttweaker:mushroom_stew_from_shrooms",
+    "minecraft:mushroom_stew"
   ],
   "FARMER_APPRENTICE": [
     "minecraft:bread",
@@ -656,7 +659,6 @@
     "minecraft:pumpkin_pie",
     "minecraft:composter",
     "minecraft:beetroot_soup",
-    "minecraft:mushroom_stew",
     "minecraft:sweet_berries",
     "minecraft:lead",
     "farmersdelight:pie_crust",

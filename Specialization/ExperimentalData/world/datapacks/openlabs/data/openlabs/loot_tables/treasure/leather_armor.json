@@ -7,6 +7,7 @@
         {
           "type": "item",
           "name": "minecraft:leather_chestplate",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 10,
           "functions": [
             {
@@ -33,6 +34,7 @@
         {
           "type": "item",
           "name": "minecraft:leather_boots",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 20,
           "functions": [
             {
@@ -58,6 +60,7 @@
         {
           "type": "item",
           "name": "minecraft:leather_helmet",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 20,
           "functions": [
             {
@@ -83,6 +86,7 @@
         {
           "type": "item",
           "name": "minecraft:leather_leggings",
+          "tag": "{affixdata:{rarity:\"apotheosis:none\"}}",
           "weight": 10,
           "functions": [
             {

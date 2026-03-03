@@ -1,4 +1,6 @@
+
 craftingTable.removeByName("musketmod:cartridge");
+craftingTable.removeByName("biomeswevegone:white_puffball_stew");
 
 <recipetype:minecraft:crafting>.addShapeless("cartridge_shapeless", <item:musketmod:cartridge>,
     [<item:minecraft:iron_nugget>, <item:minecraft:gunpowder>, <item:minecraft:paper>, <item:minecraft:gray_dye>]
@@ -9,7 +11,14 @@ craftingTable.removeByName("musketmod:cartridge");
     [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>],
     [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>]
 ]);
-
 <recipetype:minecraft:crafting>.addShapeless("straw_to_string_shapeless", <item:minecraft:string>,
     [<item:farmersdelight:straw>,<item:farmersdelight:straw>]
 );
+<recipetype:minecraft:crafting>.addShapeless("white_puffball_stew_recipe", <item:biomeswevegone:white_puffball_stew>,
+    [<item:minecraft:bowl>,<item:biomeswevegone:cooked_white_puffball_cap>,<item:biomeswevegone:cooked_white_puffball_cap>,<item:biomeswevegone:cooked_white_puffball_cap>]
+);
+
+<recipetype:minecraft:crafting>.addShapeless("mushroom_stew_from_shrooms", <item:minecraft:mushroom_stew>,
+    [<item:minecraft:bowl>,<tag:items:forge:mushrooms>,<tag:items:forge:mushrooms>,<tag:items:forge:mushrooms>]
+);
+
