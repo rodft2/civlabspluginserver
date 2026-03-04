@@ -158,11 +158,11 @@
 		sack_increment = 2
 		#How many slots should a sack have
 		#Range: 1 ~ 27
-		slots = 9
+		slots = 3
 
 	[functional.bamboo_spikes]
 		enabled = true
-		tipped_spikes = true
+		tipped_spikes = false
 		#Allows entities killed by spikes to drop loot as if they were killed by a player
 		player_loot = false
 		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
@@ -201,7 +201,7 @@
 		fuse_time = 40
 		#Time for a cannon to be able to fire again after it has been fired
 		#Range: 0 ~ 500
-		cooldown = 60
+		cooldown = 120
 		music_disc_heave_ho = true
 
 		[functional.cannon.cannonball]

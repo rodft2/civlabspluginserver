@@ -22,3 +22,8 @@ craftingTable.removeByName("biomeswevegone:white_puffball_stew");
     [<item:minecraft:bowl>,<tag:items:forge:mushrooms>,<tag:items:forge:mushrooms>,<tag:items:forge:mushrooms>]
 );
 
+<recipetype:minecraft:crafting>.addShaped("low_cost_map", <item:minecraft:map>, [
+  [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>],
+  [<item:minecraft:paper>, <item:minecraft:ink_sac>, <item:minecraft:paper>],
+  [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]
+]);

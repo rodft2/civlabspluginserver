@@ -6,7 +6,7 @@
         "minecraft:overworld"
       ],
       "false_place": false,
-      "active": true
+      "active": false
     }
   ],
   "dimensions": [

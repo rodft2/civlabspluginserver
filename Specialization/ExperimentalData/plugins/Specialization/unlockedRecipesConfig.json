@@ -740,9 +740,10 @@
     "marbledsfirstaid:first_aid_kit",
     "marbledsfirstaid:stimpack"
   ],
-  "LIBRARIAN_NOVICE": [],
+  "LIBRARIAN_NOVICE": [
+    "crafttweaker:low_cost_map"
+  ],
   "LIBRARIAN_APPRENTICE": [
-    "trashcompactor:trash_compactor"
   ],
   "LIBRARIAN_JOURNEYMAN": [
     "minecraft:cartography",
@@ -808,6 +809,7 @@
     "MARBLEDSFIRSTAID"
   ],
   "blacklist": [
+    "supplementaries:rope",
     "farmersdelight:cake_from_slices",
     "farmersdelight:apple_pie_from_slices",
     "farmersdelight:chocolate_pie_from_slices",
