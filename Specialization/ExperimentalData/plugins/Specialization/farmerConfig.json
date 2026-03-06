@@ -28,5 +28,31 @@
     "FARMER_GET_DROPS_CHANCE_JOURNEYMAN": 0.2,
     "FARMER_GET_DROPS_CHANCE_EXPERT": 0.4,
     "FARMER_GET_DROPS_CHANCE_MASTER": 0.7,
-    "FARMER_GET_DROPS_CHANCE_GRANDMASTER": 0.9
+    "FARMER_GET_DROPS_CHANCE_GRANDMASTER": 0.9,
+    "FARMER_TREASURE_TIERS": [
+      {
+        "skill_level": "novice",
+        "chance": 100
+      },
+      {
+        "skill_level": "apprentice",
+        "chance": 75
+      },
+      {
+        "skill_level": "journeyman",
+        "chance": 50
+      },
+      {
+        "skill_level": "expert",
+        "chance": 30
+      },
+      {
+        "skill_level": "master",
+        "chance": 20
+      },
+      {
+        "skill_level": "grandmaster",
+        "chance": 10
+      }
+    ]
 }

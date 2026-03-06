@@ -50,6 +50,34 @@
         },
         {
           "type": "item",
+          "name": "minecraft:brown_dye",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:straw",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
           "name": "minecraft:flint",
           "weight": 50,
           "functions": [

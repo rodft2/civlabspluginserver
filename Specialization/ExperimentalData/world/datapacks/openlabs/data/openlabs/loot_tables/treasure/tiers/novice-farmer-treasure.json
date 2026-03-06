@@ -1,0 +1,30 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "openlabs:treasure/farmer_junk",
+          "weight": 60
+        },
+        {
+          "type": "loot_table",
+          "name": "openlabs:treasure/misc_junk",
+          "weight": 40
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "openlabs:treasure/wood_tools",
+          "weight": 80
+        }
+      ]
+    }
+  ]
+}

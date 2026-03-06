@@ -59,7 +59,7 @@
 		#Range: > 0
 		durability = 70
 		#Range: > 0
-		reloadTime = 120
+		reloadTime = 30
 		#Range: 0.0 ~ 2.147483647E9
 		projectileSpeed = 4.5
 		#Range: 0.0 ~ 2.147483647E9

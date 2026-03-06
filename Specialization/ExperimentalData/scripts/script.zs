@@ -27,3 +27,13 @@ craftingTable.removeByName("biomeswevegone:white_puffball_stew");
   [<item:minecraft:paper>, <item:minecraft:ink_sac>, <item:minecraft:paper>],
   [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:paper>]
 ]);
+<recipetype:minecraft:crafting>.addShaped("copper_minecart", <item:minecraft:minecart>, [
+  [<item:minecraft:copper_ingot>, <item:minecraft:air>, <item:minecraft:copper_ingot>],
+  [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>],
+]);
+
+<recipetype:minecraft:crafting>.addShaped("blast_furnace_recipe", <item:minecraft:blast_furnace>, [
+  [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>],
+  [<item:minecraft:copper_ingot>, <item:minecraft:furnace>, <item:minecraft:copper_ingot>],
+  [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>]
+]);

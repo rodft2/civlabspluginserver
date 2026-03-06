@@ -1,9 +1,9 @@
 {
     "TRESSURE_TRIGGERING_BLOCKS" : {
-        "STONE": 0.01,
-        "GRANITE": 0.012,
-        "ANDESITE": 0.012,
-        "DIORITE": 0.012,
+        "STONE": 0.02,
+        "GRANITE": 0.05,
+        "ANDESITE": 0.05,
+        "DIORITE": 0.05,
         "BASALT": 0.01,
         "DEEPSLATE": 0.015,
         "COAL_ORE": 0.015,
