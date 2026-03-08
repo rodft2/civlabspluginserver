@@ -1,17 +1,3 @@
 [
-  {
-    "mob": "minecraft:sheep",
-    "persecond": 0.2,
-    "attempts": 10,
-    "amount": {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "mindist": 24,
-      "maxdist": 58,
-      "maxthis": 20
-    }
-  }
+  
 ]
