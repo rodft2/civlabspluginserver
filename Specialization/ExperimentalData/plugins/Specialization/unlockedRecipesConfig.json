@@ -8,6 +8,7 @@
     "minecraft:wooden_shovel",
     "minecraft:arrow",
     "crafttweaker:cardboard_craft",
+    "crafttweaker:rope_recipe",
     "create:crafting/appliances/cardboard_leggings",
     "create:crafting/appliances/cardboard_chestplate",
     "create:crafting/appliances/cardboard_helmet",
@@ -649,6 +650,8 @@
     "minecraft:bread",
     "minecraft:cookie",
     "farmersdelight:wheat_dough",
+    "create:dough",
+    "crafttweaker:dough_from_flour_triple",
     "farmersdelight:sweet_berry_cookie",
     "farmersdelight:honey_cookie",
     "farmersdelight:fruit_salad",
@@ -707,10 +710,11 @@
   "GUARDSMAN_GRANDMASTER": [
     "crusty_chunks:fusion_bomb"
   ],
-  "HEALER_NOVICE": [],
-  "HEALER_APPRENTICE": [
+  "HEALER_NOVICE": [
     "marbledsfirstaid:bandaid",
-    "marbledsfirstaid:bandaid_box",
+    "marbledsfirstaid:bandaid_box"
+  ],
+  "HEALER_APPRENTICE": [
     "farmersdelight:fruit_salad",
     "farmersdelight:mixed_salad",
     "farmersdelight:melon_juice"
@@ -810,13 +814,11 @@
     "MARBLEDSFIRSTAID"
   ],
   "blacklist": [
-    "supplementaries:rope",
     "farmersdelight:cake_from_slices",
     "farmersdelight:apple_pie_from_slices",
     "farmersdelight:chocolate_pie_from_slices",
     "farmersdelight:sweet_berry_cheesecake_from_slices",
     "minecraft:bread",
-    "enchantinginfuser:advanced_enchanting_infuser",
     "create:crushing_wheel",
     "create:mechanical_crafter",
     "create:empty_blaze_burner",

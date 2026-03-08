@@ -1,0 +1,52 @@
+[
+  {
+    "mob": "minecraft:bat",
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:snail",
+    "biome": ["biomeswevegone:cypress_wetlands","biomeswevegone:tropical_rainforest"],
+    "result": "allow"
+  },
+  {
+    "mob": "naturalist:snail",
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:sparrow","naturalist:cardinal"],
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:spider", "minecraft:witch", "naturalist:firefly"],
+    "seesky": true,
+    "maxdist": 40,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:glow_squid","minecraft:zombie","minecraft:drowned", "minecraft:creeper","minecraft:skeleton","minecraft:creeper", "minecraft:spider"],
+    "seesky": false,
+    "maxdist": 40,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:zombie","minecraft:drowned", "minecraft:creeper","minecraft:skeleton","minecraft:creeper", "minecraft:spider"],
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:sheep",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:plains",
+    "maxcount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "block": ["minecraft:grass_block"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:sheep",
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  }
+]

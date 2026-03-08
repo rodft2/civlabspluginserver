@@ -132,7 +132,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:dripstone",
+          "name": "minecraft:dripstone_block",
           "weight": 10,
           "functions": [
             {

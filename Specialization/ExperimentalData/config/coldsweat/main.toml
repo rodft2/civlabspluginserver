@@ -11,15 +11,15 @@
 	"Minimum Habitable Temperature" = 0.4
 	#Defines the maximum habitable temperature
 	#Range: -Infinity ~ Infinity
-	"Maximum Habitable Temperature" = 1.511111111111111
+	"Maximum Habitable Temperature" = 1.7
 	#Rate at which the player's body temperature changes (default: 1.0 (100%))
 	#Range: 0.0 ~ Infinity
-	"Rate Multiplier" = 1.0
+	"Rate Multiplier" = 0.5
 	#Damage dealt to the player when they are too hot or too cold
 	#Range: 0.0 ~ Infinity
-	"Temperature Damage" = 2.0
+	"Temperature Damage" = 1.0
 	#Sets whether damage scales with difficulty
-	"Damage Scaling" = true
+	"Damage Scaling" = false
 
 [Items]
 	#Allow fire resistance to block overheating damage

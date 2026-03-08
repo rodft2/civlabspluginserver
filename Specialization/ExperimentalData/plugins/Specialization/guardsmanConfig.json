@@ -151,5 +151,21 @@
     "ZOMBIE" : 1.0,
     "ZOMBIE_HORSE" : 1.0,
     "ZOMBIE_VILLAGER" : 1.0,
-    "ZOMBIFIED_PIGLIN" : 1.0
+    "ZOMBIFIED_PIGLIN" : 1.0,
+    "damage_reduction": [
+      0.0,
+      0.3,
+      0.4,
+      0.45,
+      0.48,
+      0.5
+    ],
+    "loot_bonus": [
+      0.0,
+      0.30,
+      0.50,
+      0.70,
+      0.90,
+      1.0
+    ]
 }

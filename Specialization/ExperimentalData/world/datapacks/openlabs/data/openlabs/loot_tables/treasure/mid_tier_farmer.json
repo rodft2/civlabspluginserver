@@ -39,7 +39,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:eggs",
+          "name": "minecraft:egg",
           "weight": 50,
           "functions": [
             {

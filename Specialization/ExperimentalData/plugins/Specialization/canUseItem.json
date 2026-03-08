@@ -85,7 +85,9 @@
   ],
   "MINER_GRANDMASTER": [
   ],
-  "blacklist": ["FARMERSDELIGHT_ROPE"],
+  "blacklist": ["FARMERSDELIGHT_ROPE",
+    "SUPPLEMENTARIES_ROPE"
+  ],
   "mod_blacklist": [
     "MARBLEDSFIRSTAID"
   ]

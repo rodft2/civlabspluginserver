@@ -37,3 +37,15 @@ craftingTable.removeByName("biomeswevegone:white_puffball_stew");
   [<item:minecraft:copper_ingot>, <item:minecraft:furnace>, <item:minecraft:copper_ingot>],
   [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>]
 ]);
+<recipetype:minecraft:crafting>.addShaped("rope_recipe", <item:farmersdelight:rope>, [
+  [<item:farmersdelight:straw>],
+  [<item:farmersdelight:straw>],
+  [<item:farmersdelight:straw>]
+]);
+
+<recipetype:minecraft:crafting>.addShapeless("dough_from_flour_triple", <item:create:dough> * 3, [
+    <item:create:wheat_flour>,
+    <item:create:wheat_flour>,
+    <item:create:wheat_flour>,
+    <item:minecraft:water_bucket>.reuse()
+]);
