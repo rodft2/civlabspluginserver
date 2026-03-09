@@ -32,5 +32,19 @@
     "mob": ["minecraft:zombie","minecraft:drowned", "minecraft:creeper","minecraft:skeleton","minecraft:creeper", "minecraft:spider"],
     "seesky": false,
     "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:cod",
+      "minecraft:salmon",
+      "minecraft:pufferfish",
+      "minecraft:tropical_fish",
+      "minecraft:squid",
+      "minecraft:glow_squid",
+      "minecraft:dolphin",
+      "minecraft:turtle"
+    ],
+    "maxcount": 15,
+    "result": "deny"
   }
 ]
