@@ -3,6 +3,8 @@
       "COAL": 2,
       "DIAMOND": 10,
       "EMERALD": 10,
+      "GOLD_INGOT": 5,
+      "IRON_INGOT": 5,
       "OVERGEARED_HEATED_COPPER_INGOT": 1,
       "OVERGEARED_HEATED_IRON_INGOT": 1,
       "OVERGEARED_HEATED_GOLD_INGOT": 1,

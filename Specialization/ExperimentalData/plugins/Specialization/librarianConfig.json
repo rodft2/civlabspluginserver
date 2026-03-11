@@ -14,5 +14,6 @@
     "BLESS_ITEM_XP_LEVEL_REQUIREMENT" : 3,
     "BLUEPRINT_ITEM_RECIPES" : "^(?i)(?:(wooden|stone|iron|diamond|golden|netherite)_(?:(pickaxe|axe|shovel|sword|hoe))|(leather|chainmail|iron|diamond|golden|netherite)_(?:(helmet|chestplate|leggings|boots))|fishing_rod|shears|flint_and_steel|bow|crossbow|trident|mace|elytra|book|shield)",
     "ENCHANTABLE_TOOL_REGEX" : "^(?i).+",
-    "ITEM_LORE_LIBRARIAN_LEVEL" : 3
+    "ITEM_LORE_LIBRARIAN_LEVEL" : 3,
+    "discover_cell_xp" : 10.0
 }
