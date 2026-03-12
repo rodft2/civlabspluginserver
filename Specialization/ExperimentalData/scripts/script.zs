@@ -100,3 +100,21 @@ craftingTable.removeByName("biomeswevegone:white_puffball_stew");
     [<item:create:andesite_alloy>, <item:overgeared:iron_plate>, <item:create:andesite_alloy>]
 ]);
 
+<recipetype:minecraft:crafting>.addShaped("train_track_recipe", <item:create:track>*8, [
+    [<item:minecraft:copper_ingot>, <item:minecraft:air>, <item:minecraft:copper_ingot>],
+    [<item:minecraft:copper_ingot>, <item:minecraft:andesite>, <item:minecraft:copper_ingot>],
+    [<item:minecraft:copper_ingot>, <item:minecraft:air>, <item:minecraft:copper_ingot>]
+]);
+<recipetype:minecraft:crafting>.addShaped("electron_tube_recipe", <item:create:electron_tube>, [
+    [<item:minecraft:redstone>],
+    [<item:minecraft:iron_ingot>],
+]);
+<recipetype:minecraft:crafting>.addShaped("blaze_burner_recipe", <item:create:blaze_burner>, [
+    [<item:minecraft:blaze_rod>, <item:minecraft:blaze_rod>, <item:minecraft:blaze_rod>],
+    [<item:minecraft:blaze_rod>, <item:create:empty_blaze_burner>, <item:minecraft:blaze_rod>],
+    [<item:minecraft:blaze_rod>, <item:minecraft:blaze_rod>, <item:minecraft:blaze_rod>]
+]);
+<recipetype:minecraft:crafting>.addShaped("train_controls_recipe", <item:create:controls>, [
+    [<item:minecraft:lever>],
+    [<item:minecraft:gold_ingot>],
+]);

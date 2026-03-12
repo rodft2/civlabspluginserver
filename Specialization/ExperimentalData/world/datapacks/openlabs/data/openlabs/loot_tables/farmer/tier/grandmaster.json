@@ -2,37 +2,37 @@
   "type": "chest",
   "pools": [
     {
-      "rolls": 2,
+      "rolls": 1,
       "entries": [
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/misc_junk",
+          "name": "openlabs:misc/misc_junk",
           "weight": 40
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/farmer_junk",
+          "name": "openlabs:farmer/farmer_junk",
           "weight": 80
         }
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 3,
       "entries": [
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/mid_tier_farmer",
+          "name": "openlabs:farmer/high_tier_farmer",
+          "weight": 20
+        },
+        {
+          "type": "loot_table",
+          "name": "openlabs:farmer/farmer_resources",
           "weight": 40
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/farmer_resources",
-          "weight": 30
-        },
-        {
-          "type": "loot_table",
-          "name": "openlabs:treasure/farmer_spawn_eggs",
-          "weight": 10
+          "name": "openlabs:farmer/farmer_spawn_eggs",
+          "weight": 20
         }
       ]
     }

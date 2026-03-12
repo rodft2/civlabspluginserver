@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/farmer_junk",
+          "name": "openlabs:farmer/farmer_junk",
           "weight": 60
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/misc_junk",
+          "name": "openlabs:misc/misc_junk",
           "weight": 40
         }
       ]
@@ -21,7 +21,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/wood_tools",
+          "name": "openlabs:misc/wood_tools",
           "weight": 80
         }
       ]

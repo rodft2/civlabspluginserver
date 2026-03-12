@@ -1,6 +1,6 @@
 {
     "TRESSURE_TRIGGERING_BLOCKS" : {
-      "STONE": 0.01,
+      "STONE": 1,
       "GRANITE": 0.025,
       "ANDESITE": 0.025,
       "DIORITE": 0.025,
@@ -28,31 +28,5 @@
       "DEEPSLATE_LAPIS_ORE": 0.0225,
       "DEEPSLATE_EMERALD_ORE": 0.03,
       "DEEPSLATE_DIAMOND_ORE": 0.03
-    },
-    "MINER_TREASURE_TIERS": [
-      {
-        "skill_level": "novice",
-        "chance": 50
-      },
-      {
-        "skill_level": "apprentice",
-        "chance": 50
-      },
-      {
-        "skill_level": "journeyman",
-        "chance": 50
-      },
-      {
-        "skill_level": "expert",
-        "chance": 50
-      },
-      {
-        "skill_level": "master",
-        "chance": 50
-      },
-      {
-        "skill_level": "grandmaster",
-        "chance": 50
-      }
-    ]
+    }
 }

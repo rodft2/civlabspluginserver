@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/misc_junk",
+          "name": "openlabs:misc/misc_junk",
           "weight": 40
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/farmer_junk",
+          "name": "openlabs:miner/stone_junk",
           "weight": 80
         }
       ]
@@ -21,23 +21,18 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/high_tier_farmer",
-          "weight": 20
-        },
-        {
-          "type": "loot_table",
-          "name": "openlabs:treasure/mid_tier_farmer",
+          "name": "openlabs:miner/low_tier_ore",
           "weight": 40
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/farmer_resources",
-          "weight": 40
+          "name": "openlabs:misc/stone_tools",
+          "weight": 30
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/farmer_spawn_eggs",
-          "weight": 10
+          "name": "openlabs:misc/leather_armor",
+          "weight": 30
         }
       ]
     }

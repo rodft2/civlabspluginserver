@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/misc_junk",
+          "name": "openlabs:misc/misc_junk",
           "weight": 40
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/stone_junk",
+          "name": "openlabs:miner/stone_junk",
           "weight": 80
         }
       ]
@@ -21,22 +21,22 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/high_tier_ore",
+          "name": "openlabs:miner/high_tier_ore",
           "weight": 20
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/mid_tier_ore",
+          "name": "openlabs:miner/mid_tier_ore",
           "weight": 40
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/copper_tools",
+          "name": "openlabs:misc/copper_tools",
           "weight": 40
         },
         {
           "type": "loot_table",
-          "name": "openlabs:treasure/goodies",
+          "name": "openlabs:misc/goodies",
           "weight": 10
         }
       ]
