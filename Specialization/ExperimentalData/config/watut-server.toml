@@ -42,7 +42,7 @@
 	#Show the chat typing Gui in world
 	showPlayerActiveChatGui = false
 	#Show 'Player is typing...' on the chat screen
-	screenTypingVisible = true
+	screenTypingVisible = false
 	#Plays a sound when a player opens some Guis
 	playScreenOpenSounds = true
 	#Plays a sutble sound when a player clicks their mouse in a Gui
