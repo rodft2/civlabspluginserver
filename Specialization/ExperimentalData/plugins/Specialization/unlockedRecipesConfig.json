@@ -127,7 +127,9 @@
     "overgeared:diamond_arrow",
     "overgeared:nether_alloy_furnace",
     "create:copper_backtank",
-    "create:netherite_backtank"
+    "create:netherite_backtank",
+    "supplementaries:netherite_door",
+    "supplementaries:netherite_trapdoor"
   ],
   "BLACKSMITH_GRANDMASTER": [
     "minecraft:netherite_pickaxe",
@@ -456,7 +458,55 @@
     "railways:hazard_stripes_chevron_on_black",
     "railways:hazard_stripes_chevron_on_white",
     "railways:hazard_stripes_diagonal_on_black",
-    "railways:hazard_stripes_diagonal_on_white"
+    "railways:hazard_stripes_diagonal_on_white",
+    "supplementaries:flags",
+    "supplementaries:ash_brick",
+    "supplementaries:ash_brick_slab",
+    "supplementaries:ash_brick_stairs",
+    "supplementaries:ash_brick_wall",
+    "supplementaries:ash_bricks",
+    "supplementaries:awnings",
+    "supplementaries:bunting",
+    "supplementaries:candle_holders",
+    "supplementaries:cage",
+    "supplementaries:checker",
+    "supplementaries:checker_slab",
+    "supplementaries:daub",
+    "supplementaries:daub_brace",
+    "supplementaries:daub_cross_brace",
+    "supplementaries:daub_frame",
+    "supplementaries:fine_wood",
+    "supplementaries:fine_wood_slab",
+    "supplementaries:fine_wood_stairs",
+    "supplementaries:flower_box",
+    "supplementaries:goblet",
+    "supplementaries:hat_stand",
+    "supplementaries:item_shelf",
+    "supplementaries:jar",
+    "supplementaries:present",
+    "supplementaries:present_dye",
+    "supplementaries:trapped_present",
+    "supplementaries:sack",
+    "supplementaries:sconce",
+    "supplementaries:sconce_lever",
+    "supplementaries:sconce_soul",
+    "supplementaries:statue",
+    "supplementaries:stone_tile",
+    "supplementaries:stone_tile_slab",
+    "supplementaries:stone_tile_stairs",
+    "supplementaries:stone_tile_wall",
+    "supplementaries:blackstone_tile",
+    "supplementaries:blackstone_tile_slab",
+    "supplementaries:blackstone_tile_stairs",
+    "supplementaries:blackstone_tile_wall",
+    "supplementaries:timber_brace",
+    "supplementaries:timber_cross_brace",
+    "supplementaries:timber_frame",
+    "supplementaries:wicker_fence",
+    "supplementaries:doormat_2",
+    "supplementaries:confetti_popper",
+    "supplementaries:fire_pit",
+    "supplementaries:slidy_block"
   ],
   "BUILDER_JOURNEYMAN": [
     "cold_sweat:boiler",
@@ -1629,7 +1679,17 @@
     "railways:track_bamboo",
     "railways:track_stripped_bamboo",
     "railways:generic_crossing",
-    "railways:benchcart"
+    "railways:benchcart",
+    "supplementaries:rope",
+    "supplementaries:feather_block",
+    "supplementaries:bed_from_feather_block",
+    "supplementaries:feather_block_uncrafting",
+    "supplementaries:flint_block",
+    "supplementaries:flint_block_uncrafting",
+    "supplementaries:gravel_bricks",
+    "supplementaries:stonecutting",
+    "supplementaries:integration",
+    "supplementaries:biomeswevegone"
   ],
   "BUILDER_EXPERT": [
     "cold_sweat:hearth",
@@ -1672,6 +1732,10 @@
     "minecraft:polished_blackstone_brick_stairs",
     "minecraft:polished_blackstone_brick_wall",
     "minecraft:chiseled_nether_bricks",
+    "supplementaries:lapis_bricks",
+    "supplementaries:lapis_brick_slab",
+    "supplementaries:lapis_brick_stairs",
+    "supplementaries:lapis_brick_wall",
     "minecraft:basalt",
     "minecraft:polished_basalt",
     "minecraft:daylight_detector",
@@ -1708,6 +1772,28 @@
     "create:analog_lever",
     "create:deployer",
     "create:spout",
+    "supplementaries:cog_block",
+    "supplementaries:relayer",
+    "supplementaries:turn_table",
+    "supplementaries:redstone_illuminator",
+    "supplementaries:pulley_block",
+    "supplementaries:crank",
+    "supplementaries:speaker_block",
+    "supplementaries:wind_vane",
+    "supplementaries:clock_block",
+    "supplementaries:bellows",
+    "supplementaries:spring_launcher",
+    "supplementaries:lock_block",
+    "supplementaries:safe",
+    "supplementaries:gold_door",
+    "supplementaries:gold_trapdoor",
+    "supplementaries:iron_gate",
+    "supplementaries:gold_gate",
+    "supplementaries:faucet",
+    "supplementaries:pulley",
+    "supplementaries:wrench",
+    "supplementaries:dispenser_minecart",
+    "supplementaries:pedestal",
     "railways:track_acacia_wide",
     "railways:track_bamboo_wide",
     "railways:track_birch_wide",
@@ -1835,6 +1921,16 @@
     "create:andesite_tunnel",
     "create:brass_tunnel",
     "create:mechanical_press",
+    "supplementaries:spring_launcher_head",
+    "supplementaries:spring_launcher_arm",
+    "supplementaries:crystal_display",
+    "supplementaries:lumisene",
+    "supplementaries:lumisene_bottle",
+    "supplementaries:lumisene_bucket",
+    "supplementaries:stone_lamp",
+    "supplementaries:blackstone_lamp",
+    "supplementaries:deepslate_lamp",
+    "supplementaries:end_stone_lamp",
     "railways:track_blackstone",
     "railways:track_ender",
     "railways:track_tieless",
@@ -1981,7 +2077,12 @@
     "farmersdelight:honey_cookie",
     "farmersdelight:fruit_salad",
     "farmersdelight:mixed_salad",
-    "farmersdelight:egg_sandwich"
+    "farmersdelight:egg_sandwich",
+    "supplementaries:pancake",
+    "supplementaries:pancake_fd",
+    "supplementaries:candy",
+    "supplementaries:sugar_cube",
+    "supplementaries:sugar_cube_uncrafting"
   ],
   "FARMER_JOURNEYMAN": [
     "minecraft:cake",
@@ -2004,11 +2105,19 @@
     "farmersdelight:cod_roll",
     "farmersdelight:rice_roll_medley_block",
     "farmersdelight:melon_juice",
-    "farmersdelight:melon_popsicle"
+    "farmersdelight:melon_popsicle",
+    "supplementaries:lunch_basket",
+    "supplementaries:planter_rich",
+    "supplementaries:flute"
   ],
   "FARMER_EXPERT": [
     "minecraft:lead",
-    "farmersdelight:rice"
+    "farmersdelight:rice",
+    "supplementaries:flax",
+    "supplementaries:fodder",
+    "supplementaries:flax_block",
+    "supplementaries:flax_block_uncrafting",
+    "supplementaries:strings"
   ],
   "FARMER_MASTER": [
     "minecraft:golden_carrot",
@@ -2026,12 +2135,25 @@
     "farmersdelight:horse_feed"
   ],
   "GUARDSMAN_NOVICE": [],
-  "GUARDSMAN_APPRENTICE": [],
-  "GUARDSMAN_JOURNEYMAN": [],
-  "GUARDSMAN_EXPERT": [
-    "minecraft:lead"
+  "GUARDSMAN_APPRENTICE": [
+    "supplementaries:slingshot",
+    "supplementaries:bamboo_spikes"
   ],
-  "GUARDSMAN_MASTER": [],
+  "GUARDSMAN_JOURNEYMAN": [
+    "supplementaries:bamboo_spikes_tipped",
+    "supplementaries:rope_arrow_create"
+  ],
+  "GUARDSMAN_EXPERT": [
+    "minecraft:lead",
+    "supplementaries:cannon",
+    "supplementaries:cannon_2",
+    "supplementaries:bomb",
+    "supplementaries:rope_arrow_add"
+  ],
+  "GUARDSMAN_MASTER": [
+    "supplementaries:cannonball",
+    "supplementaries:key"
+  ],
   "GUARDSMAN_GRANDMASTER": [
     "crusty_chunks:fusion_bomb"
   ],
@@ -2042,7 +2164,10 @@
   "HEALER_APPRENTICE": [
     "farmersdelight:fruit_salad",
     "farmersdelight:mixed_salad",
-    "farmersdelight:melon_juice"
+    "farmersdelight:melon_juice",
+    "supplementaries:soap_block",
+    "supplementaries:soap",
+    "supplementaries:soap_block_uncrafting"
   ],
   "HEALER_EXPERT": [
     "minecraft:nether_wart",
@@ -2052,7 +2177,8 @@
     "marbledsfirstaid:medicine_bottle",
     "marbledsfirstaid:morphine",
     "marbledsfirstaid:syringe",
-    "marbledsfirstaid:morphine_syringe"
+    "marbledsfirstaid:morphine_syringe",
+    "supplementaries:bubble_block"
   ],
   "HEALER_GRANDMASTER": [
     "marbledsfirstaid:medkit",
@@ -2062,7 +2188,9 @@
   "HEALER_JOURNEYMAN": [
     "marbledsfirstaid:pill_bottle",
     "marbledsfirstaid:pain_pills",
-    "marbledsfirstaid:bandages"
+    "marbledsfirstaid:bandages",
+    "supplementaries:bubble_blower",
+    "supplementaries:bubble_blower_charge"
   ],
   "HEALER_MASTER": [
     "minecraft:golden_apple",
@@ -2071,23 +2199,41 @@
     "marbledsfirstaid:stimpack"
   ],
   "LIBRARIAN_NOVICE": [
-    "crafttweaker:low_cost_map"
+    "crafttweaker:low_cost_map",
+    "supplementaries:item_lore"
   ],
   "LIBRARIAN_APPRENTICE": [
     "overgeared:drafting_table",
     "overgeared:empty_blueprint",
-    "overgeared:smithing_blueprint"
+    "overgeared:smithing_blueprint",
+    "supplementaries:antique_book"
   ],
   "LIBRARIAN_JOURNEYMAN": [
     "minecraft:cartography",
     "exposure:photograph",
     "exposure:aged_photograph",
-    "exposure:camera"
+    "exposure:camera",
+    "supplementaries:globe",
+    "supplementaries:globe_sepia",
+    "supplementaries:book_pile",
+    "supplementaries:blackboard",
+    "supplementaries:notice_board",
+    "supplementaries:flags",
+    "supplementaries:blackboard_duplicate",
+    "supplementaries:dragon_banne_pattern",
+    "supplementaries:boat_jar"
   ],
   "LIBRARIAN_EXPERT": [
     "exposure:white_and_black_film",
     "exposure:developed_white_and_black_film",
-    "minecraft:ender_chest"
+    "minecraft:ender_chest",
+    "supplementaries:altimeter",
+    "supplementaries:hourglass",
+    "supplementaries:slice_map",
+    "supplementaries:treasure_map_recipe",
+    "supplementaries:sus_bricks",
+    "supplementaries:sus_gravel",
+    "supplementaries:sus_sand"
   ],
   "LIBRARIAN_MASTER": [
     "minecraft:enchanting_table",
