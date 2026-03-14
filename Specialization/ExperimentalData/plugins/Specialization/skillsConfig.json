@@ -111,10 +111,10 @@
   "blessing_effects": [
     "",
     "",
-    "Regeneration I 5s, Absorption I 5s",
-    "Regeneration I 10s, Absorption I 10s",
-    "Regeneration I 15s, Absorption I 15s",
-    "Regeneration I 20s, Absorption I 20s"
+    "Regeneration 0 5s, Absorption 0 5s",
+    "Regeneration 0 10s, Absorption 0 10s",
+    "Regeneration 0 15s, Absorption 0 15s",
+    "Regeneration 0 20s, Absorption 0 20s"
   ],
   "blacksmith_level_to_empty_lava_bucket": 3,
   "guardsman_level_to_leash_player": 1,
