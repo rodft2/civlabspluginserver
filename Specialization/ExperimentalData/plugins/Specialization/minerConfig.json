@@ -1,6 +1,6 @@
 {
     "TRESSURE_TRIGGERING_BLOCKS" : {
-      "STONE": 1,
+      "STONE": 0.01,
       "GRANITE": 0.025,
       "ANDESITE": 0.025,
       "DIORITE": 0.025,

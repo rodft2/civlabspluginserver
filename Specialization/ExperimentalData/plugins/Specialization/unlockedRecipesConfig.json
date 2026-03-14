@@ -1,4 +1,4 @@
-﻿{
+{
   "BLACKSMITH_NOVICE": [
     "overgeared:wooden_tongs",
     "minecraft:wooden_pickaxe",
@@ -2307,6 +2307,8 @@
     "create:schematicannon",
     "apotheosis:library",
     "apotheosis:potion_charm",
-    "apotheosis:scrap_tome"
+    "apotheosis:scrap_tome",
+    "apotheosis:iron_mining_arrow",
+      "apotheosis:diamond_mining_arrow"
   ]
 }
