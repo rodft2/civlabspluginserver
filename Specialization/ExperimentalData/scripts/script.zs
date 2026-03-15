@@ -43,7 +43,7 @@ craftingTable.removeByName("biomeswevegone:white_puffball_stew");
 <recipetype:minecraft:blasting>.removeByName("overgeared:heated_iron_ingot_from_blasting_iron_ore");
 
 
-<recipetype:create:haunting>.removeByName("create:haunting/lapis_recycling");
+
 
 <recipetype:minecraft:crafting>.addShapeless("cartridge_shapeless", <item:musketmod:cartridge>,
     [<item:minecraft:iron_nugget>, <item:minecraft:gunpowder>, <item:minecraft:paper>, <item:minecraft:gray_dye>]
@@ -118,3 +118,8 @@ craftingTable.removeByName("biomeswevegone:white_puffball_stew");
     [<item:minecraft:lever>],
     [<item:minecraft:gold_ingot>],
 ]);
+
+
+
+
+

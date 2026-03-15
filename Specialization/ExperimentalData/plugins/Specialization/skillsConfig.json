@@ -121,7 +121,9 @@
   "librarian_level_to_create_xp_bottle": 2,
   "create_xp_bottle_xp": 2,
   "create_xp_bottle_food_cost": 1,
-
+  "librarian_level_to_create_cxp_transfer": 3,
+  "cxp_transfer_limit": 2000,
+  "cxp_transfer_consume_per_use": 100,
   "FARMER_TREASURE_TIERS": [
     { "skill_level": "novice", "chance": 100 },
     { "skill_level": "apprentice", "chance": 75 },

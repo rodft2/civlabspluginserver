@@ -9,6 +9,15 @@
     "result": "allow"
   },
   {
+    "mob": "minecraft:phantom",
+    "biome": [ "minecraft:jagged_peaks", "minecraft:end_barrens", "minecraft:desert" ],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:phantom",
+    "result": "deny"
+  },
+  {
     "mob": "naturalist:snail",
     "result": "deny"
   },
