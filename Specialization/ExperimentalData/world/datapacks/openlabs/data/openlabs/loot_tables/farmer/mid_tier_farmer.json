@@ -17,20 +17,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "item",
-          "name": "create:tree_fertilizer",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
         }
       ]
     },

@@ -2309,6 +2309,7 @@
     "apotheosis:potion_charm",
     "apotheosis:scrap_tome",
     "apotheosis:iron_mining_arrow",
-      "apotheosis:diamond_mining_arrow"
+    "apotheosis:diamond_mining_arrow",
+    "create:tree_fertilizer"
   ]
 }

@@ -1,5 +1,7 @@
 import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
 
+brewing.removeRecipe(<item:minecraft:potion>.withTag({Potion: "apotheosis:strong_knowledge"}));
+
 craftingTable.removeByName("musketmod:cartridge");
 craftingTable.removeByName("biomeswevegone:white_puffball_stew");
 <recipetype:create:mixing>.removeByName("marbledsfirstaid:create_compat/awkward_medicine_bottle_mixing");
@@ -118,7 +120,6 @@ craftingTable.removeByName("biomeswevegone:white_puffball_stew");
     [<item:minecraft:lever>],
     [<item:minecraft:gold_ingot>],
 ]);
-
 
 
 
