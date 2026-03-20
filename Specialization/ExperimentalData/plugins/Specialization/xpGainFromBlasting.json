@@ -4,6 +4,8 @@
       "DIAMOND": 10,
       "EMERALD": 10,
       "GOLD_INGOT": 5,
+        "COPPER_INGOT": 3,
+         "CREATE_ZINC_INGOT": 4,
       "IRON_INGOT": 5,
       "OVERGEARED_HEATED_COPPER_INGOT": 1,
       "OVERGEARED_HEATED_IRON_INGOT": 1,

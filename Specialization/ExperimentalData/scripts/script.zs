@@ -1,6 +1,15 @@
 import crafttweaker.api.recipe.BlastFurnaceRecipeManager;
+import crafttweaker.api.recipe.Brewing;
+<recipetype:create:compacting>.addRecipe(
+    "snowballs_to_snow_block",                   
+    <constant:create:heat_condition:none>,        
+    [<item:minecraft:snow_block>],               
+    [<item:minecraft:snowball> * 4],              
+    [],                                            
+    100                                            
+);
+brewing.removeRecipeByOutputPotion(<potion:apotheosis:strong_knowledge>);
 
-brewing.removeRecipe(<item:minecraft:potion>.withTag({Potion: "apotheosis:strong_knowledge"}));
 
 craftingTable.removeByName("musketmod:cartridge");
 craftingTable.removeByName("biomeswevegone:white_puffball_stew");
@@ -102,7 +111,7 @@ craftingTable.removeByName("biomeswevegone:white_puffball_stew");
     [<item:create:andesite_alloy>, <item:overgeared:iron_plate>, <item:create:andesite_alloy>]
 ]);
 
-<recipetype:minecraft:crafting>.addShaped("train_track_recipe", <item:create:track>*8, [
+<recipetype:minecraft:crafting>.addShaped("train_track_recipe", <item:create:track>*32, [
     [<item:minecraft:copper_ingot>, <item:minecraft:air>, <item:minecraft:copper_ingot>],
     [<item:minecraft:copper_ingot>, <item:minecraft:andesite>, <item:minecraft:copper_ingot>],
     [<item:minecraft:copper_ingot>, <item:minecraft:air>, <item:minecraft:copper_ingot>]
@@ -120,7 +129,6 @@ craftingTable.removeByName("biomeswevegone:white_puffball_stew");
     [<item:minecraft:lever>],
     [<item:minecraft:gold_ingot>],
 ]);
-
 
 
 

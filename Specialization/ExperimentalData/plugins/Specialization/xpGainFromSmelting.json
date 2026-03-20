@@ -9,6 +9,7 @@
         "IRON_INGOT": 5,
         "GOLD_NUGGET": 3,
         "IRON_NUGGET": 3,
+          "CREATE_ZINC_INGOT": 4,
         "LAPIS_LAZULI": 10,
         "LEAF_LITTER": 1,
         "NETHERITE_SCRAP": 50,
