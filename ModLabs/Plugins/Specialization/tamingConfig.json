@@ -1,0 +1,21 @@
+{
+    "BLACKSMITH" : {},
+    "BUILDER" : {},
+    "FARMER" : {
+        "TAME_CAT" : 2,
+        "TAME_DONKEY" : 2,
+        "TAME_HORSE" : 2,
+        "TAME_LLAMA" : 2,
+        "TAME_MULE" : 2,
+        "TAME_OCELOT" : 2,
+        "TAME_PARROT" : 2,
+        "TAME_TRADER_LLAMA" : 2,
+        "TAME_NATURALIST_ZEBRA": 2
+    },
+    "GUARDSMAN" : {
+      "TAME_WOLF" : 1
+    },
+    "HEALER" : {},
+    "LIBRARIAN" : {},
+    "MINER" : {}
+}

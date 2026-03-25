@@ -1,0 +1,143 @@
+{
+  "BLACKSMITH_DESCRIPTION": "Description",
+  "BLACKSMITH_WORKSTATION": "BLAST_FURNACE",
+  "BUILDER_DESCRIPTION": "Description",
+  "BUILDER_WORKSTATION": "STONECUTTER",
+  "FARMER_DESCRIPTION": "Description",
+  "FARMER_WORKSTATION": "COMPOSTER",
+  "GUARDSMAN_DESCRIPTION": "Description",
+  "GUARDSMAN_WORKSTATION": "IRON_SWORD",
+  "HEALER_DESCRIPTION": "Description",
+  "HEALER_WORKSTATION": "SMOKER",
+  "LIBRARIAN_DESCRIPTION": "Description",
+  "LIBRARIAN_WORKSTATION": "ENCHANTING_TABLE",
+  "MINER_DESCRIPTION": "Description",
+  "MINER_WORKSTATION": "IRON_PICKAXE",
+  "BLACKSMITH_XP_MULTIPLIER" : 1.0,
+  "BUILDER_XP_MULTIPLIER" : 1.0,
+  "FARMER_XP_MULTIPLIER" : 1.0,
+  "GUARDSMAN_XP_MULTIPLIER" : 1.0,
+  "HEALER_XP_MULTIPLIER" : 1.0,
+  "LIBRARIAN_XP_MULTIPLIER" : 1.0,
+  "MINER_XP_MULTIPLIER" : 1.0,
+  "XP_LOSS" : 0.75,
+  "XP_MULTIPLIER" : 1.0,
+  
+  "BLACKSMITH_XP_DECAY": 0.00,
+  "BUILDER_XP_DECAY": 0.00,
+  "FARMER_XP_DECAY": 0.00,
+  "GUARDSMAN_XP_DECAY": 0.00,
+  "HEALER_XP_DECAY": 0.00,
+  "MINER_XP_DECAY": 0.00,
+  "LIBRARIAN_XP_DECAY": 0.00,
+
+  "BLACKSMITH_XP_GAIN_REQUIREMENT_PER_LEVEL": 25.0,
+  "BUILDER_XP_GAIN_REQUIREMENT_PER_LEVEL": 25.0,
+  "FARMER_XP_GAIN_REQUIREMENT_PER_LEVEL": 25.0,
+  "GUARDSMAN_XP_GAIN_REQUIREMENT_PER_LEVEL": 25.0,
+  "HEALER_XP_GAIN_REQUIREMENT_PER_LEVEL": 25.0,
+  "MINER_XP_GAIN_REQUIREMENT_PER_LEVEL": 25.0,
+  "LIBRARIAN_XP_GAIN_REQUIREMENT_PER_LEVEL": 25.0,
+
+  "levels": [
+    {
+      "name": "novice",
+      "display_name": "Novice",
+      "xp": 0.0,
+      "percent_requirement": 0.0
+    },
+    {
+      "name": "apprentice",
+      "display_name": "Apprentice",
+      "xp": 600.0,
+      "percent_requirement": 40
+    },
+    {
+      "name": "journeyman",
+      "display_name": "Journeyman",
+      "xp": 1800.0,
+      "percent_requirement": 60
+    },
+    {
+      "name": "expert",
+      "display_name": "Expert",
+      "xp": 5000.0,
+      "percent_requirement": 80
+    },
+    {
+      "name": "master",
+      "display_name": "Master",
+      "xp": 16000.0,
+      "percent_requirement": 90
+    },
+    {
+      "name": "grandmaster",
+      "display_name": "Grandmaster",
+      "xp": 32000.0,
+      "percent_requirement": 90
+    },
+    {
+      "name": "paragon",
+      "display_name": "Paragon",
+      "xp": 64000.0,
+      "percent_requirement": 90
+    }, 
+    {
+      "name": "sovereign",
+      "display_name": "Sovereign",
+      "xp": 128000.0,
+      "percent_requirement": 90
+    },
+    {
+      "name": "ascendant",
+      "display_name": "Ascendant",
+      "xp": 256000.0,
+      "percent_requirement": 90
+    },
+    {
+      "name": "transcendent",
+      "display_name": "Transcendent",
+      "xp": 512000.0,
+      "percent_requirement": 90
+    },
+    {
+      "name": "zenith",
+      "display_name": "Zenith",
+      "xp": 1024000.0,
+      "percent_requirement": 90
+    }
+  ],
+  "healer_level_to_bless_food": 2,
+  "blessing_effects": [
+    "",
+    "",
+    "Regeneration 0 5s, Absorption 0 5s",
+    "Regeneration 0 10s, Absorption 0 10s",
+    "Regeneration 0 15s, Absorption 0 15s",
+    "Regeneration 0 20s, Absorption 0 20s"
+  ],
+  "blacksmith_level_to_empty_lava_bucket": 3,
+  "guardsman_level_to_leash_player": 1,
+  "librarian_level_to_create_xp_bottle": 2,
+  "create_xp_bottle_xp": 2,
+  "create_xp_bottle_food_cost": 1,
+  "librarian_level_to_create_cxp_transfer": 3,
+  "cxp_transfer_limit": 2000,
+  "cxp_transfer_consume_per_use": 100,
+  "FARMER_TREASURE_TIERS": [
+    { "skill_level": "novice", "chance": 100 },
+    { "skill_level": "apprentice", "chance": 75 },
+    { "skill_level": "journeyman", "chance": 50 },
+    { "skill_level": "expert", "chance": 30 },
+    { "skill_level": "master", "chance": 20 },
+    { "skill_level": "grandmaster", "chance": 10 }
+  ],
+  "MINER_TREASURE_TIERS": [
+    { "skill_level": "novice", "chance": 50 },
+    { "skill_level": "apprentice", "chance": 50 },
+    { "skill_level": "journeyman", "chance": 50 },
+    { "skill_level": "expert", "chance": 50 },
+    { "skill_level": "master", "chance": 50 },
+    { "skill_level": "grandmaster", "chance": 50 }
+  ]
+}

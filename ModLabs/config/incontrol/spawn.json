@@ -1,0 +1,59 @@
+[
+  {
+    "mob": "minecraft:bat",
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:snail",
+    "biome": ["biomeswevegone:cypress_wetlands","biomeswevegone:tropical_rainforest"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:phantom",
+    "biome": [ "minecraft:jagged_peaks", "minecraft:end_barrens", "minecraft:desert" ],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:phantom",
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:snail",
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:sparrow","naturalist:cardinal"],
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:spider", "minecraft:witch", "naturalist:firefly"],
+    "seesky": true,
+    "maxdist": 40,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:glow_squid","minecraft:zombie","minecraft:drowned", "minecraft:creeper","minecraft:skeleton","minecraft:creeper", "minecraft:spider"],
+    "seesky": false,
+    "maxdist": 40,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:zombie","minecraft:drowned", "minecraft:creeper","minecraft:skeleton","minecraft:creeper", "minecraft:spider"],
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:cod",
+      "minecraft:salmon",
+      "minecraft:pufferfish",
+      "minecraft:tropical_fish",
+      "minecraft:squid",
+      "minecraft:glow_squid",
+      "minecraft:dolphin",
+      "minecraft:turtle"
+    ],
+    "maxcount": 15,
+    "result": "deny"
+  }
+]
