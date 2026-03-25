@@ -85,6 +85,23 @@
     "minecraft:golden_leggings",
     "minecraft:golden_boots",
     "farmersdelight:golden_knife",
+    "minecraft:lava_bucket",
+    "minecraft:smithing_table",
+    "minecraft:powered_rail"
+  ],
+  "BLACKSMITH_MASTER": [
+    "minecraft:flint_and_steel",
+    "cold_sweat:hoglin_headpiece",
+    "cold_sweat:hoglin_hooves",
+    "cold_sweat:hoglin_leather",
+    "cold_sweat:hoglin_trousers",
+    "cold_sweat:hoglin_tunic",
+    "musketmod:blunderbuss",
+    "musketmod:musket_with_scope",
+    "create:copper_backtank",
+    "musketmod:musket",
+    "musketmod:musket_with_bayonet",
+    "musketmod:pistol",
     "overgeared:steel_arrow",
     "overgeared:alloy_furnace",
     "overgeared:crude_steel",
@@ -97,17 +114,10 @@
     "overgeared:steel_helmet",
     "overgeared:steel_chestplate",
     "overgeared:steel_leggings",
-    "overgeared:steel_boots",
-    "musketmod:musket",
-    "musketmod:musket_with_bayonet",
-    "musketmod:pistol",
-    "minecraft:lava_bucket",
-    "minecraft:smithing_table",
-    "minecraft:powered_rail",
-    "minecraft:flint_and_steel"
+    "overgeared:steel_boots"
   ],
-  "BLACKSMITH_MASTER": [
-    "minecraft:diamond_pickaxe",
+  "BLACKSMITH_GRANDMASTER": [
+     "minecraft:diamond_pickaxe",
     "minecraft:diamond_axe",
     "minecraft:diamond_sword",
     "minecraft:diamond_hoe",
@@ -115,23 +125,15 @@
     "minecraft:diamond_helmet",
     "minecraft:diamond_chestplate",
     "minecraft:diamond_leggings",
-    "minecraft:diamond_boots",
-    "cold_sweat:hoglin_headpiece",
-    "cold_sweat:hoglin_hooves",
-    "cold_sweat:hoglin_leather",
-    "cold_sweat:hoglin_trousers",
-    "cold_sweat:hoglin_tunic",
-    "musketmod:blunderbuss",
-    "musketmod:musket_with_scope",
+    "minecraft:diamond_boots",    
     "farmersdelight:diamond_knife",
-    "overgeared:diamond_arrow",
-    "overgeared:nether_alloy_furnace",
-    "create:copper_backtank",
-    "create:netherite_backtank",
-    "supplementaries:netherite_door",
-    "supplementaries:netherite_trapdoor"
+    "overgeared:diamond_arrow"
   ],
-  "BLACKSMITH_GRANDMASTER": [
+  "BLACKSMITH_PARAGON": [
+  ],
+  "BLACKSMITH_SOVEREIGN": [
+    "overgeared:nether_alloy_furnace",
+    "minecraft:netherite_upgrade_smithing_template",
     "minecraft:netherite_pickaxe",
     "minecraft:netherite_axe",
     "minecraft:netherite_sword",
@@ -141,9 +143,17 @@
     "minecraft:netherite_chestplate",
     "minecraft:netherite_leggings",
     "minecraft:netherite_boots",
-    "minecraft:netherite_upgrade_smithing_template",
     "farmersdelight:netherite_knife",
-    "overgeared:casting_furnace"
+    "overgeared:casting_furnace",
+     "supplementaries:netherite_door",
+    "supplementaries:netherite_trapdoor",
+    "create:netherite_backtank"
+  ],
+  "BLACKSMITH_ASCENDANT": [
+  ],
+  "BLACKSMITH_TRANSCENDENT": [
+  ],
+  "BLACKSMITH_ZENITH": [
   ],
   "BUILDER_NOVICE": [],
   "BUILDER_APPRENTICE": [
@@ -2045,7 +2055,6 @@
     "railways:jukeboxcart"
   ],
   "BUILDER_GRANDMASTER": [
-    "create:rotation_speed_controller",
     "create:mechanical_arm",
     "railways:remote_lens",
     "railways:copycat_headstock",
@@ -2058,7 +2067,10 @@
     "railways:copycat_headstock_split_knuckle_coupler"
   ],
   "BUILDER_PARAGON": [
-    "create:encased_fan"
+    "create:crafting/kinetics/encased_fan"
+  ],
+  "BUILDER_SOVEREIGN": [
+    "create:crafting/kinetics/rotation_speed_controller"
   ],
   "FARMER_NOVICE": [
     "minecraft:smoker",
@@ -2241,8 +2253,30 @@
     "exposure:developed_color_film"
   ],
   "LIBRARIAN_GRANDMASTER": [
-    "enchantinginfuser:enchanting_infuser",
+    "apotheosis:soul_touched_deepshelf",
+    "apotheosis:echoing_deepshelf",
     "exposure:interplanar_projector"
+  ],
+  "LIBRARIAN_PARAGON": [
+    "apotheosis:echoing_skulkshelf"
+  ],
+  "LIBRARIAN_SOVEREIGN": [
+    "apotheosis:sightshelf_t1",
+    "apotheosis:soul_touched_skulkshelf"
+  ],
+  "LIBRARIAN_ASCENDANT": [
+    "apotheosis:sightshelf_t2",
+    "apotheosis:scrap_tome"
+  ],
+  "LIBRARIAN_TRANSCENDENT": [
+    "apotheosis:filtering_shelf",
+    "apotheosis:treasure_shelf",
+    "apotheosis:endshelf"
+  ],
+  "LIBRARIAN_ZENITH": [
+    "apotheosis:library",
+    "apotheosis:potion_charm",
+    "apotheosis:draconic_endshelf"
   ],
   "MINER_NOVICE": [
     "minecraft:stone",
@@ -2293,7 +2327,7 @@
     "farmersdelight:chocolate_pie_from_slices",
     "farmersdelight:sweet_berry_cheesecake_from_slices",
     "minecraft:bread",
-    "create:mechanical_crafter",
+    "create:crafting/kinetics/emechanical_crafter",
     "create:empty_blaze_burner",
     "create:blaze_burner",
     "create:hose_pulley",
@@ -2305,11 +2339,8 @@
     "create:gantry_shaft",
     "create:gantry_carriage",
     "create:schematicannon",
-    "apotheosis:library",
-    "apotheosis:potion_charm",
-    "apotheosis:scrap_tome",
+    "create:tree_fertilizer",
     "apotheosis:iron_mining_arrow",
-    "apotheosis:diamond_mining_arrow",
-    "create:tree_fertilizer"
+    "apotheosis:diamond_mining_arrow"
   ]
 }
